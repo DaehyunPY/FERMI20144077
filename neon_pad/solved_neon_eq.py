@@ -1,8 +1,9 @@
-from sympy import (Expr, symbols, I, nan, pi, exp, Ynm, Abs, cos, sin, acos, sqrt, Min, Max, re, legendre,
-                   cancel, expand_func, simplify, expand, solve, lambdify, Equality, ITE)
+from sympy import (Expr, symbols, I, pi, exp, Ynm, Abs, cos, sin, arg, sqrt, re, legendre,
+                   cancel, expand_func, simplify, expand, solve, lambdify)
 
-
-__all__ = ('solved', 'args', 'lambdified', 'betas')
+__all__ = (
+    'neon_pad',
+)
 
 
 # %% pads
@@ -36,15 +37,6 @@ pads = {
 
 
 # %% solve
-def acos_clip_div(num: Expr, denom: Expr) -> ITE:
-    x = symbols('x', real=True)
-    clipped = Max(Min(x, 1), -1)
-    arg = acos(clipped)
-    return ITE(Equality(denom, 0),
-               nan,
-               arg).subs(x, num/denom)
-
-
 def solve_eq(pad: Expr) -> dict:
     # expand left term
     left = (
@@ -110,7 +102,7 @@ def solve_eq(pad: Expr) -> dict:
     b5_cmpx = simplify(cancel(solve(term5_lft - term5_rgt, b5)[0]))
     b5_real = simplify(re(expand(b5_cmpx)))
     b5_amp = simplify(cancel(sqrt(b5_real**2 + b5_real.diff(phi)**2).subs(phi, 0)))
-    b5_arg = acos_clip_div(b5_real.subs(phi, 0), b5_amp)
+    b5_shift = -arg(b5_cmpx.subs(phi, 0)) % (2*pi)
 
     b4_cmpx = simplify(cancel(solve((term4_lft - term4_rgt)
                                     .subs(b6, b6_cmpx), b4)[0]))
@@ -120,7 +112,7 @@ def solve_eq(pad: Expr) -> dict:
                                     .subs(b5, b5_cmpx), b3)[0]))
     b3_real = simplify(re(expand(b3_cmpx)))
     b3_amp = simplify(cancel(sqrt(b3_real**2 + b3_real.diff(phi)**2).subs(phi, 0)))
-    b3_arg = acos_clip_div(b3_real.subs(phi, 0), b3_amp)
+    b3_shift = -arg(b3_cmpx.subs(phi, 0)) % (2*pi)
 
     b2_cmpx = simplify(cancel(solve((term2_lft - term2_rgt)
                                     .subs(b6, b6_cmpx)
@@ -132,7 +124,7 @@ def solve_eq(pad: Expr) -> dict:
                                     .subs(b3, b3_cmpx), b1)[0]))
     b1_real = simplify(re(expand(b1_cmpx)))
     b1_amp = simplify(cancel(sqrt(b1_real**2 + b1_real.diff(phi)**2).subs(phi, 0)))
-    b1_arg = acos_clip_div(b1_real.subs(phi, 0), b1_amp)
+    b1_shift = -arg(b1_cmpx.subs(phi, 0)) % (2*pi)
 
     b0_cmpx = simplify(cancel(solve((term0_lft - term0_rgt)
                                     .subs(b6, b6_cmpx)
@@ -143,34 +135,43 @@ def solve_eq(pad: Expr) -> dict:
         'b0': b0_real,
         'b1': b1_real,
         'b1_amp': b1_amp,
-        'b1_arg': b1_arg,
+        'b1_shift': b1_shift,
         'b2': b2_real,
         'b3': b3_real,
         'b3_amp': b3_amp,
-        'b3_arg': b3_arg,
+        'b3_shift': b3_shift,
         'b4': b4_real,
         'b5': b5_real,
         'b5_amp': b5_amp,
-        'b5_arg': b5_arg,
+        'b5_shift': b5_shift,
         'b6': b6_real,
     }
 
 
 # %% lambdify pads
-print("Solving the equations and lambdify beta parameters...")
+print("Solving the Ne PAD equations and lambdify their b parameters...")
 solved = {k: solve_eq(p) for k, p in pads.items()}
 args = (c_sp, c_psp, c_pdp, c_dp, c_fdp, eta_s, eta_p, eta_d, eta_f)
-targets = ('b0', 'b1_amp', 'b1_arg',
-           'b2', 'b3_amp', 'b3_arg',
-           'b4', 'b5_amp', 'b5_arg', 'b6')
+targets = ('b0', 'b1_amp', 'b1_shift',
+           'b2', 'b3_amp', 'b3_shift',
+           'b4', 'b5_amp', 'b5_shift', 'b6')
 lambdified = {
     k: {t: lambdify(args, expr[t], 'numpy') for t in targets}
     for k, expr in solved.items()
 }
 
 
-def betas(c_sp: float, c_psp: float, c_pdp: float, c_dp: float, c_fdp: float,
-          eta_s: float, eta_p: float, eta_d: float, eta_f: float) -> dict:
+def neon_pad(c_sp: float, c_psp: float, c_pdp: float, c_dp: float, c_fdp: float,
+             eta_s: float, eta_p: float, eta_d: float, eta_f: float) -> dict:
+    """
+    Return b parameters of Neon PAD. It assumes...
+
+        odd order b = amp * cos(phi - shift) ,
+        even order b including 0th = const .
+
+    Here amp is non-negative, shift is a value between 0 to 2*pi, and phi is the difference of w and 2w optical phases.
+    Details are written in Daehyun's report.
+    """
     return {k: {t: f(c_sp, c_psp, c_pdp, c_dp, c_fdp, eta_s, eta_p, eta_d, eta_f)
                 for t, f in targets.items()}
             for k, targets in lambdified.items()}
