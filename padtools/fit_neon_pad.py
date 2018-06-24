@@ -70,23 +70,14 @@ def target_neon_pad(w2w_beta1_amp: float, w2w_beta1_shift: float, w2w_beta2: flo
         wonly = neon_pad(*(neon_wonly_argmask[:-1] * args), 0)[mkey]
         print(dedent("""\
                           target  examined  diff  weight
-        w2w_beta1_amp:   {: 4.3f}  {: 4.3f}    {: 4.3f} {:.0f}
-        w2w_beta1_shift: {: 4.3f}  {: 4.3f}    {: 4.3f} {:.0f}
-        w2w_beta2:       {: 4.3f}  {: 4.3f}    {: 4.3f} {:.0f}
-        w2w_beta3_amp:   {: 4.3f}  {: 4.3f}    {: 4.3f} {:.0f}
-        w2w_beta3_shift: {: 4.3f}  {: 4.3f}    {: 4.3f} {:.0f}
-        w2w_beta4:       {: 4.3f}  {: 4.3f}    {: 4.3f} {:.0f}
-        wonly_beta2:     {: 4.3f}  {: 4.3f}    {: 4.3f} {:.0f}
-        wonly_beta4:     {: 4.3f}  {: 4.3f}    {: 4.3f} {:.0f}
-        c_sp:  {: 4.3f}
-        c_psp: {: 4.3f}
-        c_pdp: {: 4.3f}
-        c_dp:  {: 4.3f}
-        c_fdp: {: 4.3f}
-        eta_s: {: 4.3f}
-        eta_p: {: 4.3f}
-        eta_d: {: 4.3f}
-        eta_f: {: 4.3f}""".format(
+        w2w_beta1_amp:   {: 6.3f}  {: 6.3f}    {: 6.3f} {:.0f}
+        w2w_beta1_shift: {: 6.3f}  {: 6.3f}    {: 6.3f} {:.0f}
+        w2w_beta2:       {: 6.3f}  {: 6.3f}    {: 6.3f} {:.0f}
+        w2w_beta3_amp:   {: 6.3f}  {: 6.3f}    {: 6.3f} {:.0f}
+        w2w_beta3_shift: {: 6.3f}  {: 6.3f}    {: 6.3f} {:.0f}
+        w2w_beta4:       {: 6.3f}  {: 6.3f}    {: 6.3f} {:.0f}
+        wonly_beta2:     {: 6.3f}  {: 6.3f}    {: 6.3f} {:.0f}
+        wonly_beta4:     {: 6.3f}  {: 6.3f}    {: 6.3f} {:.0f}""".format(
             # w2w_beta1_amp
             w2w_beta1_amp,
             w2w['b1_amp'] / w2w['b0'],
@@ -127,8 +118,6 @@ def target_neon_pad(w2w_beta1_amp: float, w2w_beta1_shift: float, w2w_beta2: flo
             wonly['b4'] / wonly['b0'],
             wonly_beta4 - wonly['b4'] / wonly['b0'],
             wonly_beta4_weight * even_weight,
-            # args
-            *args, 0
         )))
 
     return {'diff': diff, 'report': report, 'labelit': labelit, 'unlabelit': unlabelit}
