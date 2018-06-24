@@ -102,7 +102,7 @@ def solve_eq(pad: Expr) -> dict:
     b5_cmpx = simplify(cancel(solve(term5_lft - term5_rgt, b5)[0]))
     b5_real = simplify(re(expand(b5_cmpx)))
     b5_amp = simplify(cancel(sqrt(b5_real**2 + b5_real.diff(phi)**2).subs(phi, 0)))
-    b5_shift = -arg(b5_cmpx.subs(phi, 0)) % (2*pi)
+    b5_shift = arg(b5_real.subs(phi, 0) + I * b5_real.diff(phi).subs(phi, 0))
 
     b4_cmpx = simplify(cancel(solve((term4_lft - term4_rgt)
                                     .subs(b6, b6_cmpx), b4)[0]))
@@ -112,7 +112,7 @@ def solve_eq(pad: Expr) -> dict:
                                     .subs(b5, b5_cmpx), b3)[0]))
     b3_real = simplify(re(expand(b3_cmpx)))
     b3_amp = simplify(cancel(sqrt(b3_real**2 + b3_real.diff(phi)**2).subs(phi, 0)))
-    b3_shift = -arg(b3_cmpx.subs(phi, 0)) % (2*pi)
+    b3_shift = arg(b3_real.subs(phi, 0) + I * b3_real.diff(phi).subs(phi, 0))
 
     b2_cmpx = simplify(cancel(solve((term2_lft - term2_rgt)
                                     .subs(b6, b6_cmpx)
@@ -124,7 +124,7 @@ def solve_eq(pad: Expr) -> dict:
                                     .subs(b3, b3_cmpx), b1)[0]))
     b1_real = simplify(re(expand(b1_cmpx)))
     b1_amp = simplify(cancel(sqrt(b1_real**2 + b1_real.diff(phi)**2).subs(phi, 0)))
-    b1_shift = -arg(b1_cmpx.subs(phi, 0)) % (2*pi)
+    b1_shift = arg(b1_real.subs(phi, 0) + I * b1_real.diff(phi).subs(phi, 0))
 
     b0_cmpx = simplify(cancel(solve((term0_lft - term0_rgt)
                                     .subs(b6, b6_cmpx)
@@ -169,7 +169,7 @@ def neon_pad(c_sp: float, c_psp: float, c_pdp: float, c_dp: float, c_fdp: float,
         odd order b = amp * cos(phi - shift) ,
         even order b including 0th = const .
 
-    Here amp is non-negative, shift is a value between 0 to 2*pi, and phi is the difference of w and 2w optical phases.
+    Here amp is non-negative, shift is a value between -pi to pi, and phi is the difference of w and 2w optical phases.
     Details are written in Daehyun's report.
     """
     return {k: {t: f(c_sp, c_psp, c_pdp, c_dp, c_fdp, eta_s, eta_p, eta_d, eta_f)
