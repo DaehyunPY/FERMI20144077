@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from numpy import pi
+from numpy import pi, inf
 from scipy.optimize import least_squares, OptimizeResult
 
 from padtools import target_neon_pad
@@ -22,24 +22,26 @@ measured = {
         'w2w_beta3_shift_err': 0.03732980,
         'w2w_beta4': 0.43274126,
         'w2w_beta4_err': 0.01531978,
+        # 'w2w_beta1m3_shift': 2.53099006,
         # ref: https://github.com/DaehyunPY/FERMI_20144077/blob/master/Notebooks/beta_wonly5.ipynb
         'wonly_beta2': -0.080805,
         'wonly_beta2_err': 0.018737,
         'wonly_beta4': 1.107058,
         'wonly_beta4_err': 0.019651,
         'x0': {  # (init, lower limit, upper limit)
-            'c_sp': (1, 0, 10),
-            'c_psp': (0, -10, 10),
-            'c_pdp': (1, 0, 10),
-            'c_dp': (3, 0, 10),
-            'c_fdp': (1, 0, 10),
-            'eta_s': (4, -pi, 3 * pi),
+            'c_sp': (4, 0, inf),
+            'c_psp': (0, -inf, inf),
+            'c_pdp': (1, 0, inf),
+            'c_dp': (4, 0, inf),
+            'c_fdp': (2, 0, inf),
+            'eta_s': (1, -pi, 3 * pi),  # 0 - w2w_beta1m3_shift + pi = 0.611
             'eta_p': (0, -pi, 3 * pi),
-            'eta_d': (1, -pi, 3 * pi),
+            'eta_d': (6, -pi, 3 * pi),  # 0 - w2w_beta1_shift = 5.804
             # eta_f is fixed at 0
         },
         'opts': {
-            'f_scale': 0.01,
+            # 'loss': 'soft_l1',
+            # 'f_scale': 0.01,
         },
     },
     'good2': {  # wonly3
@@ -57,24 +59,26 @@ measured = {
         'w2w_beta3_shift_err': 0.03074370,
         'w2w_beta4': -0.03067388,
         'w2w_beta4_err': 0.00321445,
+        # 'w2w_beta1m3_shift': 1.28808336,
         # ref: https://github.com/DaehyunPY/FERMI_20144077/blob/master/Notebooks/beta_wonly3.ipynb
         'wonly_beta2': -0.469027,
         'wonly_beta2_err': 0.001037,
         'wonly_beta4': 0.052413,
         'wonly_beta4_err': 0.006189,
         'x0': {  # (init, lower limit, upper limit)
-            'c_sp': (4, 0, 8),
-            'c_psp': (0, -8, 8),
-            'c_pdp': (1, 0, 8),
-            'c_dp': (1, 0, 8),
-            'c_fdp': (1, 0, 8),
-            'eta_s': (4, -pi, 3 * pi),
+            'c_sp': (4, 0, inf),
+            'c_psp': (0, -inf, inf),
+            'c_pdp': (1, 0, inf),
+            'c_dp': (4, 0, inf),
+            'c_fdp': (2, 0, inf),
+            'eta_s': (2, -pi, 3 * pi),  # 0 - w2w_beta1m3_shift + pi = 1.854
             'eta_p': (0, -pi, 3 * pi),
-            'eta_d': (5, -pi, 3 * pi),
+            'eta_d': (6, -pi, 3 * pi),  # 0 - w2w_beta1_shift = 5.798
             # eta_f is fixed at 0
         },
         'opts': {
-            'f_scale': 0.1,
+            # 'loss': 'soft_l1',
+            # 'f_scale': 0.1,
         },
     },
     'good3': {  # wonly4
@@ -92,24 +96,26 @@ measured = {
         'w2w_beta3_shift_err': 0.01214595,
         'w2w_beta4': 0.02458127,
         'w2w_beta4_err': 0.00363349,
+        # 'w2w_beta1m3_shift': 6.96890504,
         # ref: https://github.com/DaehyunPY/FERMI_20144077/blob/master/Notebooks/beta_wonly4.ipynb
         'wonly_beta2': 0.918967,
         'wonly_beta2_err': 0.045427,
         'wonly_beta4': 0.405998,
         'wonly_beta4_err': 0.017098,
         'x0': {  # (init, lower limit, upper limit)
-            'c_sp': (1, 0, 8),
-            'c_psp': (1, 0, 8),
-            'c_pdp': (1, -8, 8),
-            'c_dp': (1, 0, 8),
-            'c_fdp': (1, 0, 8),
-            'eta_s': (2, -pi, 3 * pi),
-            'eta_p': (3, -pi, 3 * pi),
-            'eta_d': (4, -pi, 3 * pi),
+            'c_sp': (4, 0, inf),
+            'c_psp': (-1, -inf, inf),
+            'c_pdp': (1, -inf, inf),
+            'c_dp': (4, 0, inf),
+            'c_fdp': (2, 0, inf),
+            'eta_s': (2, -pi, 3 * pi),  # 0 - w2w_beta1m3_shift + pi = 2.456
+            'eta_p': (4, -pi, 3 * pi),
+            'eta_d': (0, -pi, 3 * pi),  # 0 - w2w_beta1_shift = 0.622
             # eta_f is fixed at 0
         },
         'opts': {
-            'f_scale': 0.1,
+            # 'loss': 'soft_l1',
+            # 'f_scale': 0.1,
         },
     },
     'good4': {  # wonly5
@@ -132,19 +138,21 @@ measured = {
         'wonly_beta2_err': 0.018737,
         'wonly_beta4': 1.107058,
         'wonly_beta4_err': 0.019651,
+        # 'w2w_beta1m3_shift': 6.94463814,
         'x0': {  # (init, lower limit, upper limit)
-            'c_sp': (2, 0, 8),
-            'c_psp': (1, -8, 8),
-            'c_pdp': (1, 0, 8),
-            'c_dp': (2, 0, 8),
-            'c_fdp': (2, 0, 8),
-            'eta_s': (0, -pi, 3 * pi),
-            'eta_p': (3, -pi, 3 * pi),
-            'eta_d': (4, -pi, 3 * pi),
+            'c_sp': (4, 0, inf),
+            'c_psp': (0, -inf, inf),
+            'c_pdp': (1, 0, inf),
+            'c_dp': (4, 0, inf),
+            'c_fdp': (2, 0, inf),
+            'eta_s': (2, -pi, 3 * pi),  # 0 - w2w_beta1m3_shift + pi = 2.480
+            'eta_p': (0, -pi, 3 * pi),
+            'eta_d': (1, -pi, 3 * pi),  # 0 - w2w_beta1_shift = 1.467
             # eta_f is fixed at 0
         },
         'opts': {
-            'f_scale': 0.1,
+            # 'loss': 'soft_l1',
+            # 'f_scale': 0.1,
         },
     },
 }
@@ -168,9 +176,9 @@ for k, m in measured.items():
                         wonly_beta2_weight=1 / m['wonly_beta2_err'] ** 2,
                         wonly_beta4=m['wonly_beta4'],
                         wonly_beta4_weight=1 / m['wonly_beta4_err'] ** 2,
-                        amp_weight=1,
-                        shift_weight=32,
-                        even_weight=1 / 2,
+                        amp_weight=4,
+                        shift_weight=64,
+                        even_weight=1,
                         )
     x0 = f['unlabelit'](m['x0'])
     zipped = tuple(zip(*x0[:-1]))
@@ -178,7 +186,6 @@ for k, m in measured.items():
         f['diff'],
         zipped[0],
         bounds=zipped[1:],
-        loss='soft_l1',
         **m.get('opts', {}),
     )
 
