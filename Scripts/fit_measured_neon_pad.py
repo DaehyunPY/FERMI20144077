@@ -3,7 +3,7 @@
 from numpy import pi, inf
 from scipy.optimize import least_squares, OptimizeResult
 
-from padtools import target_neon_pad
+from padtools import TargetNeonPad
 
 # %%
 measured = {
@@ -157,33 +157,35 @@ measured = {
     },
 }
 
-
+# %%
 for k, m in measured.items():
     print('Dataset {}...'.format(k))
-    f = target_neon_pad(w2w_beta1_amp=m['w2w_beta1_amp'],
-                        w2w_beta1_amp_weight=1 / m['w2w_beta1_amp_err'] ** 2,
-                        w2w_beta1_shift=m['w2w_beta1_shift'],
-                        w2w_beta1_shift_weight=1 / m['w2w_beta1_shift_err'] ** 2,
-                        w2w_beta2=m['w2w_beta2'],
-                        w2w_beta2_weight=1 / m['w2w_beta2_err'] ** 2,
-                        w2w_beta3_amp=m['w2w_beta3_amp'],
-                        w2w_beta3_amp_weight=1 / m['w2w_beta3_amp_err'] ** 2,
-                        w2w_beta3_shift=m['w2w_beta3_shift'],
-                        w2w_beta3_shift_weight=1 / m['w2w_beta3_shift_err'] ** 2,
-                        w2w_beta4=m['w2w_beta4'],
-                        w2w_beta4_weight=1 / m['w2w_beta4_err'] ** 2,
-                        wonly_beta2=m['wonly_beta2'],
-                        wonly_beta2_weight=1 / m['wonly_beta2_err'] ** 2,
-                        wonly_beta4=m['wonly_beta4'],
-                        wonly_beta4_weight=1 / m['wonly_beta4_err'] ** 2,
-                        amp_weight=4,
-                        shift_weight=64,
-                        even_weight=1,
-                        )
-    x0 = f['unlabelit'](m['x0'])
-    zipped = tuple(zip(*x0[:-1]))
+    pad = TargetNeonPad(
+        w2w_beta1_amp=m['w2w_beta1_amp'],
+        w2w_beta1_amp_err=m['w2w_beta1_amp_err'],
+        w2w_beta1_shift=m['w2w_beta1_shift'],
+        w2w_beta1_shift_err=m['w2w_beta1_shift_err'],
+        w2w_beta2=m['w2w_beta2'],
+        w2w_beta2_err=m['w2w_beta2_err'],
+        w2w_beta3_amp=m['w2w_beta3_amp'],
+        w2w_beta3_amp_err=m['w2w_beta3_amp_err'],
+        w2w_beta3_shift=m['w2w_beta3_shift'],
+        w2w_beta3_shift_err=m['w2w_beta3_shift_err'],
+        w2w_beta4=m['w2w_beta4'],
+        w2w_beta4_err=m['w2w_beta4_err'],
+        wonly_beta2=m['wonly_beta2'],
+        wonly_beta2_err=m['wonly_beta2_err'],
+        wonly_beta4=m['wonly_beta4'],
+        wonly_beta4_err=m['wonly_beta4_err'],
+        amp_weight=4,
+        shift_weight=64,
+        even_weight=1,
+    )
+
+    x0 = [m['x0'].get(k, None) for k in pad.xkeys]
+    zipped = list(zip(*x0[:-1]))
     opt: OptimizeResult = least_squares(
-        f['diff'],
+        pad.ydiff,
         zipped[0],
         bounds=zipped[1:],
         **m.get('opts', {}),
@@ -191,7 +193,7 @@ for k, m in measured.items():
 
     print(opt.message)
     print('Fitting report...')
-    f['report'](opt.x)
+    pad.report(opt.x)
     print()
     print('Best fit and jac...')
     print('                '
@@ -220,3 +222,4 @@ for k, m in measured.items():
     if not opt.success:
         raise AssertionError('Fail to optimize the pad!')
     print()
+    # break
