@@ -127,7 +127,7 @@ measured = {
         'wonly_beta2_err': 0.018737,
         'wonly_beta4': 1.107058,
         'wonly_beta4_err': 0.019651,
-        'x0': {  # (init, lower limit, upper limit)
+        'x0': {
             'c_sp': {'init': 4, 'lower': 0, 'upper': inf},
             'c_psp': {'init': 0, 'lower': -inf, 'upper': inf},
             'c_pdp': {'init': 1, 'lower': 0, 'upper': inf},
