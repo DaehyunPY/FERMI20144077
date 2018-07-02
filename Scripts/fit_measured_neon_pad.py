@@ -3,7 +3,7 @@
 from numpy import pi, inf
 from scipy.optimize import least_squares, OptimizeResult
 
-from padtools import xkeys, TargetPad
+from padtools import TargetNeonPad
 
 # %%
 measured = {
@@ -28,20 +28,16 @@ measured = {
         'wonly_beta2_err': 0.018737,
         'wonly_beta4': 1.107058,
         'wonly_beta4_err': 0.019651,
-        'x0': {  # (init, lower limit, upper limit)
-            'c_sp': (4, 0, inf),
-            'c_psp': (0, -inf, inf),
-            'c_pdp': (1, 0, inf),
-            'c_dp': (4, 0, inf),
-            'c_fdp': (2, 0, inf),
-            'eta_s': (1, -pi, 3 * pi),  # 0 - w2w_beta1m3_shift + pi = 0.611
-            'eta_p': (0, -pi, 3 * pi),
-            'eta_d': (6, -pi, 3 * pi),  # 0 - w2w_beta1_shift = 5.804
+        'x0': {
+            'c_sp': {'init': 4, 'lower': 0, 'upper': inf},
+            'c_psp': {'init': 0, 'lower': -inf, 'upper': inf},
+            'c_pdp': {'init': 1, 'lower': 0, 'upper': inf},
+            'c_dp': {'init': 4, 'lower': 0, 'upper': inf},
+            'c_fdp': {'init': 2, 'lower': 0, 'upper': inf},
+            'eta_s': {'init': 1, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta1m3_shift + pi = 0.611
+            'eta_p': {'init': 0, 'lower': -pi, 'upper': 3 * pi},
+            'eta_d': {'init': 6, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta1_shift = 5.804
             # eta_f is fixed at 0
-        },
-        'opts': {
-            # 'loss': 'soft_l1',
-            # 'f_scale': 0.01,
         },
     },
     'good2': {  # wonly3
@@ -65,20 +61,16 @@ measured = {
         'wonly_beta2_err': 0.001037,
         'wonly_beta4': 0.052413,
         'wonly_beta4_err': 0.006189,
-        'x0': {  # (init, lower limit, upper limit)
-            'c_sp': (4, 0, inf),
-            'c_psp': (0, -inf, inf),
-            'c_pdp': (1, 0, inf),
-            'c_dp': (4, 0, inf),
-            'c_fdp': (2, 0, inf),
-            'eta_s': (2, -pi, 3 * pi),  # 0 - w2w_beta1m3_shift + pi = 1.854
-            'eta_p': (0, -pi, 3 * pi),
-            'eta_d': (6, -pi, 3 * pi),  # 0 - w2w_beta1_shift = 5.798
+        'x0': {
+            'c_sp': {'init': 4, 'lower': 0, 'upper': inf},
+            'c_psp': {'init': 0, 'lower': -inf, 'upper': inf},
+            'c_pdp': {'init': 1, 'lower': 0, 'upper': inf},
+            'c_dp': {'init': 4, 'lower': 0, 'upper': inf},
+            'c_fdp': {'init': 2, 'lower': 0, 'upper': inf},
+            'eta_s': {'init': 2, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta1m3_shift + pi = 1.854
+            'eta_p': {'init': 0, 'lower': -pi, 'upper': 3 * pi},
+            'eta_d': {'init': 6, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta1_shift = 5.798
             # eta_f is fixed at 0
-        },
-        'opts': {
-            # 'loss': 'soft_l1',
-            # 'f_scale': 0.1,
         },
     },
     'good3': {  # wonly4
@@ -102,20 +94,16 @@ measured = {
         'wonly_beta2_err': 0.045427,
         'wonly_beta4': 0.405998,
         'wonly_beta4_err': 0.017098,
-        'x0': {  # (init, lower limit, upper limit)
-            'c_sp': (4, 0, inf),
-            'c_psp': (-1, -inf, inf),
-            'c_pdp': (1, -inf, inf),
-            'c_dp': (4, 0, inf),
-            'c_fdp': (2, 0, inf),
-            'eta_s': (2, -pi, 3 * pi),  # 0 - w2w_beta1m3_shift + pi = 2.456
-            'eta_p': (4, -pi, 3 * pi),
-            'eta_d': (0, -pi, 3 * pi),  # 0 - w2w_beta1_shift = 0.622
+        'x0': {
+            'c_sp': {'init': 4, 'lower': 0, 'upper': inf},
+            'c_psp': {'init': -1, 'lower': -inf, 'upper': inf},
+            'c_pdp': {'init': 1, 'lower': -inf, 'upper': inf},
+            'c_dp': {'init': 4, 'lower': 0, 'upper': inf},
+            'c_fdp': {'init': 2, 'lower': 0, 'upper': inf},
+            'eta_s': {'init': 2, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta1m3_shift + pi = 2.456
+            'eta_p': {'init': 4, 'lower': -pi, 'upper': 3 * pi},
+            'eta_d': {'init': 0, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta1_shift = 0.622
             # eta_f is fixed at 0
-        },
-        'opts': {
-            # 'loss': 'soft_l1',
-            # 'f_scale': 0.1,
         },
     },
     'good4': {  # wonly5
@@ -133,26 +121,22 @@ measured = {
         'w2w_beta3_shift_err': 0.03764488,
         'w2w_beta4': 0.09554586,
         'w2w_beta4_err': 0.00523730,
+        # 'w2w_beta1m3_shift': 6.94463814,
         # ref: https://github.com/DaehyunPY/FERMI_20144077/blob/master/Notebooks/beta_wonly5.ipynb
         'wonly_beta2': -0.080805,
         'wonly_beta2_err': 0.018737,
         'wonly_beta4': 1.107058,
         'wonly_beta4_err': 0.019651,
-        # 'w2w_beta1m3_shift': 6.94463814,
         'x0': {  # (init, lower limit, upper limit)
-            'c_sp': (4, 0, inf),
-            'c_psp': (0, -inf, inf),
-            'c_pdp': (1, 0, inf),
-            'c_dp': (4, 0, inf),
-            'c_fdp': (2, 0, inf),
-            'eta_s': (2, -pi, 3 * pi),  # 0 - w2w_beta1m3_shift + pi = 2.480
-            'eta_p': (0, -pi, 3 * pi),
-            'eta_d': (1, -pi, 3 * pi),  # 0 - w2w_beta1_shift = 1.467
+            'c_sp': {'init': 4, 'lower': 0, 'upper': inf},
+            'c_psp': {'init': 0, 'lower': -inf, 'upper': inf},
+            'c_pdp': {'init': 1, 'lower': 0, 'upper': inf},
+            'c_dp': {'init': 4, 'lower': 0, 'upper': inf},
+            'c_fdp': {'init': 2, 'lower': 0, 'upper': inf},
+            'eta_s': {'init': 2, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta1m3_shift + pi = 2.480
+            'eta_p': {'init': 0, 'lower': -pi, 'upper': 3 * pi},
+            'eta_d': {'init': 1, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta1_shift = 1.467
             # eta_f is fixed at 0
-        },
-        'opts': {
-            # 'loss': 'soft_l1',
-            # 'f_scale': 0.1,
         },
     },
 }
@@ -160,7 +144,7 @@ measured = {
 # %%
 for k, m in measured.items():
     print('Dataset {}...'.format(k))
-    pad = TargetPad(
+    pad = TargetNeonPad(
         w2w_beta1_amp=m['w2w_beta1_amp'],
         w2w_beta1_amp_err=m['w2w_beta1_amp_err'],
         w2w_beta1_shift=m['w2w_beta1_shift'],
@@ -182,13 +166,12 @@ for k, m in measured.items():
         even_weight=1,
     )
 
-    x0 = [m['x0'].get(k, None) for k in xkeys]
-    zipped = list(zip(*x0[:-1]))
+    x0 = [m['x0'][k.name.lower()] for k in pad.XKEYS if k not in pad.xfixed]
     opt: OptimizeResult = least_squares(
         pad.zdiffmat,
-        zipped[0],
+        [d['init'] for d in x0],
         jac=pad.zdiffjacmat,
-        bounds=zipped[1:],
+        bounds=[[d['lower'] for d in x0], [d['upper'] for d in x0]],
         **m.get('opts', {}),
     )
 

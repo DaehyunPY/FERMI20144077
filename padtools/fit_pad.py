@@ -1,16 +1,17 @@
-from enum import auto, IntEnum
+from abc import ABC
+from enum import auto, IntEnum, EnumMeta
 from itertools import count
-from typing import Dict
+from typing import Dict, Iterable, Set, Callable
 
 from numpy import array, pi, ndarray, stack, fromiter
 from numpy.linalg import pinv
 
-from .solved_neon_eq import XKeys, eta_ref, wonly_xkeys, xkeys, YKeys, ymat_lambdified, yjacmat_lambdified
+from . import solved_helium_eq as he
+from . import solved_neon_eq as ne
 
 __all__ = (
-    'ZKeys',
-    'zkeys',
-    'TargetPad',
+    'TargetHeliumPad',
+    'TargetNeonPad',
 )
 
 
@@ -27,10 +28,15 @@ class ZKeys(IntEnum):  # length: 9
     WONLY_BETA4 = auto()
 
 
-zkeys = [k.name.lower() for k in ZKeys]
+class TargetPad(ABC):
+    XKEYS: (Iterable[int], EnumMeta)
+    YKEYS: (Iterable[int], EnumMeta)
+    ZKEYS: EnumMeta = ZKeys
+    ETA_REF: IntEnum
+    WONLY_XKEYS: Set[IntEnum]
+    YMAT: Callable[..., ndarray]
+    YJACMAT: Callable[..., ndarray]
 
-
-class TargetPad:
     def __init__(self,
                  w2w_beta1_amp: float, w2w_beta1_shift: float, w2w_beta2: float,
                  w2w_beta3_amp: float, w2w_beta3_shift: float, w2w_beta4: float,
@@ -39,14 +45,14 @@ class TargetPad:
                  w2w_beta3_amp_err: float = None, w2w_beta3_shift_err: float = None, w2w_beta4_err: float = None,
                  wonly_beta2_err: float = None, wonly_beta4_err: float = None,
                  amp_weight: float = 1, shift_weight: float = 1, even_weight: float = 1,
-                 xfixed: Dict[XKeys, float] = None):
+                 xfixed: Dict[IntEnum, float] = None):
         if xfixed is None:
-            xfixed = {eta_ref: 0}
+            xfixed = {self.ETA_REF: 0}
         for key in xfixed:
-            if key not in XKeys:
+            if key not in self.XKEYS:
                 ValueError('Fixed key {} is unknown!'.format(key))
         self.__xfixed = xfixed
-        self.__xkeys_varying = [k for k in XKeys if k not in xfixed]
+        self.__xkeys_varying = [k for k in self.XKEYS if k not in xfixed]
 
         if any((w2w_beta1_amp_err is None, w2w_beta1_shift_err is None, w2w_beta2_err is None,
                 w2w_beta3_amp_err is None, w2w_beta3_shift_err is None, w2w_beta4_err is None,
@@ -125,59 +131,64 @@ class TargetPad:
 
     def __arrange_xargs(self, xargs: ndarray) -> ndarray:
         inx = count()
-        return fromiter((self.xfixed[k] if k in self.xfixed else xargs[next(inx)] for k in XKeys), dtype='double')
+        return fromiter((self.xfixed[k] if k in self.xfixed else xargs[next(inx)] for k in self.XKEYS), dtype='double')
 
-    @staticmethod
-    def wonly_xmask(xargs_arranged: ndarray) -> ndarray:
+    @classmethod
+    def wonly_xmask(cls, xargs_arranged: ndarray) -> ndarray:
         ret = xargs_arranged.copy()
-        where = list(set(XKeys) - wonly_xkeys)
+        where = list(set(cls.XKEYS) - cls.WONLY_XKEYS)
         ret[where] = 0
         return ret
 
-    @staticmethod
-    def zmat(xargs_arranged: ndarray) -> ndarray:
-        w2w = ymat_lambdified(*xargs_arranged)[:, 0]
-        wonly = ymat_lambdified(*TargetPad.wonly_xmask(xargs_arranged))[:, 0]
-        ret = stack([*w2w, *wonly[[YKeys.B2, YKeys.B4]]])
-        ret[[ZKeys.W2W_BETA1_AMP, ZKeys.W2W_BETA2, ZKeys.W2W_BETA3_AMP, ZKeys.W2W_BETA4]] = (
-                w2w[[YKeys.B1_AMP, YKeys.B2, YKeys.B3_AMP, YKeys.B4]] / w2w[YKeys.B0]
+    @classmethod
+    def zmat(cls, xargs_arranged: ndarray) -> ndarray:
+        w2w = cls.YMAT(*xargs_arranged)[:, 0]
+        w = cls.YMAT(*cls.wonly_xmask(xargs_arranged))[:, 0]
+        yk = cls.YKEYS
+        zk = cls.ZKEYS
+        ret = stack([*w2w, *w[[yk.B2, yk.B4]]])
+        ret[[zk.W2W_BETA1_AMP, zk.W2W_BETA2, zk.W2W_BETA3_AMP, zk.W2W_BETA4]] = (
+                w2w[[yk.B1_AMP, yk.B2, yk.B3_AMP, yk.B4]] / w2w[yk.B0]
         )
-        ret[[ZKeys.WONLY_BETA2, ZKeys.WONLY_BETA4]] = (
-                wonly[[YKeys.B2, YKeys.B4]] / wonly[YKeys.B0]
-        )
-        return ret
-
-    @staticmethod
-    def zjacmat(xargs_arranged: ndarray) -> ndarray:
-        w2w = ymat_lambdified(*xargs_arranged)[:, 0]
-        w = ymat_lambdified(*TargetPad.wonly_xmask(xargs_arranged))[:, 0]
-        w2wjac = yjacmat_lambdified(*xargs_arranged)
-        wjac = yjacmat_lambdified(*TargetPad.wonly_xmask(xargs_arranged))
-        ret = stack([*w2wjac, *wjac[[YKeys.B2, YKeys.B4]]])
-        ret[[ZKeys.W2W_BETA1_AMP, ZKeys.W2W_BETA2, ZKeys.W2W_BETA3_AMP, ZKeys.W2W_BETA4], :] = (
-                w2w[[YKeys.B1_AMP, YKeys.B2, YKeys.B3_AMP, YKeys.B4], None] / w2w[YKeys.B0]
-                * ((w2wjac[[YKeys.B1_AMP, YKeys.B2, YKeys.B3_AMP, YKeys.B4], :]
-                    / w2w[[YKeys.B1_AMP, YKeys.B2, YKeys.B3_AMP, YKeys.B4], None])
-                   - (w2wjac[YKeys.B0, :] / w2w[YKeys.B0, None])[None, :])
-        )
-        ret[[ZKeys.WONLY_BETA2, ZKeys.WONLY_BETA4], :] = (
-                w[[YKeys.B2, YKeys.B4], None] / w[YKeys.B0]
-                * ((wjac[[YKeys.B2, YKeys.B4], :]
-                    / w[[YKeys.B2, YKeys.B4], None])
-                   - (wjac[YKeys.B0, :] / w[YKeys.B0, None])[None, :])
+        ret[[zk.WONLY_BETA2, zk.WONLY_BETA4]] = (
+                w[[yk.B2, yk.B4]] / w[yk.B0]
         )
         return ret
 
-    @staticmethod
-    def xjacmat_byz(xargs_arranged: ndarray) -> ndarray:
-        called = TargetPad.zjacmat(xargs_arranged)  # shape: (z,x)
+    @classmethod
+    def zjacmat(cls, xargs_arranged: ndarray) -> ndarray:
+        w2w = cls.YMAT(*xargs_arranged)[:, 0]
+        w = cls.YMAT(*cls.wonly_xmask(xargs_arranged))[:, 0]
+        w2wjac = cls.YJACMAT(*xargs_arranged)
+        wjac = cls.YJACMAT(*cls.wonly_xmask(xargs_arranged))
+        yk = cls.YKEYS
+        zk = cls.ZKEYS
+        ret = stack([*w2wjac, *wjac[[yk.B2, yk.B4]]])
+        ret[[zk.W2W_BETA1_AMP, zk.W2W_BETA2, zk.W2W_BETA3_AMP, zk.W2W_BETA4], :] = (
+                w2w[[yk.B1_AMP, yk.B2, yk.B3_AMP, yk.B4], None] / w2w[yk.B0]
+                * ((w2wjac[[yk.B1_AMP, yk.B2, yk.B3_AMP, yk.B4], :]
+                    / w2w[[yk.B1_AMP, yk.B2, yk.B3_AMP, yk.B4], None])
+                   - (w2wjac[yk.B0, :] / w2w[yk.B0, None])[None, :])
+        )
+        ret[[zk.WONLY_BETA2, zk.WONLY_BETA4], :] = (
+                w[[yk.B2, yk.B4], None] / w[yk.B0]
+                * ((wjac[[yk.B2, yk.B4], :]
+                    / w[[yk.B2, yk.B4], None])
+                   - (wjac[yk.B0, :] / w[yk.B0, None])[None, :])
+        )
+        return ret
+
+    @classmethod
+    def xjacmat_byz(cls, xargs_arranged: ndarray) -> ndarray:
+        called = cls.zjacmat(xargs_arranged)  # shape: (z,x)
         return pinv(called)  # shape: (x,z)
 
     @staticmethod
     def __norm_phases(zmat_called: ndarray) -> ndarray:
         ret = zmat_called.copy()
-        ret[[ZKeys.W2W_BETA1_SHIFT, ZKeys.W2W_BETA3_SHIFT]] = (
-                (zmat_called[[ZKeys.W2W_BETA1_SHIFT, ZKeys.W2W_BETA3_SHIFT]] + pi) % (2 * pi) - pi
+        zk = TargetPad.ZKEYS
+        ret[[zk.W2W_BETA1_SHIFT, zk.W2W_BETA3_SHIFT]] = (
+                (zmat_called[[zk.W2W_BETA1_SHIFT, zk.W2W_BETA3_SHIFT]] + pi) % (2 * pi) - pi
         )
         return ret
 
@@ -197,14 +208,33 @@ class TargetPad:
         xerror = ((self.xjacmat_byz(xargs_arranged) ** 2) @ (self.zerror ** 2)) ** 0.5
 
         print("{:<18s} {:>9s} {:>9s}".format("", "value", "error"))
-        for k, *o in zip(xkeys, xargs_arranged, xerror):
-            print("{:<18s} {:> 9.3f} {:> 9.3f}".format("{}:".format(k), *o))
+        for k, *o in zip(self.XKEYS, xargs_arranged, xerror):
+            print("{:<18s} {:> 9.3f} {:> 9.3f}".format("{}:".format(k.name.lower()), *o))
 
         print()
         print("{:<18s} {:>9s} {:>9s} {:>9s} {:>9s}".format("", "target", "examined", "diff", "weight"))
-        for k, *o in zip(zkeys,
+        for k, *o in zip(self.ZKEYS,
                          self.zintercept,
                          zmat_called,
                          self.__norm_phases(self.zintercept - zmat_called),
                          self.zweight):
-            print("{:<18s} {:> 9.3f} {:> 9.3f} {:> 9.3f} {:>9.0f}".format("{}:".format(k), *o))
+            print("{:<18s} {:> 9.3f} {:> 9.3f} {:> 9.3f} {:>9.0f}".format("{}:".format(k.name.lower()), *o))
+
+
+# %%
+class TargetHeliumPad(TargetPad):
+    XKEYS = he.XKeys
+    YKEYS = he.YKeys
+    ETA_REF = he.XKeys.ETA_D
+    WONLY_XKEYS = {he.XKeys.C_SPS, he.XKeys.C_DPS, he.XKeys.ETA_S, he.XKeys.ETA_D}
+    YMAT = he.ymat_lambdified
+    YJACMAT = he.yjacmat_lambdified
+
+
+class TargetNeonPad(TargetPad):
+    XKEYS = ne.XKeys
+    YKEYS = ne.YKeys
+    ETA_REF = ne.XKeys.ETA_F
+    WONLY_XKEYS = {ne.XKeys.C_PSP, ne.XKeys.C_PDP, ne.XKeys.C_FDP, ne.XKeys.ETA_P, ne.XKeys.ETA_F}
+    YMAT = ne.ymat_lambdified
+    YJACMAT = ne.yjacmat_lambdified

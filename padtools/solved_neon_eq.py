@@ -5,11 +5,7 @@ from sympy import (Expr, symbols, Matrix, I, pi, exp, Ynm, Abs, cos, sin, arg, s
 
 __all__ = (
     'XKeys',
-    'xkeys',
     'YKeys',
-    'ykeys',
-    'wonly_xkeys',
-    'eta_ref',
     'ymat_lambdified',
     'yjacmat_lambdified',
 )
@@ -180,17 +176,12 @@ class YKeys(IntEnum):  # length: 7
     B4 = auto()
 
 
-xkeys = [k.name.lower() for k in XKeys]
-ykeys = [k.name.lower() for k in YKeys]
-wonly_xkeys = {XKeys.C_PSP, XKeys.C_PDP, XKeys.C_FDP, XKeys.ETA_P, XKeys.ETA_F}
-eta_ref = XKeys.ETA_F
-
 print("Solving the Ne PAD equations...")
 solved = solve_eq(pads['summed'])
 
 print("Lambdifying solved b parameters...")
 xmat = Matrix((c_sp, c_psp, c_pdp, c_dp, c_fdp, eta_s, eta_p, eta_d, eta_f))
-ymat = Matrix([solved[k] for k in ykeys])
+ymat = Matrix([solved[k.name.lower()] for k in YKeys])
 ymat_lambdified = lambdify(xmat, ymat, 'numpy')
 yjacmat = ymat.jacobian(xmat)  # shape: (7, 9)
 yjacmat_lambdified = lambdify(xmat, yjacmat, 'numpy')
