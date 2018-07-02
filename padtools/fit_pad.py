@@ -204,21 +204,33 @@ class TargetPad(ABC):
 
     def report(self, xargs: ndarray) -> None:
         xargs_arranged = self.__arrange_xargs(xargs)
-        zmat_called = self.zmat(xargs_arranged)
         xerror = ((self.xjacmat_byz(xargs_arranged) ** 2) @ (self.zerror ** 2)) ** 0.5
+        zmat_called = self.zmat(xargs_arranged)
+        zjacmat_called = self.zjacmat(xargs_arranged)
 
-        print("{:<18s} {:>9s} {:>9s}".format("", "value", "error"))
-        for k, *o in zip(self.XKEYS, xargs_arranged, xerror):
-            print("{:<18s} {:> 9.3f} {:> 9.3f}".format("{}:".format(k.name.lower()), *o))
-
+        print("{:58s} {}".format(
+            "", " ".join("{:>9s}".format("{}".format(k.name.lower())) for k in self.XKEYS),
+        ))
+        for k, arr in (("at:", xargs_arranged),
+                       ("error:", xerror)):
+            print("{:18s} {:39s} {}".format(
+                k, "", " ".join("{:> 9.3f}".format(a) for a in arr),
+            ))
         print()
-        print("{:<18s} {:>9s} {:>9s} {:>9s} {:>9s}".format("", "target", "examined", "diff", "weight"))
-        for k, *o in zip(self.ZKEYS,
-                         self.zintercept,
-                         zmat_called,
-                         self.__norm_phases(self.zintercept - zmat_called),
-                         self.zweight):
-            print("{:<18s} {:> 9.3f} {:> 9.3f} {:> 9.3f} {:>9.0f}".format("{}:".format(k.name.lower()), *o))
+        print("{:18s} {:>9s} {:>9s} {:>9s} {:>9s} {}".format(
+            "", "target", "examined", "diff", "weight",
+            " ".join("{:>9s}".format("d/d{}".format(k.name.lower())) for k in self.XKEYS),
+        ))
+        for k, *o, jac in zip(self.ZKEYS,
+                              self.zintercept,
+                              zmat_called,
+                              self.__norm_phases(self.zintercept - zmat_called),
+                              self.zweight,
+                              zjacmat_called):
+            print("{:<18s} {:> 9.3f} {:> 9.3f} {:> 9.3f} {:>9.0f} {}".format(
+                "{}:".format(k.name.lower()), *o,
+                " ".join("{:> 9.3f}".format(j) for j in jac),
+            ))
 
 
 # %%
