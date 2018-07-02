@@ -14,34 +14,23 @@ __all__ = (
     'yjacmat_lambdified',
 )
 
-
 # %% pads
-(c_psp, c_pdp), (c_sp, c_dp, c_fdp) = symbols('c_psp c_pdp', real=True), symbols('c_sp c_dp c_fdp', positive=True)
-eta_s, eta_p, eta_d, eta_f = symbols('eta_s eta_p eta_d eta_f', real=True)
+c_sps, c_ps, c_dps = symbols('c_sps c_ps c_dps', positive=True)
+eta_s, eta_p, eta_d = symbols('eta_s eta_p eta_d', real=True)
 phi, the, vphi = symbols('phi theta varphi', real=True)
 
-c0_sp = -sqrt(3) / 3 * c_sp
-c0_dp, c1_dp = sqrt(6) / 3 * c_dp, sqrt(2) / 2 * c_dp
-c0_psp = -sqrt(3) / 3 * c_psp
-c0_pdp, c1_pdp = -2 * sqrt(15) / 15 * c_pdp, -sqrt(15) / 10 * c_pdp
-c0_fdp, c1_fdp = sqrt(10) / 5 * c_fdp, 2 * sqrt(15) / 15 * c_fdp
+c0_ps = c_ps
+c0_sps = -sqrt(3) / 3 * c_sps
+c0_dps = sqrt(6) / 3 * c_dps
 
 waves = {
-    'm=0': (c0_psp * exp(eta_p * I) * Ynm(1, 0, the, vphi) +
-            c0_pdp * exp(eta_p * I) * Ynm(1, 0, the, vphi) +
-            c0_fdp * exp(eta_f * I) * Ynm(3, 0, the, vphi) +
-            c0_sp * exp(eta_s * I + phi * I) * Ynm(0, 0, the, vphi) +
-            c0_dp * exp(eta_d * I + phi * I) * Ynm(2, 0, the, vphi)),
-    'm=1': (c1_pdp * exp(eta_p * I) * Ynm(1, 1, the, vphi) +
-            c1_fdp * exp(eta_f * I) * Ynm(3, 1, the, vphi) +
-            c1_dp * exp(eta_d * I + phi * I) * Ynm(2, 1, the, vphi)),
+    'm=0': (c0_sps * exp(eta_s * I) * Ynm(0, 0, the, vphi) +
+            c0_ps * exp(eta_p * I + phi * I) * Ynm(1, 0, the, vphi) +
+            c0_dps * exp(eta_d * I) * Ynm(2, 0, the, vphi)),
 }
 pads = {
     'm=0': Abs(waves['m=0']) ** 2,
-    'm=1': Abs(waves['m=1']) ** 2,
-    'summed': (Abs(waves['m=1'].subs(vphi, -vphi)) ** 2 +
-               Abs(waves['m=0']) ** 2 +
-               Abs(waves['m=1']) ** 2),
+    'summed': Abs(waves['m=0']) ** 2,
 }
 
 
@@ -50,7 +39,7 @@ def solve_eq(pad: Expr) -> dict:
     # expand left term
     left = (
         expand_func(pad)
-        .subs(sin(the) ** 2, 1 - cos(the) ** 2)
+            .subs(sin(the) ** 2, 1 - cos(the) ** 2)
     )
 
     expr = cancel(left)
@@ -110,7 +99,7 @@ def solve_eq(pad: Expr) -> dict:
 
     b5_cmpx = simplify(cancel(solve(term5_lft - term5_rgt, b5)[0]))
     b5_real = simplify(re(expand(b5_cmpx)))
-    b5_amp = simplify(cancel(sqrt(b5_real**2 + b5_real.diff(phi)**2).subs(phi, 0)))
+    b5_amp = simplify(cancel(sqrt(b5_real ** 2 + b5_real.diff(phi) ** 2).subs(phi, 0)))
     b5_shift = arg(b5_real.subs(phi, 0) + I * b5_real.diff(phi).subs(phi, 0))
 
     b4_cmpx = simplify(cancel(solve((term4_lft - term4_rgt)
@@ -120,7 +109,7 @@ def solve_eq(pad: Expr) -> dict:
     b3_cmpx = simplify(cancel(solve((term3_lft - term3_rgt)
                                     .subs(b5, b5_cmpx), b3)[0]))
     b3_real = simplify(re(expand(b3_cmpx)))
-    b3_amp = simplify(cancel(sqrt(b3_real**2 + b3_real.diff(phi)**2).subs(phi, 0)))
+    b3_amp = simplify(cancel(sqrt(b3_real ** 2 + b3_real.diff(phi) ** 2).subs(phi, 0)))
     b3_shift = arg(b3_real.subs(phi, 0) + I * b3_real.diff(phi).subs(phi, 0))
 
     b2_cmpx = simplify(cancel(solve((term2_lft - term2_rgt)
@@ -132,7 +121,7 @@ def solve_eq(pad: Expr) -> dict:
                                     .subs(b5, b5_cmpx)
                                     .subs(b3, b3_cmpx), b1)[0]))
     b1_real = simplify(re(expand(b1_cmpx)))
-    b1_amp = simplify(cancel(sqrt(b1_real**2 + b1_real.diff(phi)**2).subs(phi, 0)))
+    b1_amp = simplify(cancel(sqrt(b1_real ** 2 + b1_real.diff(phi) ** 2).subs(phi, 0)))
     b1_shift = arg(b1_real.subs(phi, 0) + I * b1_real.diff(phi).subs(phi, 0))
 
     b0_cmpx = simplify(cancel(solve((term0_lft - term0_rgt)
@@ -158,16 +147,13 @@ def solve_eq(pad: Expr) -> dict:
 
 
 # %% lambdify pads
-class XKeys(IntEnum):  # length: 9
-    C_SP = 0
-    C_PSP = auto()
-    C_PDP = auto()
-    C_DP = auto()
-    C_FDP = auto()
+class XKeys(IntEnum):  # length: 6
+    C_SPS = 0
+    C_PS = auto()
+    C_DPS = auto()
     ETA_S = auto()
     ETA_P = auto()
     ETA_D = auto()
-    ETA_F = auto()
 
 
 class YKeys(IntEnum):  # length: 7
@@ -182,15 +168,15 @@ class YKeys(IntEnum):  # length: 7
 
 xkeys = [k.name.lower() for k in XKeys]
 ykeys = [k.name.lower() for k in YKeys]
-wonly_xkeys = {XKeys.C_PSP, XKeys.C_PDP, XKeys.C_FDP, XKeys.ETA_P, XKeys.ETA_F}
-eta_ref = XKeys.ETA_F
+wonly_xkeys = {XKeys.C_SPS, XKeys.C_DPS, XKeys.ETA_S, XKeys.ETA_D}
+eta_ref = XKeys.ETA_D
 
-print("Solving the Ne PAD equations...")
+print("Solving the He PAD equations...")
 solved = solve_eq(pads['summed'])
 
 print("Lambdifying solved b parameters...")
-xmat = Matrix((c_sp, c_psp, c_pdp, c_dp, c_fdp, eta_s, eta_p, eta_d, eta_f))
+xmat = Matrix((c_sps, c_ps, c_dps, eta_s, eta_p, eta_d))
 ymat = Matrix([solved[k] for k in ykeys])
 ymat_lambdified = lambdify(xmat, ymat, 'numpy')
-yjacmat = ymat.jacobian(xmat)  # shape: (7, 9)
+yjacmat = ymat.jacobian(xmat)  # shape: (7, 6)
 yjacmat_lambdified = lambdify(xmat, yjacmat, 'numpy')

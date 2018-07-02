@@ -5,12 +5,12 @@ from typing import Dict
 from numpy import array, pi, ndarray, stack, fromiter
 from numpy.linalg import pinv
 
-from .solved_neon_eq import XKeys, xkeys, YKeys, ymat_lambdified, yjacmat_lambdified
+from .solved_neon_eq import XKeys, eta_ref, wonly_xkeys, xkeys, YKeys, ymat_lambdified, yjacmat_lambdified
 
 __all__ = (
     'ZKeys',
     'zkeys',
-    'TargetNeonPad',
+    'TargetPad',
 )
 
 
@@ -30,7 +30,7 @@ class ZKeys(IntEnum):  # length: 9
 zkeys = [k.name.lower() for k in ZKeys]
 
 
-class TargetNeonPad:
+class TargetPad:
     def __init__(self,
                  w2w_beta1_amp: float, w2w_beta1_shift: float, w2w_beta2: float,
                  w2w_beta3_amp: float, w2w_beta3_shift: float, w2w_beta4: float,
@@ -41,7 +41,7 @@ class TargetNeonPad:
                  amp_weight: float = 1, shift_weight: float = 1, even_weight: float = 1,
                  xfixed: Dict[XKeys, float] = None):
         if xfixed is None:
-            xfixed = {XKeys.ETA_F: 0}
+            xfixed = {eta_ref: 0}
         for key in xfixed:
             if key not in XKeys:
                 ValueError('Fixed key {} is unknown!'.format(key))
@@ -128,16 +128,16 @@ class TargetNeonPad:
         return fromiter((self.xfixed[k] if k in self.xfixed else xargs[next(inx)] for k in XKeys), dtype='double')
 
     @staticmethod
-    def wonly_mask(xargs_arranged: ndarray) -> ndarray:
+    def wonly_xmask(xargs_arranged: ndarray) -> ndarray:
         ret = xargs_arranged.copy()
-        for i in [XKeys.C_SP, XKeys.C_DP, XKeys.ETA_S, XKeys.ETA_D]:
-            ret[i] = 0
+        where = list(set(XKeys) - wonly_xkeys)
+        ret[where] = 0
         return ret
 
     @staticmethod
     def zmat(xargs_arranged: ndarray) -> ndarray:
         w2w = ymat_lambdified(*xargs_arranged)[:, 0]
-        wonly = ymat_lambdified(*TargetNeonPad.wonly_mask(xargs_arranged))[:, 0]
+        wonly = ymat_lambdified(*TargetPad.wonly_xmask(xargs_arranged))[:, 0]
         ret = stack([*w2w, *wonly[[YKeys.B2, YKeys.B4]]])
         ret[[ZKeys.W2W_BETA1_AMP, ZKeys.W2W_BETA2, ZKeys.W2W_BETA3_AMP, ZKeys.W2W_BETA4]] = (
                 w2w[[YKeys.B1_AMP, YKeys.B2, YKeys.B3_AMP, YKeys.B4]] / w2w[YKeys.B0]
@@ -150,9 +150,9 @@ class TargetNeonPad:
     @staticmethod
     def zjacmat(xargs_arranged: ndarray) -> ndarray:
         w2w = ymat_lambdified(*xargs_arranged)[:, 0]
-        w = ymat_lambdified(*TargetNeonPad.wonly_mask(xargs_arranged))[:, 0]
+        w = ymat_lambdified(*TargetPad.wonly_xmask(xargs_arranged))[:, 0]
         w2wjac = yjacmat_lambdified(*xargs_arranged)
-        wjac = yjacmat_lambdified(*TargetNeonPad.wonly_mask(xargs_arranged))
+        wjac = yjacmat_lambdified(*TargetPad.wonly_xmask(xargs_arranged))
         ret = stack([*w2wjac, *wjac[[YKeys.B2, YKeys.B4]]])
         ret[[ZKeys.W2W_BETA1_AMP, ZKeys.W2W_BETA2, ZKeys.W2W_BETA3_AMP, ZKeys.W2W_BETA4], :] = (
                 w2w[[YKeys.B1_AMP, YKeys.B2, YKeys.B3_AMP, YKeys.B4], None] / w2w[YKeys.B0]
@@ -170,7 +170,7 @@ class TargetNeonPad:
 
     @staticmethod
     def xjacmat_byz(xargs_arranged: ndarray) -> ndarray:
-        called = TargetNeonPad.zjacmat(xargs_arranged)  # shape: (z,x)
+        called = TargetPad.zjacmat(xargs_arranged)  # shape: (z,x)
         return pinv(called)  # shape: (x,z)
 
     @staticmethod

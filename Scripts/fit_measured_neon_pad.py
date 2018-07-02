@@ -3,7 +3,7 @@
 from numpy import pi, inf
 from scipy.optimize import least_squares, OptimizeResult
 
-from padtools import xkeys, TargetNeonPad
+from padtools import xkeys, TargetPad
 
 # %%
 measured = {
@@ -160,7 +160,7 @@ measured = {
 # %%
 for k, m in measured.items():
     print('Dataset {}...'.format(k))
-    pad = TargetNeonPad(
+    pad = TargetPad(
         w2w_beta1_amp=m['w2w_beta1_amp'],
         w2w_beta1_amp_err=m['w2w_beta1_amp_err'],
         w2w_beta1_shift=m['w2w_beta1_shift'],
