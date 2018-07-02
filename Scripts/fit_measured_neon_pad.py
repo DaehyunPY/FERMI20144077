@@ -3,7 +3,7 @@
 from numpy import pi, inf
 from scipy.optimize import least_squares, OptimizeResult
 
-from padtools import TargetNeonPad
+from padtools import xkeys, TargetNeonPad
 
 # %%
 measured = {
@@ -182,44 +182,18 @@ for k, m in measured.items():
         even_weight=1,
     )
 
-    x0 = [m['x0'].get(k, None) for k in pad.xkeys]
+    x0 = [m['x0'].get(k, None) for k in xkeys]
     zipped = list(zip(*x0[:-1]))
     opt: OptimizeResult = least_squares(
-        pad.ydiff,
+        pad.zdiffmat,
         zipped[0],
+        jac=pad.zdiffjacmat,
         bounds=zipped[1:],
         **m.get('opts', {}),
     )
 
-    print(opt.message)
     print('Fitting report...')
     pad.report(opt.x)
-    print()
-    print('Best fit and jac...')
-    print('                '
-          '        c_sp'
-          '       c_psp'
-          '       c_pdp'
-          '        c_dp'
-          '       c_fdp'
-          '       eta_s'
-          '       eta_p'
-          '       eta_d'
-          '       eta_f')
-    for k, j in zip(('fitted:', 'w2w_beta1_amp:', 'w2w_beta1_shift:', 'w2w_beta2:',
-                     'w2w_beta3_amp:', 'w2w_beta3_shift:', 'w2w_beta4:', 'wonly_beta2:', 'wonly_beta4:'),
-                    (opt.x, *opt.jac)):
-        print('{:16s}'
-              '{: 12.3f}'
-              '{: 12.3f}'
-              '{: 12.3f}'
-              '{: 12.3f}'
-              '{: 12.3f}'
-              '{: 12.3f}'
-              '{: 12.3f}'
-              '{: 12.3f}'
-              '{: 12.3f}'.format(k, *j, 0))
     if not opt.success:
         raise AssertionError('Fail to optimize the pad!')
     print()
-    # break

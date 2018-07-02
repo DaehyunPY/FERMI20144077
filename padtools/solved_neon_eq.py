@@ -1,8 +1,15 @@
-from sympy import (Expr, symbols, I, pi, exp, Ynm, Abs, cos, sin, arg, sqrt, re, legendre,
+from enum import auto, IntEnum
+
+from sympy import (Expr, symbols, Matrix, I, pi, exp, Ynm, Abs, cos, sin, arg, sqrt, re, legendre,
                    cancel, expand_func, simplify, expand, solve, lambdify)
 
 __all__ = (
-    'neon_pad',
+    'XKeys',
+    'xkeys',
+    'YKeys',
+    'ykeys',
+    'ymat_lambdified',
+    'yjacmat_lambdified',
 )
 
 
@@ -36,7 +43,7 @@ pads = {
 }
 
 
-# %% solve
+# %% solve pad eq
 def solve_eq(pad: Expr) -> dict:
     # expand left term
     left = (
@@ -149,29 +156,37 @@ def solve_eq(pad: Expr) -> dict:
 
 
 # %% lambdify pads
-print("Solving the Ne PAD equations and lambdify their b parameters...")
-solved = {k: solve_eq(p) for k, p in pads.items()}
-args = (c_sp, c_psp, c_pdp, c_dp, c_fdp, eta_s, eta_p, eta_d, eta_f)
-targets = ('b0', 'b1_amp', 'b1_shift',
-           'b2', 'b3_amp', 'b3_shift',
-           'b4', 'b5_amp', 'b5_shift', 'b6')
-lambdified = {
-    k: {t: lambdify(args, expr[t], 'numpy') for t in targets}
-    for k, expr in solved.items()
-}
+class XKeys(IntEnum):  # length: 9
+    C_SP = 0
+    C_PSP = auto()
+    C_PDP = auto()
+    C_DP = auto()
+    C_FDP = auto()
+    ETA_S = auto()
+    ETA_P = auto()
+    ETA_D = auto()
+    ETA_F = auto()
 
 
-def neon_pad(c_sp: float, c_psp: float, c_pdp: float, c_dp: float, c_fdp: float,
-             eta_s: float, eta_p: float, eta_d: float, eta_f: float) -> dict:
-    """
-    Return b parameters of Neon PAD. It assumes...
+class YKeys(IntEnum):  # length: 7
+    B0 = 0
+    B1_AMP = auto()
+    B1_SHIFT = auto()
+    B2 = auto()
+    B3_AMP = auto()
+    B3_SHIFT = auto()
+    B4 = auto()
 
-        odd order b = amp * cos(phi - shift) ,
-        even order b including 0th = const .
 
-    Here amp is non-negative, shift is a value between -pi to pi, and phi is the difference of w and 2w optical phases.
-    Details are written in Daehyun's report.
-    """
-    return {k: {t: f(c_sp, c_psp, c_pdp, c_dp, c_fdp, eta_s, eta_p, eta_d, eta_f)
-                for t, f in targets.items()}
-            for k, targets in lambdified.items()}
+xkeys = [k.name.lower() for k in XKeys]
+ykeys = [k.name.lower() for k in YKeys]
+
+print("Solving the Ne PAD equations...")
+solved = solve_eq(pads['summed'])
+
+print("Lambdifying solved b parameters...")
+xmat = Matrix((c_sp, c_psp, c_pdp, c_dp, c_fdp, eta_s, eta_p, eta_d, eta_f))
+ymat = Matrix([solved[k] for k in ykeys])
+ymat_lambdified = lambdify(xmat, ymat, 'numpy')
+yjacmat = ymat.jacobian(xmat)  # shape: (7, 9)
+yjacmat_lambdified = lambdify(xmat, yjacmat, 'numpy')
