@@ -33,7 +33,7 @@ measured = {
             'c_ps': {'init': 1, 'lower': 0, 'upper': inf},
             'c_dps': {'init': 1, 'lower': 0, 'upper': inf},
             'eta_s': {'init': 2, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta3_shift + w2w_beta1m3_shift = 1.727
-            'eta_p': {'init': 6, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta3_shift = 6.259
+            'eta_p': {'init': 7, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta3_shift = 6.259
             # eta_d is fixed at 0
         },
     },
@@ -59,12 +59,16 @@ measured = {
         'wonly_beta4': 1.738617,
         'wonly_beta4_err': 0.049251,
         'x0': {
-            'c_sps': {'init': 1, 'lower': 0, 'upper': inf},
+            'c_sps': {'init': 4, 'lower': 0, 'upper': inf},
             'c_ps': {'init': 1, 'lower': 0, 'upper': inf},
-            'c_dps': {'init': 1, 'lower': 0, 'upper': inf},
+            'c_dps': {'init': 4, 'lower': 0, 'upper': inf},
             'eta_s': {'init': 2, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta3_shift + w2w_beta1m3_shift = 2.003
-            'eta_p': {'init': 0, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta3_shift = 0.302
+            'eta_p': {'init': 1, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta3_shift = 0.302
             # eta_d is fixed at 0
+        },
+        'opts': {
+            # 'loss': 'soft_l1',
+            # 'f_scale': 0.1,
         },
     },
     'good3': {  # wonly4
@@ -90,8 +94,8 @@ measured = {
         'wonly_beta4_err': 0.057671,
         'x0': {
             'c_sps': {'init': 1, 'lower': 0, 'upper': inf},
-            'c_ps': {'init': 1, 'lower': 0, 'upper': inf},
-            'c_dps': {'init': 1, 'lower': 0, 'upper': inf},
+            'c_ps': {'init': 4, 'lower': 0, 'upper': inf},
+            'c_dps': {'init': 8, 'lower': 0, 'upper': inf},
             'eta_s': {'init': 5, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta3_shift + w2w_beta1m3_shift = 5.208
             'eta_p': {'init': 1, 'lower': -pi, 'upper': 3 * pi},  # 0 - w2w_beta3_shift = 0.862
             # eta_d is fixed at 0
@@ -129,8 +133,10 @@ measured = {
     },
 }
 
-# %%
+
 for k, m in measured.items():
+    if k != 'good3':
+        continue
     print('Dataset {}...'.format(k))
     pad = TargetHeliumPad(
         w2w_beta1_amp=m['w2w_beta1_amp'],
@@ -149,8 +155,8 @@ for k, m in measured.items():
         wonly_beta2_err=m['wonly_beta2_err'],
         wonly_beta4=m['wonly_beta4'],
         wonly_beta4_err=m['wonly_beta4_err'],
-        amp_weight=4,
-        shift_weight=64,
+        amp_weight=1,
+        shift_weight=16,
         even_weight=1,
     )
 
