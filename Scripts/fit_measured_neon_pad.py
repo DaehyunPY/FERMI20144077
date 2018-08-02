@@ -11,11 +11,13 @@ from padtools import TargetNeonPad
 
 
 # %%
-with open('Data/beta_neon_gauss0.yaml', 'r') as f:
+with open('Data/beta_neon_gauss3.yaml', 'r') as f:
     measured = safe_load(Template(f.read()).render())
 
 # %%
 for k, m in measured.items():
+    # if k not in {"good4'"}:
+    #     continue
     print('Dataset {}...'.format(k))
     pad = TargetNeonPad(
         w2w_beta1_amp=m['w2w_beta1_amp'],
@@ -34,9 +36,7 @@ for k, m in measured.items():
         wonly_beta2_err=m['wonly_beta2_err'],
         wonly_beta4=m['wonly_beta4'],
         wonly_beta4_err=m['wonly_beta4_err'],
-        amp_weight=4,
-        shift_weight=64,
-        even_weight=1,
+        **m.get('weights', {}),
     )
 
     x0 = [m['x0'][k.name.lower()] for k in pad.XKEYS if k not in pad.xfixed]

@@ -22,15 +22,20 @@
     'wonly_beta2_err': 0.019028,
     'wonly_beta4': 1.088395,
     'wonly_beta4_err': 0.028925,
+    'weights': {
+      'amp_weight': 4,
+      'shift_weight': 64,
+      'even_weight': 1,
+    },
     'x0': {
       'c_sp': {'init': 4, 'lower': 0, 'upper': .inf},
       'c_psp': {'init': 0, 'lower': -.inf, 'upper': .inf},
       'c_pdp': {'init': 1, 'lower': 0, 'upper': .inf},
       'c_dp': {'init': 4, 'lower': 0, 'upper': .inf},
       'c_fdp': {'init': 2, 'lower': 0, 'upper': .inf},
-      'eta_s': {'init': 1, 'lower': {{ -pi }}, 'upper': {{ 3 * pi}}},  # 0 - w2w_beta1m3_shift + pi = 0.611
-      'eta_p': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi}}},
-      'eta_d': {'init': 6, 'lower': {{ -pi }}, 'upper': {{ 3 * pi}}},  # 0 - w2w_beta1_shift = 5.804
+      'eta_s': {'init': 1, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1m3_shift + pi = 0.611
+      'eta_p': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_d': {'init': 6, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1_shift = 5.804
       # eta_f is fixed at 0
     },
   },
@@ -55,6 +60,11 @@
     'wonly_beta2_err': 0.000046,
     'wonly_beta4': 0.126242,
     'wonly_beta4_err': 0.005736,
+    'weights': {
+      'amp_weight': 4,
+      'shift_weight': 64,
+      'even_weight': 1,
+    },
     'x0': {
       'c_sp': {'init': 4, 'lower': 0, 'upper': .inf},
       'c_psp': {'init': 0, 'lower': -.inf, 'upper': .inf},
@@ -88,6 +98,11 @@
     'wonly_beta2_err': 0.039631,
     'wonly_beta4': 0.219090,
     'wonly_beta4_err': 0.109411,
+    'weights': {
+      'amp_weight': 4,
+      'shift_weight': 64,
+      'even_weight': 1,
+    },
     'x0': {
       'c_sp': {'init': 4, 'lower': 0, 'upper': .inf},
       'c_psp': {'init': -1, 'lower': -.inf, 'upper': .inf},
@@ -121,6 +136,11 @@
     'wonly_beta2_err': 0.019028,
     'wonly_beta4': 1.088395,
     'wonly_beta4_err': 0.028925,
+    'weights': {
+      'amp_weight': 4,
+      'shift_weight': 64,
+      'even_weight': 1,
+    },
     'x0': {
       'c_sp': {'init': 4, 'lower': 0, 'upper': .inf},
       'c_psp': {'init': 0, 'lower': -.inf, 'upper': .inf},
