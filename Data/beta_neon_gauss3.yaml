@@ -163,13 +163,13 @@
     },
     'x0': {
       'c_sp': {'init': 4, 'lower': 0, 'upper': .inf},
-      'c_psp': {'init': -2, 'lower': -.inf, 'upper': .inf},
+      'c_psp': {'init': 1, 'lower': -.inf, 'upper': .inf},
       'c_pdp': {'init': 1, 'lower': 0, 'upper': .inf},
       'c_dp': {'init': 4, 'lower': 0, 'upper': .inf},
       'c_fdp': {'init': 2, 'lower': 0, 'upper': .inf},
-      'eta_s': {'init': 2, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1m3_shift + pi = 2.456
-      'eta_p': {'init': 4, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
-      'eta_d': {'init': 1, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1_shift = 0.622
+      'eta_s': {'init': 3, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1m3_shift + pi = 2.456
+      'eta_p': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_d': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1_shift = 0.622
       # eta_f is fixed at 0
     },
     'opts': {
