@@ -45,6 +45,7 @@ class TargetPad(ABC):
                  w2w_beta3_amp_err: float = None, w2w_beta3_shift_err: float = None, w2w_beta4_err: float = None,
                  wonly_beta2_err: float = None, wonly_beta4_err: float = None,
                  amp_weight: float = 1, shift_weight: float = 1, even_weight: float = 1,
+                 w2w_weight: float = 1, wonly_weight: float = 1,
                  xfixed: Dict[IntEnum, float] = None):
         if xfixed is None:
             xfixed = {self.ETA_REF: 0}
@@ -88,18 +89,18 @@ class TargetPad(ABC):
             wonly_beta4_err,
         ))
         self.__zweight = array((
-            (w2w_beta1_amp_weight * amp_weight +
-             w2w_beta2_weight * even_weight +
-             w2w_beta3_amp_weight * amp_weight +
-             w2w_beta4_weight * even_weight),  # w2w_b0_weight
-            w2w_beta1_amp_weight * amp_weight,
-            w2w_beta1_shift_weight * shift_weight,
-            w2w_beta2_weight * even_weight,
-            w2w_beta3_amp_weight * amp_weight,
-            w2w_beta3_shift_weight * shift_weight,
-            w2w_beta4_weight * even_weight,
-            wonly_beta2_weight * even_weight,
-            wonly_beta4_weight * even_weight,
+            (w2w_beta1_amp_weight * w2w_weight * amp_weight +
+             w2w_beta2_weight * w2w_weight * even_weight +
+             w2w_beta3_amp_weight * w2w_weight * amp_weight +
+             w2w_beta4_weight * w2w_weight * even_weight),  # w2w_b0_weight
+            w2w_beta1_amp_weight * w2w_weight * amp_weight,
+            w2w_beta1_shift_weight * w2w_weight * shift_weight,
+            w2w_beta2_weight * w2w_weight * even_weight,
+            w2w_beta3_amp_weight * w2w_weight * amp_weight,
+            w2w_beta3_shift_weight * w2w_weight * shift_weight,
+            w2w_beta4_weight * w2w_weight * even_weight,
+            wonly_beta2_weight * wonly_weight * even_weight,
+            wonly_beta4_weight * wonly_weight * even_weight,
         ))
         self.__zintercept = array((
             1,  # w2w_b0

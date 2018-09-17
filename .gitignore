@@ -1,2 +1,15 @@
 .idea
 .ipynb_checkpoints
+__pycache__
+*.npy
+*.png
+*.pdf
+*.svg
+*.tex
+*.docx
+*.doc
+*.pptx
+*.ppt
+*.xlsx
+*.indd
+*.ai
