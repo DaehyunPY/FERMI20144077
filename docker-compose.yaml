@@ -1,0 +1,26 @@
+version: '3.1'
+services:
+  jupyter:
+    image: daehyunpy/playground-python:v201809.1
+    command:
+      - python
+      - -m
+      - jupyter
+      - lab
+      - --allow-root
+      - --config=/app/jupyter_notebook_config.json
+    ports:
+      - 4040
+      - 18888:8888
+    volumes:
+      - .:/data
+    secrets:
+      - source: config
+        target: /app/jupyter_notebook_config.json
+      - source: path
+        target: /app/.venv/lib/python3.6/site-packages/local.pth
+secrets:
+  config:
+    file: ./jupyter_notebook_config.json
+  path:
+    file: ./local.pth

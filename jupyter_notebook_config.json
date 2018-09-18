@@ -1,0 +1,7 @@
+{
+    "NotebookApp": {
+        "notebook_dir": "/data",
+        "open_browser": false,
+        "ip": "*"
+    }
+}
