@@ -1,5 +1,7 @@
 from enum import auto, IntEnum
+from os.path import isfile
 
+from cloudpickle import dump, load
 from sympy import (Expr, symbols, Matrix, I, pi, exp, Ynm, Abs, cos, sin, arg, sqrt, re, legendre,
                    cancel, expand_func, simplify, expand, solve, lambdify)
 
@@ -162,12 +164,25 @@ class YKeys(IntEnum):  # length: 7
     B4 = auto()
 
 
-print("Solving the He PAD equations...")
-solved = solve_eq(pads['summed'])
+if not isfile('solved_helium_eq.db'):
+    print("Solving the He PAD equations...")
+    solved = solve_eq(pads['summed'])
 
-print("Lambdifying solved b parameters...")
-xmat = Matrix((c_sps, c_ps, c_dps, eta_s, eta_p, eta_d))
-ymat = Matrix([solved[k.name.lower()] for k in YKeys])
-ymat_lambdified = lambdify(xmat, ymat, 'numpy')
-yjacmat = ymat.jacobian(xmat)  # shape: (7, 6)
-yjacmat_lambdified = lambdify(xmat, yjacmat, 'numpy')
+    print("Lambdifying solved b parameters...")
+    xmat = Matrix((c_sps, c_ps, c_dps, eta_s, eta_p, eta_d))
+    ymat = Matrix([solved[k.name.lower()] for k in YKeys])
+    ymat_lambdified = lambdify(xmat, ymat, 'numpy')
+    yjacmat = ymat.jacobian(xmat)  # shape: (7, 6)
+    yjacmat_lambdified = lambdify(xmat, yjacmat, 'numpy')
+
+    with open('solved_helium_eq.db', 'wb') as f:
+        print("Storing the answer...")
+        dump({
+            'ymat_lambdified': ymat_lambdified,
+            'yjacmat_lambdified': yjacmat_lambdified,
+        }, f)
+else:
+    with open('solved_helium_eq.db', 'rb') as f:
+        db = load(f)
+        ymat_lambdified = db['ymat_lambdified']
+        yjacmat_lambdified = db['yjacmat_lambdified']

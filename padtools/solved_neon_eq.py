@@ -1,5 +1,7 @@
 from enum import auto, IntEnum
+from os.path import isfile
 
+from cloudpickle import dump, load
 from sympy import (Expr, symbols, Matrix, I, pi, exp, Ynm, Abs, cos, sin, arg, sqrt, re, legendre,
                    cancel, expand_func, simplify, expand, solve, lambdify)
 
@@ -12,8 +14,8 @@ __all__ = (
 
 
 # %% pads
-(c_psp, c_pdp), (c_sp, c_dp, c_fdp) = symbols('c_psp c_pdp', real=True), symbols('c_sp c_dp c_fdp', positive=True)
-eta_s, eta_p, eta_d, eta_f = symbols('eta_s eta_p eta_d eta_f', real=True)
+c_psp, c_pdp, c_sp, c_dp, c_fdp = symbols('c_psp c_pdp c_sp c_dp c_fdp', real=True)
+eta_s, eta_psp, eta_pdp, eta_d, eta_f = symbols('eta_s eta_psp eta_pdp eta_d eta_f', real=True)
 phi, the, vphi = symbols('phi theta varphi', real=True)
 
 c0_sp = -sqrt(3) / 3 * c_sp
@@ -23,12 +25,12 @@ c0_pdp, c1_pdp = -2 * sqrt(15) / 15 * c_pdp, -sqrt(15) / 10 * c_pdp
 c0_fdp, c1_fdp = sqrt(10) / 5 * c_fdp, 2 * sqrt(15) / 15 * c_fdp
 
 waves = {
-    'm=0': (c0_psp * exp(eta_p * I) * Ynm(1, 0, the, vphi) +
-            c0_pdp * exp(eta_p * I) * Ynm(1, 0, the, vphi) +
+    'm=0': (c0_psp * exp(eta_psp * I) * Ynm(1, 0, the, vphi) +
+            c0_pdp * exp(eta_pdp * I) * Ynm(1, 0, the, vphi) +
             c0_fdp * exp(eta_f * I) * Ynm(3, 0, the, vphi) +
             c0_sp * exp(eta_s * I + phi * I) * Ynm(0, 0, the, vphi) +
             c0_dp * exp(eta_d * I + phi * I) * Ynm(2, 0, the, vphi)),
-    'm=1': (c1_pdp * exp(eta_p * I) * Ynm(1, 1, the, vphi) +
+    'm=1': (c1_pdp * exp(eta_pdp * I) * Ynm(1, 1, the, vphi) +
             c1_fdp * exp(eta_f * I) * Ynm(3, 1, the, vphi) +
             c1_dp * exp(eta_d * I + phi * I) * Ynm(2, 1, the, vphi)),
 }
@@ -154,14 +156,15 @@ def solve_eq(pad: Expr) -> dict:
 
 
 # %% lambdify pads
-class XKeys(IntEnum):  # length: 9
+class XKeys(IntEnum):  # length: 10
     C_SP = 0
     C_PSP = auto()
     C_PDP = auto()
     C_DP = auto()
     C_FDP = auto()
     ETA_S = auto()
-    ETA_P = auto()
+    ETA_PSP = auto()
+    ETA_PDP = auto()
     ETA_D = auto()
     ETA_F = auto()
 
@@ -176,12 +179,25 @@ class YKeys(IntEnum):  # length: 7
     B4 = auto()
 
 
-print("Solving the Ne PAD equations...")
-solved = solve_eq(pads['summed'])
+if not isfile('solved_neon_eq.db'):
+    print("Solving the Ne PAD equations...")
+    solved = solve_eq(pads['summed'])
 
-print("Lambdifying solved b parameters...")
-xmat = Matrix((c_sp, c_psp, c_pdp, c_dp, c_fdp, eta_s, eta_p, eta_d, eta_f))
-ymat = Matrix([solved[k.name.lower()] for k in YKeys])
-ymat_lambdified = lambdify(xmat, ymat, 'numpy')
-yjacmat = ymat.jacobian(xmat)  # shape: (7, 9)
-yjacmat_lambdified = lambdify(xmat, yjacmat, 'numpy')
+    print("Lambdifying solved b parameters...")
+    xmat = Matrix((c_sp, c_psp, c_pdp, c_dp, c_fdp, eta_s, eta_psp, eta_pdp, eta_d, eta_f))
+    ymat = Matrix([solved[k.name.lower()] for k in YKeys])
+    ymat_lambdified = lambdify(xmat, ymat, 'numpy')
+    yjacmat = ymat.jacobian(xmat)  # shape: (7, 10)
+    yjacmat_lambdified = lambdify(xmat, yjacmat, 'numpy')
+
+    with open('solved_neon_eq.db', 'wb') as f:
+        print("Storing the answer...")
+        dump({
+            'ymat_lambdified': ymat_lambdified,
+            'yjacmat_lambdified': yjacmat_lambdified,
+        }, f)
+else:
+    with open('solved_neon_eq.db', 'rb') as f:
+        db = load(f)
+        ymat_lambdified = db['ymat_lambdified']
+        yjacmat_lambdified = db['yjacmat_lambdified']

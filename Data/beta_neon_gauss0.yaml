@@ -34,7 +34,8 @@
       'c_dp': {'init': 4, 'lower': 0, 'upper': .inf},
       'c_fdp': {'init': 2, 'lower': 0, 'upper': .inf},
       'eta_s': {'init': 1, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1m3_shift + pi = 0.611
-      'eta_p': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_psp': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_pdp': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
       'eta_d': {'init': 6, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1_shift = 5.804
       # eta_f is fixed at 0
     },
@@ -72,7 +73,8 @@
       'c_dp': {'init': 4, 'lower': 0, 'upper': .inf},
       'c_fdp': {'init': 2, 'lower': 0, 'upper': .inf},
       'eta_s': {'init': 2, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1m3_shift + pi = 1.854
-      'eta_p': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_psp': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_pdp': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
       'eta_d': {'init': 6, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1_shift = 5.798
       # eta_f is fixed at 0
     },
@@ -110,7 +112,8 @@
       'c_dp': {'init': 4, 'lower': 0, 'upper': .inf},
       'c_fdp': {'init': 2, 'lower': 0, 'upper': .inf},
       'eta_s': {'init': 2, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1m3_shift + pi = 2.456
-      'eta_p': {'init': 4, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_psp': {'init': 4, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_pdp': {'init': 4, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
       'eta_d': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1_shift = 0.622
       # eta_f is fixed at 0
     },
@@ -148,7 +151,8 @@
       'c_dp': {'init': 4, 'lower': 0, 'upper': .inf},
       'c_fdp': {'init': 2, 'lower': 0, 'upper': .inf},
       'eta_s': {'init': 2, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1m3_shift + pi = 2.480
-      'eta_p': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_psp': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_pdp': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
       'eta_d': {'init': 1, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1_shift = 1.467
       # eta_f is fixed at 0
     },

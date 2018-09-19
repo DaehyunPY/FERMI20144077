@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 
-from pprint import pprint
-
-from numpy import pi
 from scipy.optimize import least_squares, OptimizeResult
 from yaml import safe_load
 from jinja2 import Template
