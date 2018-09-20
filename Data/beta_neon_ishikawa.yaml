@@ -1,0 +1,128 @@
+{% set pi = 3.14159265358979323846 %}
+---
+{
+  'good1': {
+    'w_photon': 15.9,
+    'w2w_beta1_amp': 0.75589994,
+    'w2w_beta1_shift': 1.46264001,
+    'w2w_beta2': -0.143832,
+    'w2w_beta3_amp': 1.21617455,
+    'w2w_beta3_shift': 0.83920287,
+    'w2w_beta4': 1.276404,
+    # 'w2w_beta1m3_shift': 3.63121406,
+    'wonly_beta2': -0.491972,
+    'wonly_beta4': 1.468979,
+    'weights': {
+      'amp_weight': 1,
+      'shift_weight': 4,
+      'even_weight': 1,
+      'w2w_weight': 1,
+      'wonly_weight': 1,
+    },
+    'x0': {
+      'c_sp': {'init': 1, 'lower': 0, 'upper': .inf},
+      'c_psp': {'init': 1, 'lower': 0, 'upper': .inf},
+      'c_pdp': {'init': 1, 'lower': 0, 'upper': .inf},
+      'c_dp': {'init': 4, 'lower': 0, 'upper': .inf},
+      'c_fdp': {'init': 4, 'lower': 0, 'upper': .inf},
+      'eta_s': {'init': 6, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1m3_shift + pi = 5.7935639008
+      'eta_psp': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_pdp': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_d': {'init': 5, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1_shift = 4.8205452972
+      # eta_f is fixed at 0
+    },
+  },
+  'good2': {
+    'w_photon': 14.3,
+    'w2w_beta1_amp': 0.53690568,
+    'w2w_beta1_shift': 1.70391557,
+    'w2w_beta2': -0.526830,
+    'w2w_beta3_amp': 0.40808040,
+    'w2w_beta3_shift': 0.08023251,
+    'w2w_beta4': 0.224511,
+    # 'w2w_beta1m3_shift': 2.52487696,
+    'wonly_beta2': -0.802973,
+    'wonly_beta4': 0.287946,
+    'weights': {
+      'amp_weight': 1,
+      'shift_weight': 4,
+      'even_weight': 1,
+      'w2w_weight': 1,
+      'wonly_weight': 1,
+    },
+    'x0': {
+      'c_sp': {'init': 1, 'lower': 0, 'upper': .inf},
+      'c_psp': {'init': 1, 'lower': 0, 'upper': .inf},
+      'c_pdp': {'init': 1, 'lower': 0, 'upper': .inf},
+      'c_dp': {'init': 4, 'lower': 0, 'upper': .inf},
+      'c_fdp': {'init': 4, 'lower': 0, 'upper': .inf},
+      'eta_s': {'init': 1, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1m3_shift + pi = 0.6167156936
+      'eta_psp': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_pdp': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_d': {'init': 5, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1_shift = 4.5792697372
+      # eta_f is fixed at 0
+    },
+  },
+  'good3': {
+    'w_photon': 19.1,
+    'w2w_beta1_amp': 1.19704126,
+    'w2w_beta1_shift': 1.44546716,
+    'w2w_beta2': 0.662693,
+    'w2w_beta3_amp': 0.83186950,
+    'w2w_beta3_shift': 0.63980868,
+    'w2w_beta4': 0.366086,
+    # 'w2w_beta1m3_shift': 2.66212070,
+    'wonly_beta2': 0.502074,
+    'wonly_beta4': -0.345162,
+    'weights': {
+      'amp_weight': 1,
+      'shift_weight': 4,
+      'even_weight': 1,
+      'w2w_weight': 1,
+      'wonly_weight': 1,
+    },
+    'x0': {
+      'c_sp': {'init': 1, 'lower': 0, 'upper': .inf},
+      'c_psp': {'init': 1, 'lower': 0, 'upper': .inf},
+      'c_pdp': {'init': 1, 'lower': 0, 'upper': .inf},
+      'c_dp': {'init': 4, 'lower': 0, 'upper': .inf},
+      'c_fdp': {'init': 4, 'lower': 0, 'upper': .inf},
+      'eta_s': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1m3_shift + pi = 0.4794719536
+      'eta_psp': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_pdp': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_d': {'init': 5, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1_shift = 4.8377181472
+      # eta_f is fixed at 0
+    },
+  },
+  'good4': {
+    'w_photon': 15.9,
+    'w2w_beta1_amp': 0.75589994,
+    'w2w_beta1_shift': 1.46264001,
+    'w2w_beta2': 0.016507,
+    'w2w_beta3_amp': 1.21617455,
+    'w2w_beta3_shift': 0.83920287,
+    'w2w_beta4': 0.915370,
+    # 'w2w_beta1m3_shift': 3.63121406,
+    'wonly_beta2': -0.491347,
+    'wonly_beta4': 1.468849,
+    'weights': {
+      'amp_weight': 1,
+      'shift_weight': 4,
+      'even_weight': 1,
+      'w2w_weight': 1,
+      'wonly_weight': 1,
+    },
+    'x0': {
+      'c_sp': {'init': 1, 'lower': 0, 'upper': .inf},
+      'c_psp': {'init': 1, 'lower': 0, 'upper': .inf},
+      'c_pdp': {'init': 1, 'lower': 0, 'upper': .inf},
+      'c_dp': {'init': 4, 'lower': 0, 'upper': .inf},
+      'c_fdp': {'init': 4, 'lower': 0, 'upper': .inf},
+      'eta_s': {'init': 6, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1m3_shift + pi = 5.7935639008
+      'eta_psp': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_pdp': {'init': 0, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},
+      'eta_d': {'init': 5, 'lower': {{ -pi }}, 'upper': {{ 3 * pi }}},  # 0 - w2w_beta1_shift = 4.8205452972
+      # eta_f is fixed at 0
+    },
+  },
+}
