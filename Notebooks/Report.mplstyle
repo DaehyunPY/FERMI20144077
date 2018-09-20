@@ -81,7 +81,7 @@ lines.markersize   : 4            ## markersize, in points
 #boxplot.meanprops.linewidth       : 1.0
 
 #### FONT
-font.family          : serif
+font.family          : monospace
 font.size            : 10.0
 
 #### TEXT
@@ -105,10 +105,10 @@ text.latex.unicode   : False  ## use "ucs" and "inputenc" LaTeX packages for han
 mathtext.cal : cursive
 mathtext.rm  : sans
 mathtext.tt  : monospace
-mathtext.it  : serif:italic
-mathtext.bf  : serif:bold
+mathtext.it  : sans:italic
+mathtext.bf  : sans:bold
 mathtext.sf  : sans
-mathtext.fontset : stix        ## Should be 'dejavusans' (default),
+mathtext.fontset : stixsans    ## Should be 'dejavusans' (default),
                                ## 'dejavuserif', 'cm' (Computer Modern), 'stix',
                                ## 'stixsans' or 'custom'
 #mathtext.fallback_to_cm : True  ## When True, use symbols from the Computer Modern
@@ -146,7 +146,7 @@ axes.grid.which      : major   ## gridlines at major, minor or both ticks
 axes.unicode_minus  : True     ## use unicode for the minus symbol
                                ## rather than hyphen.  See
                                ## http://en.wikipedia.org/wiki/Plus_and_minus_signs#Character_codes
-axes.prop_cycle     : cycler('color', ['0072B2', 'E69F00', '009E73', 'D55E00', 'CC79A7', '56B4E9'])
+axes.prop_cycle     : cycler('color', ['1f77b4', 'ff7f0e', '2ca02c', 'd62728', '9467bd', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
                       ## color cycle for plot lines  as list of string
                       ## colorspecs: single letter, long name, or web-style hex
                       ## Note the use of string escapes here ('1f77b4', instead of 1f77b4)
@@ -173,7 +173,7 @@ ytick.minor.visible   : True   ## visibility of minor ticks on y-axis
 ## See http://matplotlib.org/api/figure_api.html#matplotlib.figure.Figure
 #figure.titlesize : large      ## size of the figure title (Figure.suptitle())
 #figure.titleweight : normal   ## weight of the figure title
-figure.figsize    : 3.4, 3.4   ## figure size in inches
+figure.figsize    : 6.4, 4.8   ## figure size in inches
 
 #### IMAGES
 #image.aspect : equal             ## equal | auto | a number
@@ -194,14 +194,9 @@ figure.figsize    : 3.4, 3.4   ## figure size in inches
 #### ERRORBAR PLOTS
 errorbar.capsize : 4              ## length of end cap on error bars in pixels
 
-#### HISTOGRAM PLOTS
-#hist.bins : 10                   ## The default number of histogram bins.
-                                  ## If Numpy 1.11 or later is
-                                  ## installed, may also be `auto`
-
 #### SCATTER PLOTS
 #scatter.marker : o               ## The default marker type for scatter plots.
 
 #### SAVING FIGURES
-ps.fonttype          : 42         ## Output Type 3 (Type3) or Type 42 (TrueType)
-pdf.fonttype         : 42         ## Output Type 3 (Type3) or Type 42 (TrueType)
+ps.fonttype          : 3          ## Output Type 3 (Type3) or Type 42 (TrueType)
+pdf.fonttype         : 3          ## Output Type 3 (Type3) or Type 42 (TrueType)
