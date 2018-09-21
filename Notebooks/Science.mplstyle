@@ -146,7 +146,7 @@ axes.grid.which      : major   ## gridlines at major, minor or both ticks
 axes.unicode_minus  : True     ## use unicode for the minus symbol
                                ## rather than hyphen.  See
                                ## http://en.wikipedia.org/wiki/Plus_and_minus_signs#Character_codes
-axes.prop_cycle     : cycler('color', ['0072B2', 'E69F00', '009E73', 'D55E00', 'CC79A7', '56B4E9'])
+axes.prop_cycle     : cycler('color', ['006699', 'CC9933', '009966', 'CC6633', 'CC6699', '66CCFF'])
                       ## color cycle for plot lines  as list of string
                       ## colorspecs: single letter, long name, or web-style hex
                       ## Note the use of string escapes here ('1f77b4', instead of 1f77b4)
