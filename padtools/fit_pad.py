@@ -132,10 +132,7 @@ class TargetPad(ABC):
 
     def __arrange_xargs(self, xargs: ndarray) -> ndarray:
         inx = count()
-        return fromiter(
-            (self.xfixed[k] if k in self.xfixed else xargs[next(inx)] for k in self.XKEYS),
-            dtype=xargs.dtype,
-        )
+        return fromiter((self.xfixed[k] if k in self.xfixed else xargs[next(inx)] for k in self.XKEYS), dtype='double')
 
     @classmethod
     def wonly_xmask(cls, xargs_arranged: ndarray) -> ndarray:
@@ -212,20 +209,18 @@ class TargetPad(ABC):
         zmat_called = self.zmat(xargs_arranged)
         zjacmat_called = self.zjacmat(xargs_arranged)
 
-        print("{:18s}{:>12s}{:>12s}{:>12s}{:>12s}{}".format(
-            "", "", "", "", "",
-            "".join("{:>12s}".format("{}".format(k.name.lower())) for k in self.XKEYS),
+        print("{:58s} {}".format(
+            "", " ".join("{:>9s}".format("{}".format(k.name.lower())) for k in self.XKEYS),
         ))
         for k, arr in (("at:", xargs_arranged),
                        ("error:", xerror)):
-            print("{:18s}{:>12s}{:>12s}{:>12s}{:>12s}{}".format(
-                k, "", "", "", "",
-                "".join("{:> 12.3f}".format(a) for a in arr),
+            print("{:18s} {:39s} {}".format(
+                k, "", " ".join("{:> 9.3f}".format(a) for a in arr),
             ))
         print()
-        print("{:18s}{:>12s}{:>12s}{:>12s}{:>12s}{}".format(
+        print("{:18s} {:>9s} {:>9s} {:>9s} {:>9s} {}".format(
             "", "target", "examined", "diff", "weight",
-            "".join("{:>12s}".format("d/d{}".format(k.name.lower())) for k in self.XKEYS),
+            " ".join("{:>9s}".format("d/d{}".format(k.name.lower())) for k in self.XKEYS),
         ))
         for k, *o, jac in zip(self.ZKEYS,
                               self.zintercept,
@@ -233,9 +228,9 @@ class TargetPad(ABC):
                               self.__norm_phases(self.zintercept - zmat_called),
                               self.zweight,
                               zjacmat_called):
-            print("{:<18s}{:> 12.3f}{:> 12.3f}{:> 12.3f}{:>12.0f}{}".format(
+            print("{:<18s} {:> 9.3f} {:> 9.3f} {:> 9.3f} {:>9.0f} {}".format(
                 "{}:".format(k.name.lower()), *o,
-                "".join("{:> 12.3f}".format(j) for j in jac),
+                " ".join("{:> 9.3f}".format(j) for j in jac),
             ))
 
 
@@ -253,6 +248,6 @@ class TargetNeonPad(TargetPad):
     XKEYS = ne.XKeys
     YKEYS = ne.YKeys
     ETA_REF = ne.XKeys.ETA_F
-    WONLY_XKEYS = {ne.XKeys.C_PSP, ne.XKeys.C_PDP, ne.XKeys.C_FDP, ne.XKeys.ETA_PSP, ne.XKeys.ETA_PDP, ne.XKeys.ETA_F}
+    WONLY_XKEYS = {ne.XKeys.C_PSP, ne.XKeys.C_PDP, ne.XKeys.C_FDP, ne.XKeys.ETA_P, ne.XKeys.ETA_F}
     YMAT = ne.ymat_lambdified
     YJACMAT = ne.yjacmat_lambdified
