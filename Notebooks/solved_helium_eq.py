@@ -2,7 +2,7 @@ from functools import wraps
 
 from sympy import *
 
-__all__ = ['symargs', 'solved', 'lambdified']
+__all__ = ['lambdified']
 
 
 # %%
@@ -37,12 +37,12 @@ solved = {
 }
 
 # %% lambdify pads
-symargs = {  # order sensitive!
-    s.name: s for s in [coeff_s, coeff_p, coeff_d, eta_s, eta_p, eta_d]
-}
-__lambdified = lambdify(tuple(symargs.values()), tuple(solved.values()), 'numpy')
+kwargs = [coeff_s, coeff_p, coeff_d, eta_s, eta_p, eta_d]
+kwrets = ['beta1_amp', 'beta1_shift', 'beta2', 'beta3_amp', 'beta3_shift', 'beta4', 'beta1m3_amp', 'beta1m3_shift']
+__lambdified = lambdify(kwargs, [solved[k] for k in kwrets], 'numpy')
 
 
 @wraps(__lambdified)
-def lambdified(*args, **kwargs):
-    return dict(zip(solved.keys(), __lambdified(*args, **kwargs)))
+def lambdified(coeff_s, coeff_p, coeff_d, eta_s, eta_p, eta_d):
+    return dict(zip(kwrets,
+                    __lambdified(coeff_s, coeff_p, coeff_d, eta_s, eta_p, eta_d)))

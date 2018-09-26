@@ -5,7 +5,7 @@ from sympy import (Expr, Symbol, symbols, I, pi, exp, Ynm, Abs, cos, sin, arg, s
                    cancel, expand_func, simplify, expand, solve, lambdify)
 
 
-__all__ = ['symargs', 'solved', 'lambdified']
+__all__ = ['lambdified']
 
 
 # %% pads
@@ -80,25 +80,49 @@ def solve_eq(pad: Expr) -> dict:
     b1m3_real = simplify(cancel(b1_real - b3_real * 2 / 3))
     b1m3_amp, b1m3_shift = amp_and_shift(b1m3_real, phi)
     return {
+        'beta1': b1_real / b0_real,
         'beta1_amp': b1_amp / b0_real,
         'beta1_shift': b1_shift,
         'beta2': b2_real / b0_real,
+        'beta3': b3_real / b0_real,
         'beta3_amp': b3_amp / b0_real,
         'beta3_shift': b3_shift,
         'beta4': b4_real / b0_real,
+        'beta1m3': b1m3_real / b0_real,
         'beta1m3_amp': b1m3_amp / b0_real,
         'beta1m3_shift': b1m3_shift,
     }
 
 
 # %% lambdify pads
-symargs = {  # order sensitive!
-    s.name: s for s in [coeff_s, coeff_p, coeff_d, eta_s, eta_p, eta_d]
-}
+kwargs = [coeff_s, coeff_p, coeff_d, eta_s, eta_p, eta_d]
+kwrets = ['beta1_amp', 'beta1_shift', 'beta2', 'beta3_amp', 'beta3_shift', 'beta4', 'beta1m3_amp', 'beta1m3_shift']
 solved = solve_eq(pads['summed'])
-__lambdified = lambdify(tuple(symargs.values()), tuple(solved.values()), 'numpy')
+__lambdified = lambdify(kwargs, [solved[k] for k in kwrets], 'numpy')
 
 
 @wraps(__lambdified)
-def lambdified(*args, **kwargs):
-    return dict(zip(solved.keys(), __lambdified(*args, **kwargs)))
+def lambdified(coeff_s, coeff_p, coeff_d, eta_s, eta_p, eta_d):
+    return dict(zip(kwrets,
+                    __lambdified(coeff_s, coeff_p, coeff_d, eta_s, eta_p, eta_d)))
+
+
+if __name__ == '__main__':
+    from textwrap import dedent
+    from sympy import latex
+    print(dedent(f"""\
+        beta1 =
+            {latex(solved["beta1"])}    
+        
+        beta2 =
+            {latex(solved["beta2"])}    
+        
+        beta3 =
+            {latex(solved["beta3"])}
+        
+        beta4 =
+            {latex(solved["beta4"])}    
+        
+        beta1m3 = beta1 - 2/3*beta3 =
+            {latex(solved["beta1m3"])}
+        """), end='')
