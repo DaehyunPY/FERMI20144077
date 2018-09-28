@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   jupyter:
-    image: daehyunpy/playground-python:v201809.1
+    image: daehyunpy/playground-python:v201809.2
     command:
       - python
       - -m
@@ -14,6 +14,7 @@ services:
       - 18888:8888
     volumes:
       - .:/data
+      - ~/.jupyter:/root/.jupyter
     secrets:
       - source: config
         target: /app/jupyter_notebook_config.json
