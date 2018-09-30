@@ -102,7 +102,7 @@ text.usetex          : False  ## use latex for all text handling. The following 
                               ## If another font is desired which can loaded using the
                               ## LaTeX \usepackage command, please inquire at the
                               ## matplotlib mailing list
-text.latex.unicode   : False  ## use "ucs" and "inputenc" LaTeX packages for handling
+#text.latex.unicode  : False  ## use "ucs" and "inputenc" LaTeX packages for handling
                               ## unicode strings.
 mathtext.cal : sans:italic
 mathtext.rm  : sans
