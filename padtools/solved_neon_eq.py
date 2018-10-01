@@ -1,16 +1,19 @@
 from enum import auto, IntEnum
 from os.path import isfile
+from functools import wraps
 
 from cloudpickle import dump, load
 from sympy import (Expr, symbols, Matrix, I, pi, exp, Ynm, Abs, cos, sin, arg, sqrt, re, legendre,
                    cancel, expand_func, simplify, expand, solve, lambdify)
 
-__all__ = (
+__all__ = [
+    'solved',
     'XKeys',
     'YKeys',
     'ymat_lambdified',
     'yjacmat_lambdified',
-)
+    'f',
+]
 
 
 # %% pads
@@ -193,11 +196,19 @@ if not isfile('solved_neon_eq.db'):
     with open('solved_neon_eq.db', 'wb') as f:
         print("Storing the answer...")
         dump({
+            'solved': solved,
             'ymat_lambdified': ymat_lambdified,
             'yjacmat_lambdified': yjacmat_lambdified,
         }, f)
 else:
     with open('solved_neon_eq.db', 'rb') as f:
         db = load(f)
+        solved = db['solved']
         ymat_lambdified = db['ymat_lambdified']
         yjacmat_lambdified = db['yjacmat_lambdified']
+
+
+@wraps(ymat_lambdified)
+def f(*args, **kwargs):
+    ret = ymat_lambdified(*args, **kwargs)
+    return {k.name.lower(): v for k, v in zip(YKeys, ret[:, 0])}
