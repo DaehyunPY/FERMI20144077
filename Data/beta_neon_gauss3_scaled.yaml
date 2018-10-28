@@ -4,23 +4,24 @@
   'good1': {  # wonly5
     'w_photon': 15.9,
     # ref: https://github.com/DaehyunPY/FERMI_20144077/blob/master/Notebooks/beta_good1_gauss3.ipynb
+    # h = 0.36007900128662074 \pm 0.010846726771653757
     'w2w_beta1_amp': {{ 0.28004315 / 0.36007900128662074 }},
-    'w2w_beta1_amp_err': {{ 0.01265977 / 0.36007900128662074 }},
+    'w2w_beta1_amp_err': {{ 0.28004315 / 0.36007900128662074 * ((0.01265977/0.28004315)**2+(0.010846726771653757/0.36007900128662074)**2) ** 0.5 }},
     'w2w_beta1_shift': 1.480,
     'w2w_beta1_shift_err': 0.060,
     'w2w_beta2': 0.34675251,
     'w2w_beta2_err': 0.00938442,
     'w2w_beta3_amp': {{ 0.39872208 / 0.36007900128662074 }},
-    'w2w_beta3_amp_err': {{ 0.01498100 / 0.36007900128662074 }},
+    'w2w_beta3_amp_err': {{ 0.39872208 / 0.36007900128662074 * ((0.01498100/0.39872208)**2+(0.010846726771653757/0.36007900128662074)**2) ** 0.5 }},
     'w2w_beta3_shift': 0.819,
     'w2w_beta3_shift_err': 0.049,
     'w2w_beta4': 0.43274126,
     'w2w_beta4_err': 0.01531978,
     # ref: https://github.com/DaehyunPY/FERMI_20144077/blob/master/Notebooks/beta_wonly5_gauss3.ipynb
-    'wonly_beta2': -0.080805,
-    'wonly_beta2_err': 0.018737,
-    'wonly_beta4': 1.107058,
-    'wonly_beta4_err': 0.019651,
+    'wonly_beta2': -0.082487,
+    'wonly_beta2_err': 0.023017,
+    'wonly_beta4': 1.120789,
+    'wonly_beta4_err': 0.030607,
     'weights': {
       'amp_weight': 16,
       'shift_weight': 32,
@@ -44,23 +45,24 @@
   'good2': {  # wonly3
     'w_photon': 14.3,
     # ref: https://github.com/DaehyunPY/FERMI_20144077/blob/master/Notebooks/beta_good2_gauss3.ipynb
+    # h = 0.2623217467070834 \pm 0.005859598583428447
     'w2w_beta1_amp': {{ 0.26743193 / 0.2623217467070834 }},
-    'w2w_beta1_amp_err': {{ 0.00363317 / 0.2623217467070834 }},
+    'w2w_beta1_amp_err': {{ 0.26743193 / 0.2623217467070834 * ((0.00363317/0.26743193)**2+(0.005859598583428447/0.2623217467070834)**2) ** 0.5 }},
     'w2w_beta1_shift': 1.668,
     'w2w_beta1_shift_err': 0.027,
     'w2w_beta2': -0.08793100,
     'w2w_beta2_err': 0.00520163,
     'w2w_beta3_amp': {{ 0.19706859 / 0.2623217467070834 }},
-    'w2w_beta3_amp_err': {{ 0.00681090 / 0.2623217467070834 }},
+    'w2w_beta3_amp_err': {{ 0.19706859 / 0.2623217467070834 * ((0.00681090/0.19706859)**2+(0.005859598583428447/0.2623217467070834)**2) ** 0.5 }},
     'w2w_beta3_shift': 0.037,
     'w2w_beta3_shift_err': 0.038,
     'w2w_beta4': -0.03067388,
     'w2w_beta4_err': 0.00321445,
     # ref: https://github.com/DaehyunPY/FERMI_20144077/blob/master/Notebooks/beta_wonly3_gauss3.ipynb
-    'wonly_beta2': -0.469027,
-    'wonly_beta2_err': 0.001037,
-    'wonly_beta4': 0.052413,
-    'wonly_beta4_err': 0.006189,
+    'wonly_beta2': -0.46938,
+    'wonly_beta2_err': 0.014665,
+    'wonly_beta4': 0.052199,
+    'wonly_beta4_err': 0.016972,
     'weights': {
       'amp_weight': 16,
       'shift_weight': 32,
@@ -84,23 +86,24 @@
   'good3': {  # wonly4
     'w_photon': 19.1,
     # ref: https://github.com/DaehyunPY/FERMI_20144077/blob/master/Notebooks/beta_good3_gauss3.ipynb
+    # h = 0.31654665721967573 \pm 0.00363137759882438
     'w2w_beta1_amp': {{ 0.37245283 / 0.31654665721967573 }},
-    'w2w_beta1_amp_err': {{ 0.00360273 / 0.31654665721967573 }},
+    'w2w_beta1_amp_err': {{ 0.37245283 / 0.31654665721967573 * ((0.00360273/0.37245283)**2+(0.00363137759882438/0.31654665721967573)**2) ** 0.5 }},
     'w2w_beta1_shift': 1.402,
     'w2w_beta1_shift_err': 0.014,
     'w2w_beta2': 0.88440582,
     'w2w_beta2_err': 0.00169322,
     'w2w_beta3_amp': {{ 0.26738427 / 0.31654665721967573 }},
-    'w2w_beta3_amp_err': {{ 0.00339328 / 0.31654665721967573 }},
+    'w2w_beta3_amp_err': {{ 0.26738427 / 0.31654665721967573 * ((0.00339328/0.26738427)**2+(0.00363137759882438/0.31654665721967573)**2) ** 0.5 }},
     'w2w_beta3_shift': 0.680,
     'w2w_beta3_shift_err': 0.016,
     'w2w_beta4': 0.02458127,
     'w2w_beta4_err': 0.00363349,
     # ref: https://github.com/DaehyunPY/FERMI_20144077/blob/master/Notebooks/beta_wonly4_gauss3.ipynb
-    'wonly_beta2': 0.918967,
-    'wonly_beta2_err': 0.045427,
-    'wonly_beta4': 0.405998,
-    'wonly_beta4_err': 0.017098,
+    'wonly_beta2': 0.896983,
+    'wonly_beta2_err': 0.032691,
+    'wonly_beta4': 0.417026,
+    'wonly_beta4_err': 0.035119,
     'weights': {
       'amp_weight': 16,
       'shift_weight': 32,
@@ -124,23 +127,24 @@
   "good4": {  # wonly5
     'w_photon': 15.9,
     # ref: https://github.com/DaehyunPY/FERMI_20144077/blob/master/Notebooks/beta_good4_gauss3.ipynb
+    # h = 0.22615312657456355 \pm 0.009158040339335838
     'w2w_beta1_amp': {{ 0.15287231 / 0.22615312657456355 }},
-    'w2w_beta1_amp_err': {{ 0.00756190 / 0.22615312657456355 }},
+    'w2w_beta1_amp_err': {{ 0.15287231 / 0.22615312657456355 * ((0.00756190/0.15287231)**2+(0.009158040339335838/0.22615312657456355)**2) ** 0.5 }},
     'w2w_beta1_shift': 1.424,
     'w2w_beta1_shift_err': 0.062,
     'w2w_beta2': 0.48062860,
     'w2w_beta2_err': 0.00378655,
     'w2w_beta3_amp': {{ 0.23353777 / 0.22615312657456355 }},
-    'w2w_beta3_amp_err': {{ 0.00861068 / 0.22615312657456355 }},
+    'w2w_beta3_amp_err': {{ 0.23353777 / 0.22615312657456355 * ((0.00861068/0.23353777)**2+(0.009158040339335838/0.22615312657456355)**2) ** 0.5 }},
     'w2w_beta3_shift': 0.789,
     'w2w_beta3_shift_err': 0.055,
     'w2w_beta4': 0.09554586,
     'w2w_beta4_err': 0.00523730,
     # ref: https://github.com/DaehyunPY/FERMI_20144077/blob/master/Notebooks/beta_wonly5_gauss3.ipynb
-    'wonly_beta2': -0.080805,
-    'wonly_beta2_err': 0.018737,
-    'wonly_beta4': 1.107058,
-    'wonly_beta4_err': 0.019651,
+    'wonly_beta2': -0.082487,
+    'wonly_beta2_err': 0.023017,
+    'wonly_beta4': 1.120789,
+    'wonly_beta4_err': 0.030607,
     'weights': {
       'amp_weight': 16,
       'shift_weight': 32,
