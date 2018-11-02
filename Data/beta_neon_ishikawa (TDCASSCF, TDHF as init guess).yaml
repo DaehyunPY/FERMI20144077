@@ -9,8 +9,8 @@
     'w2w_beta3_amp': 0.61767014,
     'w2w_beta3_shift': 0.84041103,
     'w2w_beta4': 1.689231,
-    'wonly_beta2': 0.607789,
-    'wonly_beta4': 0.563443,
+    'wonly_beta2': -0.383721226361129,
+    'wonly_beta4': 1.82474973382772,
     'weights': {
       'amp_weight': 1,
       'shift_weight': 4,
@@ -39,8 +39,8 @@
     'w2w_beta3_amp': 0.18805526,
     'w2w_beta3_shift': 0.08028700,
     'w2w_beta4': 0.271408,
-    'wonly_beta2': -0.383721,
-    'wonly_beta4': 1.824750,
+    'wonly_beta2': -0.696377195648848,
+    'wonly_beta4': 0.281921195985704,
     'weights': {
       'amp_weight': 1,
       'shift_weight': 4,
@@ -69,8 +69,8 @@
     'w2w_beta3_amp': 0.50780736,
     'w2w_beta3_shift': 0.64041780,
     'w2w_beta4': 0.511125,
-    'wonly_beta2': -0.696377,
-    'wonly_beta4': 0.281921,
+    'wonly_beta2': 0.607789350450763,
+    'wonly_beta4': 0.563443308750717,
     'weights': {
       'amp_weight': 1,
       'shift_weight': 4,
@@ -99,8 +99,8 @@
     'w2w_beta3_amp': 0.34403181,
     'w2w_beta3_shift': 0.84044970,
     'w2w_beta4': 1.784676,
-    'wonly_beta2': 0.607789,
-    'wonly_beta4': 0.563443,
+    'wonly_beta2': -0.383721226361129,
+    'wonly_beta4': 1.82474973382772,
     'weights': {
       'amp_weight': 1,
       'shift_weight': 4,
