@@ -6,8 +6,8 @@ from typing import Dict, Iterable, Set, Callable
 from numpy import array, pi, ndarray, stack, fromiter
 from numpy.linalg import pinv
 
-from . import solved_helium_eq as he
-from . import solved_neon_eq as ne
+from . import solve_helium_eq as he
+from . import solve_neon_eq as ne
 
 __all__ = (
     'TargetHeliumPad',
@@ -252,7 +252,7 @@ class TargetHeliumPad(TargetPad):
 class TargetNeonPad(TargetPad):
     XKEYS = ne.XKeys
     YKEYS = ne.YKeys
-    ETA_REF = ne.XKeys.ETA_F
-    WONLY_XKEYS = {ne.XKeys.C_PSP, ne.XKeys.C_PDP, ne.XKeys.C_FDP, ne.XKeys.ETA_PSP, ne.XKeys.ETA_PDP, ne.XKeys.ETA_F}
+    ETA_REF = ne.XKeys.ETA_FDP
+    WONLY_XKEYS = {ne.XKeys.COEFF_PSP, ne.XKeys.COEFF_PDP, ne.XKeys.COEFF_FDP, ne.XKeys.ETA_PSP, ne.XKeys.ETA_PDP, ne.XKeys.ETA_FDP}
     YMAT = ne.ymat_lambdified
     YJACMAT = ne.yjacmat_lambdified
