@@ -5,12 +5,11 @@ from collections import OrderedDict
 from importlib_resources import path
 from pandas import read_excel
 from scipy.optimize import least_squares, OptimizeResult
-from numpy import sign, array, ndarray
+from numpy import sign, array, ndarray, diag
 from numpy.linalg import pinv
 
 from . import res
 from .solve import ymat_lambdified, jmat_lambdified, ymat_pretty
-from .optimize import weighted_least_squares
 
 
 __all__ = ["fit"]
@@ -64,43 +63,67 @@ def fit(photon: float, beta1m3_amp: float, beta1m3_shift: float, beta2: float,
         beta3_amp *= -1
         beta3_shift += pi
 
-    def fun(x) -> ndarray:
+    def func(x) -> ndarray:
         phi0, r, h = x
-        ret: ndarray = ymat_lambdified(xref["coeff_s"], xref["coeff_p"], xref["coeff_d"],
-                                       xref["eta_s"], xref["eta_p"], xref["eta_d"],
-                                       phi0, r, h)
-        diff = [beta1m3_amp, beta1m3_shift, beta2, beta3_amp, beta3_shift, beta4] - ret[:, 0]
-        where_shift = array([False, True, False, False, True, False])
-        divider = sign(diff) * [inf, 0, inf, inf, 0, inf] + where_shift * 2 * pi
-        return (diff + where_shift * pi) % divider - where_shift * pi
-
-    def jac(x) -> ndarray:
-        phi0, r, h = x
-        ret = jmat_lambdified(xref["coeff_s"], xref["coeff_p"], xref["coeff_d"],
-                              xref["eta_s"], xref["eta_p"], xref["eta_d"],
-                              phi0, r, h)
-        return -ret[:, -3:]
+        return ymat_lambdified(
+            xref["coeff_s"], xref["coeff_p"], xref["coeff_d"],
+            xref["eta_s"], xref["eta_p"], xref["eta_d"],
+            phi0, r, h,
+        )
 
     yerr = [beta1m3_amp_err, beta1m3_shift_err, beta2_err, beta3_amp_err, beta3_shift_err, beta4_err]
+
     if any(v is None for v in yerr):
         print("Error parameters is not passed. Ignore weights")
-        ret: OptimizeResult = least_squares(
-            fun, [0, 1, 1], jac=jac,
-            bounds=[*zip([-2*pi, 2*pi], [0, inf], [0, inf])], **kwargs,
-        )
-        xerr = None
+
+        def res(x) -> ndarray:
+            fx = func(x)
+            diff = [beta1m3_amp, beta1m3_shift, beta2, beta3_amp, beta3_shift, beta4] - fx[:, 0]
+            where_shift = array([False, True, False, False, True, False])
+            divider = sign(diff) * [inf, 0, inf, inf, 0, inf] + where_shift * 2 * pi
+            return (diff + where_shift * pi) % divider - where_shift * pi
+
+        def jac(x) -> ndarray:
+            phi0, r, h = x
+            ret = jmat_lambdified(
+                xref["coeff_s"], xref["coeff_p"], xref["coeff_d"],
+                xref["eta_s"], xref["eta_p"], xref["eta_d"],
+                phi0, r, h,
+            )
+            return -ret[:, -3:]
+
     else:
         yerr = array(yerr)
-        ret = weighted_least_squares(
-            fun, [0, 1, 1], weights=1 / yerr ** 2, jac=jac,
-            bounds=[*zip([-2 * pi, 2 * pi], [0, inf], [0, inf])], **kwargs,
-        )
-        xerr = ((pinv(jac(ret.x)) ** 2) @ (yerr ** 2)) ** 0.5
+
+        def res(x) -> ndarray:
+            fx = func(x)
+            diff = [beta1m3_amp, beta1m3_shift, beta2, beta3_amp, beta3_shift, beta4] - fx[:, 0]
+            where_shift = array([False, True, False, False, True, False])
+            divider = sign(diff) * [inf, 0, inf, inf, 0, inf] + where_shift * 2 * pi
+            eps =  (diff + where_shift * pi) % divider - where_shift * pi
+            return eps / yerr
+
+        def jac(x) -> ndarray:
+            phi0, r, h = x
+            ret = jmat_lambdified(
+                xref["coeff_s"], xref["coeff_p"], xref["coeff_d"],
+                xref["eta_s"], xref["eta_p"], xref["eta_d"],
+                phi0, r, h,
+            )
+            return -ret[:, -3:] / yerr[:, None]
+
+    ret: OptimizeResult = least_squares(
+        res, [0, 1, 1], jac=jac,
+        bounds=[*zip([-2*pi, 2*pi], [0, inf], [0, inf])], **kwargs,
+    )
     xkeys = ["phi0", "r", "h"]
-    opt = OrderedDict(zip(xkeys, ret.x))
+    xopt = OrderedDict(zip(xkeys, ret["x"]))
+    xcov = pinv(ret["jac"].T @ ret["jac"])
+    xerr = diag(xcov) ** 0.5
     return OrderedDict([
-        ("opt", opt),
+        ("opt", xopt),
+        ("cov", xcov),
         ("err", OrderedDict(zip(xkeys, xerr))),
-        ("fx", ymat_pretty(**xref, **opt)),
+        ("fx", ymat_pretty(**xref, **xopt)),
         ("report", ret),
     ])
