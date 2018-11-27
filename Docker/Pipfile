@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+importlib_resources = "*"
+cloudpickle = "*"
+pyyaml = "*"
+numba = "*"
+ipython = ">=7"
+ipykernel = ">=5"
+jupyterlab = "*"
+numpy = "*"
+pandas = "*"
+scipy = "*"
+sympy = "*"
+matplotlib = "*"
+lmfit = "*"
+holoviews = "*"
+altair = "*"
+
+[dev-packages]
+pylint = "<2.0.0"
+
+[requires]
+python_version = "3.6"

@@ -15,5 +15,4 @@ __pycache__
 *.ai
 *.db
 ~$*
-Pipfile
 Pipfile.lock

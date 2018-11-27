@@ -1,7 +1,9 @@
 version: '3.1'
 services:
   jupyter:
-    image: daehyunpy/playground-python:v201809.2
+    build: ./Docker
+    image: daehyunpy/fermi-20144077
+    restart: unless-stopped
     command:
       - python
       - -m
@@ -10,18 +12,9 @@ services:
       - --allow-root
       - --config=/app/jupyter_notebook_config.json
     ports:
-      - 4040
       - 18888:8888
     volumes:
       - .:/data
+      - ./jupyter_notebook_config.json:/app/jupyter_notebook_config.json:ro
+      - ./local.pth:/app/.venv/lib/python3.6/site-packages/local.pth:ro
       - ~/.jupyter:/root/.jupyter
-    secrets:
-      - source: config
-        target: /app/jupyter_notebook_config.json
-      - source: path
-        target: /app/.venv/lib/python3.6/site-packages/local.pth
-secrets:
-  config:
-    file: ./jupyter_notebook_config.json
-  path:
-    file: ./local.pth
