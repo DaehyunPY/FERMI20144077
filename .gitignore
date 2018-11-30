@@ -1,7 +1,7 @@
-.idea
 .ipynb_checkpoints
-.vscode
 __pycache__
+Icon*
+*.gsheet
 *.npy
 *.png
 *.pdf
@@ -16,3 +16,6 @@ __pycache__
 *.db
 ~$*
 Pipfile.lock
+/.idea
+/.vscode
+/HeKKSaGoN 2018*/
