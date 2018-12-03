@@ -5,7 +5,7 @@ from itertools import chain, repeat, islice
 
 from cloudpickle import dump, load
 from sympy import (
-    Expr, symbols, Rational, Matrix, I, pi, exp, Ynm, Abs, cos, sin, sqrt, re, legendre,
+    Expr, symbols, Rational, Matrix, I, exp, Ynm, Abs, cos, sin, sqrt, re, legendre,
     cancel, expand_func, simplify, expand, solve, lambdify,
 )
 
@@ -106,8 +106,8 @@ def solve_eq(pad: Expr) -> dict:
                                     .subs(b4, b4_cmpx)
                                     .subs(b2, b2_cmpx), b0)[0]))
     b0_real = simplify(re(expand(b0_cmpx)))
-    # b1m3_real = simplify(cancel(b1_real - b3_real * 3 / 2))
-    # b1m3_amp, b1m3_shift = amp_and_shift(b1m3_real, phi)
+    b1m3_real = simplify(cancel(b1_real - b3_real * 3 / 2))
+    b1m3_amp, b1m3_shift = amp_and_shift(b1m3_real, phi)
     return {
         'b0': b0_real,
         'b1': b1_real,
@@ -122,6 +122,9 @@ def solve_eq(pad: Expr) -> dict:
         'b5_amp': b5_amp,
         'b5_shift': b5_shift,
         'b6': b6_real,
+        'b1m3': b1m3_real,
+        'b1m3_amp': b1m3_amp,
+        'b1m3_shift': b1m3_shift,
     }
 
 
@@ -149,6 +152,18 @@ class YKeys(IntEnum):  # length: 7
     B4 = auto()
 
 
+class AllKeys(IntEnum):  # length: 7
+    B0 = 0
+    B1_AMP = auto()
+    B1_SHIFT = auto()
+    B2 = auto()
+    B3_AMP = auto()
+    B3_SHIFT = auto()
+    B4 = auto()
+    B1M3_AMP = auto()
+    B1M3_SHIFT = auto()
+
+
 if not isfile('solved_neon_eq.db'):
     print("Solving the Ne PAD equations...")
     solved = solve_eq(pads['summed'])
@@ -157,7 +172,9 @@ if not isfile('solved_neon_eq.db'):
     xmat = Matrix((coeff_sp, coeff_psp, coeff_pdp, coeff_dp, coeff_fdp,
                    eta_sp, eta_psp, eta_pdp, eta_dp, eta_fdp))
     ymat = Matrix([solved[k.name.lower()] for k in YKeys])
+    allmat = Matrix([solved[k.name.lower()] for k in AllKeys])
     ymat_lambdified = lambdify(xmat, ymat, 'numpy')
+    allmat_lambdified = lambdify(xmat, allmat, 'numpy')
     yjacmat = ymat.jacobian(xmat)  # shape: (7, 10)
     yjacmat_lambdified = lambdify(xmat, yjacmat, 'numpy')
 
@@ -166,6 +183,7 @@ if not isfile('solved_neon_eq.db'):
         dump({
             'solved': solved,
             'ymat_lambdified': ymat_lambdified,
+            'allmat_lambdified': allmat_lambdified,
             'yjacmat_lambdified': yjacmat_lambdified,
         }, f)
 else:
@@ -173,6 +191,7 @@ else:
         db = load(f)
         solved = db['solved']
         ymat_lambdified = db['ymat_lambdified']
+        allmat_lambdified = db['allmat_lambdified']
         yjacmat_lambdified = db['yjacmat_lambdified']
 
 
@@ -181,8 +200,8 @@ def ymat_pretty(
         coeff_sp, coeff_psp, coeff_pdp, coeff_dp, coeff_fdp,
         eta_sp, eta_psp, eta_pdp, eta_dp, eta_fdp,
     ):
-    ret = ymat_lambdified(
+    ret = allmat_lambdified(
         coeff_sp, coeff_psp, coeff_pdp, coeff_dp, coeff_fdp,
         eta_sp, eta_psp, eta_pdp, eta_dp, eta_fdp,
     )
-    return {k.name.lower(): v for k, v in zip(YKeys, ret[:, 0])}
+    return {k.name.lower(): v for k, v in zip(AllKeys, ret[:, 0])}

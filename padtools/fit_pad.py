@@ -244,7 +244,12 @@ class TargetHeliumPad(TargetPad):
     XKEYS = he.XKeys
     YKEYS = he.YKeys
     ETA_REF = he.XKeys.ETA_D
-    WONLY_XKEYS = {he.XKeys.C_SPS, he.XKeys.C_DPS, he.XKeys.ETA_S, he.XKeys.ETA_D}
+    WONLY_XKEYS = {
+        he.XKeys.COEFF_S,
+        he.XKeys.COEFF_D,
+        he.XKeys.ETA_S,
+        he.XKeys.ETA_D,
+    }
     YMAT = he.ymat_lambdified
     YJACMAT = he.yjacmat_lambdified
 
@@ -253,6 +258,13 @@ class TargetNeonPad(TargetPad):
     XKEYS = ne.XKeys
     YKEYS = ne.YKeys
     ETA_REF = ne.XKeys.ETA_FDP
-    WONLY_XKEYS = {ne.XKeys.COEFF_PSP, ne.XKeys.COEFF_PDP, ne.XKeys.COEFF_FDP, ne.XKeys.ETA_PSP, ne.XKeys.ETA_PDP, ne.XKeys.ETA_FDP}
+    WONLY_XKEYS = {
+        ne.XKeys.COEFF_PSP,
+        ne.XKeys.COEFF_PDP,
+        ne.XKeys.COEFF_FDP,
+        ne.XKeys.ETA_PSP,
+        ne.XKeys.ETA_PDP,
+        ne.XKeys.ETA_FDP,
+    }
     YMAT = ne.ymat_lambdified
     YJACMAT = ne.yjacmat_lambdified
