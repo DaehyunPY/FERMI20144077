@@ -10,6 +10,7 @@ pyyaml = "*"
 numba = "*"
 ipython = ">=7"
 ipykernel = ">=5"
+notebook = ">=5.3"
 jupyterlab = "*"
 numpy = "*"
 pandas = "*"
@@ -19,9 +20,14 @@ matplotlib = "*"
 lmfit = "*"
 holoviews = "*"
 altair = "*"
+jupyter_contrib_nbextensions = "*"
+nbresuse = "*"
+nbdime = "*"
+vmitools = {git = "https://github.com/DaehyunPY/vmitools.git"}
 
 [dev-packages]
-pylint = "<2.0.0"
+pylint = "*"
+autopep8 = "*"
 
 [requires]
 python_version = "3.6"

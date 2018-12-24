@@ -27,7 +27,9 @@ RUN pip install pipenv \
     && pipenv install \
     && pipenv install --dev \
     && python -m jupyter labextension install \
+        nbdime-jupyterlab \
         @jupyterlab/toc \
+        @jupyterlab/statusbar \
     && rm -fr /root/.cache
 RUN chmod a+wx /app
 
