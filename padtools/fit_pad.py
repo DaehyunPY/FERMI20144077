@@ -9,10 +9,11 @@ from numpy.linalg import pinv
 from . import solve_helium_eq as he
 from . import solve_neon_eq as ne
 
-__all__ = (
+
+__all__ = [
     'TargetHeliumPad',
     'TargetNeonPad',
-)
+]
 
 
 # %%

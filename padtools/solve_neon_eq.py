@@ -11,6 +11,7 @@ from sympy import (
 
 from .tools import expend_cos, amp_and_shift
 
+
 __all__ = [
     'solved',
     'XKeys',

@@ -3,6 +3,12 @@ from typing import Tuple
 from sympy import Expr, Symbol, I, pi, cos, arg, sqrt, cancel, simplify
 
 
+__all__ = [
+    "expend_cos",
+    "amp_and_shift",
+]
+
+
 def expend_cos(expr: Expr, x: Symbol) -> Tuple[Expr, Expr]:
     while True:
         term = expr.subs(x, pi / 2)

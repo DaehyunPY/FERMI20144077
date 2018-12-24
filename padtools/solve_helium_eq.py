@@ -11,6 +11,7 @@ from sympy import (
 
 from .tools import expend_cos, amp_and_shift
 
+
 __all__ = [
     'solved',
     'XKeys',
@@ -19,6 +20,7 @@ __all__ = [
     'yjacmat_lambdified',
     'ymat_pretty',
 ]
+
 
 # %% pads
 coeff_s, coeff_p, coeff_d = symbols(
