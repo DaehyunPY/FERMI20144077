@@ -9,7 +9,15 @@ services:
       - 44592:8888
     volumes:
       - ./Notebooks:/data
+      - ./Packages:/data/Packages
       - ./Data:/data/Data
       - ./Figures:/data/Figures
       - ./jupyter_notebook_config.json:/app/jupyter_notebook_config.json:ro
-      - ./local.pth:/app/.venv/lib/python3.6/site-packages/local.pth:ro
+      - ./local.pth:/opt/anaconda/lib/python3.6/site-packages/local.pth:ro
+  mongodb:
+    image: mongo
+    restart: unless-stopped
+    ports:
+      - 44517:27017
+    volumes:
+      - ./MongoDB:/data/db
