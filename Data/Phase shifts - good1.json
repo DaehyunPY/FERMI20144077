@@ -1,0 +1,3825 @@
+{
+  "Data": [
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 0.0,
+      "Polar ang to (deg)": 5.0,
+      "Yield": 295.73547220369767
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 5.0,
+      "Polar ang to (deg)": 10.0,
+      "Yield": 968.5159941178463
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 10.0,
+      "Polar ang to (deg)": 15.0,
+      "Yield": 1469.6114442606038
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 15.0,
+      "Polar ang to (deg)": 20.0,
+      "Yield": 1816.4435404882524
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 20.0,
+      "Polar ang to (deg)": 25.0,
+      "Yield": 2111.755196136412
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 25.0,
+      "Polar ang to (deg)": 30.0,
+      "Yield": 2291.75500313607
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 30.0,
+      "Polar ang to (deg)": 35.0,
+      "Yield": 2429.8384060435487
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 35.0,
+      "Polar ang to (deg)": 40.0,
+      "Yield": 2417.456341629009
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 40.0,
+      "Polar ang to (deg)": 45.0,
+      "Yield": 2433.7463979708455
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 45.0,
+      "Polar ang to (deg)": 50.0,
+      "Yield": 2292.6865199951476
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 50.0,
+      "Polar ang to (deg)": 55.0,
+      "Yield": 2166.214418340615
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 55.0,
+      "Polar ang to (deg)": 60.0,
+      "Yield": 2329.156550135329
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 60.0,
+      "Polar ang to (deg)": 65.0,
+      "Yield": 2478.4893621102738
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 65.0,
+      "Polar ang to (deg)": 70.0,
+      "Yield": 2628.9344489100995
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 70.0,
+      "Polar ang to (deg)": 75.0,
+      "Yield": 3065.525171775436
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 75.0,
+      "Polar ang to (deg)": 80.0,
+      "Yield": 2812.1267778815236
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 80.0,
+      "Polar ang to (deg)": 85.0,
+      "Yield": 2893.7826544664504
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 85.0,
+      "Polar ang to (deg)": 90.0,
+      "Yield": 2915.2321110525563
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 90.0,
+      "Polar ang to (deg)": 95.0,
+      "Yield": 2841.0407530377574
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 95.0,
+      "Polar ang to (deg)": 100.0,
+      "Yield": 2789.196411716168
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 100.0,
+      "Polar ang to (deg)": 105.0,
+      "Yield": 2993.3562459600225
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 105.0,
+      "Polar ang to (deg)": 110.0,
+      "Yield": 2936.749949304632
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 110.0,
+      "Polar ang to (deg)": 115.0,
+      "Yield": 2809.6771538791386
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 115.0,
+      "Polar ang to (deg)": 120.0,
+      "Yield": 2441.9017066056954
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 120.0,
+      "Polar ang to (deg)": 125.0,
+      "Yield": 2051.30486657718
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 125.0,
+      "Polar ang to (deg)": 130.0,
+      "Yield": 2011.225839770223
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 130.0,
+      "Polar ang to (deg)": 135.0,
+      "Yield": 1687.7393034763113
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 135.0,
+      "Polar ang to (deg)": 140.0,
+      "Yield": 1316.4233782673737
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 140.0,
+      "Polar ang to (deg)": 145.0,
+      "Yield": 1435.21128550017
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 145.0,
+      "Polar ang to (deg)": 150.0,
+      "Yield": 1466.550284694631
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 150.0,
+      "Polar ang to (deg)": 155.0,
+      "Yield": 1304.5941142747888
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 155.0,
+      "Polar ang to (deg)": 160.0,
+      "Yield": 1137.9593276294836
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 160.0,
+      "Polar ang to (deg)": 165.0,
+      "Yield": 995.1376149690609
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 165.0,
+      "Polar ang to (deg)": 170.0,
+      "Yield": 923.0707556612767
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 170.0,
+      "Polar ang to (deg)": 175.0,
+      "Yield": 519.0119114335731
+    },
+    {
+      "Opt phase (mach unit)": 0.1,
+      "Polar ang fr (deg)": 175.0,
+      "Polar ang to (deg)": 180.0,
+      "Yield": 161.48361488655706
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 0.0,
+      "Polar ang to (deg)": 5.0,
+      "Yield": 248.83983281570983
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 5.0,
+      "Polar ang to (deg)": 10.0,
+      "Yield": 783.7487475568528
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 10.0,
+      "Polar ang to (deg)": 15.0,
+      "Yield": 1116.09887947867
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 15.0,
+      "Polar ang to (deg)": 20.0,
+      "Yield": 1516.816975977764
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 20.0,
+      "Polar ang to (deg)": 25.0,
+      "Yield": 1737.2036997856858
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 25.0,
+      "Polar ang to (deg)": 30.0,
+      "Yield": 2059.1054603273556
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 30.0,
+      "Polar ang to (deg)": 35.0,
+      "Yield": 2106.8755986166716
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 35.0,
+      "Polar ang to (deg)": 40.0,
+      "Yield": 2064.306007897097
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 40.0,
+      "Polar ang to (deg)": 45.0,
+      "Yield": 2331.4301166520577
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 45.0,
+      "Polar ang to (deg)": 50.0,
+      "Yield": 2031.8726161569577
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 50.0,
+      "Polar ang to (deg)": 55.0,
+      "Yield": 2249.0449977135186
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 55.0,
+      "Polar ang to (deg)": 60.0,
+      "Yield": 2441.7906996126258
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 60.0,
+      "Polar ang to (deg)": 65.0,
+      "Yield": 2507.53791622049
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 65.0,
+      "Polar ang to (deg)": 70.0,
+      "Yield": 2704.600044161619
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 70.0,
+      "Polar ang to (deg)": 75.0,
+      "Yield": 3135.170544514602
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 75.0,
+      "Polar ang to (deg)": 80.0,
+      "Yield": 2895.5126191180416
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 80.0,
+      "Polar ang to (deg)": 85.0,
+      "Yield": 3098.972355290677
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 85.0,
+      "Polar ang to (deg)": 90.0,
+      "Yield": 2994.504738879205
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 90.0,
+      "Polar ang to (deg)": 95.0,
+      "Yield": 2909.8781927145496
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 95.0,
+      "Polar ang to (deg)": 100.0,
+      "Yield": 2947.5094765160916
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 100.0,
+      "Polar ang to (deg)": 105.0,
+      "Yield": 2797.77697494741
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 105.0,
+      "Polar ang to (deg)": 110.0,
+      "Yield": 2392.0340838952375
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 110.0,
+      "Polar ang to (deg)": 115.0,
+      "Yield": 2470.934077103566
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 115.0,
+      "Polar ang to (deg)": 120.0,
+      "Yield": 2070.560856938465
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 120.0,
+      "Polar ang to (deg)": 125.0,
+      "Yield": 2162.277100967091
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 125.0,
+      "Polar ang to (deg)": 130.0,
+      "Yield": 1637.4831359557243
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 130.0,
+      "Polar ang to (deg)": 135.0,
+      "Yield": 1725.8590865197234
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 135.0,
+      "Polar ang to (deg)": 140.0,
+      "Yield": 1660.2826305803667
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 140.0,
+      "Polar ang to (deg)": 145.0,
+      "Yield": 1643.6063691842746
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 145.0,
+      "Polar ang to (deg)": 150.0,
+      "Yield": 1662.106392680793
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 150.0,
+      "Polar ang to (deg)": 155.0,
+      "Yield": 1741.038021351776
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 155.0,
+      "Polar ang to (deg)": 160.0,
+      "Yield": 1591.233906087256
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 160.0,
+      "Polar ang to (deg)": 165.0,
+      "Yield": 1360.0483805633687
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 165.0,
+      "Polar ang to (deg)": 170.0,
+      "Yield": 1203.234662100264
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 170.0,
+      "Polar ang to (deg)": 175.0,
+      "Yield": 656.3223281435496
+    },
+    {
+      "Opt phase (mach unit)": 0.25,
+      "Polar ang fr (deg)": 175.0,
+      "Polar ang to (deg)": 180.0,
+      "Yield": 267.47380365091044
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 0.0,
+      "Polar ang to (deg)": 5.0,
+      "Yield": 152.61363097597558
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 5.0,
+      "Polar ang to (deg)": 10.0,
+      "Yield": 555.3042678163378
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 10.0,
+      "Polar ang to (deg)": 15.0,
+      "Yield": 760.1305541200977
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 15.0,
+      "Polar ang to (deg)": 20.0,
+      "Yield": 1154.6230129216226
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 20.0,
+      "Polar ang to (deg)": 25.0,
+      "Yield": 1287.390564219529
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 25.0,
+      "Polar ang to (deg)": 30.0,
+      "Yield": 1463.688830799334
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 30.0,
+      "Polar ang to (deg)": 35.0,
+      "Yield": 1437.5563424612462
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 35.0,
+      "Polar ang to (deg)": 40.0,
+      "Yield": 1533.3670002833437
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 40.0,
+      "Polar ang to (deg)": 45.0,
+      "Yield": 1986.3447440064058
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 45.0,
+      "Polar ang to (deg)": 50.0,
+      "Yield": 2002.0613008441353
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 50.0,
+      "Polar ang to (deg)": 55.0,
+      "Yield": 2141.110877507869
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 55.0,
+      "Polar ang to (deg)": 60.0,
+      "Yield": 2349.101392616426
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 60.0,
+      "Polar ang to (deg)": 65.0,
+      "Yield": 2745.278803915314
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 65.0,
+      "Polar ang to (deg)": 70.0,
+      "Yield": 3198.3768574328597
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 70.0,
+      "Polar ang to (deg)": 75.0,
+      "Yield": 3097.924054623591
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 75.0,
+      "Polar ang to (deg)": 80.0,
+      "Yield": 3223.484942739292
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 80.0,
+      "Polar ang to (deg)": 85.0,
+      "Yield": 3043.8523847225847
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 85.0,
+      "Polar ang to (deg)": 90.0,
+      "Yield": 2804.9124783262873
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 90.0,
+      "Polar ang to (deg)": 95.0,
+      "Yield": 2685.9360589402027
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 95.0,
+      "Polar ang to (deg)": 100.0,
+      "Yield": 2661.3996554028276
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 100.0,
+      "Polar ang to (deg)": 105.0,
+      "Yield": 2801.5700775409764
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 105.0,
+      "Polar ang to (deg)": 110.0,
+      "Yield": 2503.977939542488
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 110.0,
+      "Polar ang to (deg)": 115.0,
+      "Yield": 2164.9378587652527
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 115.0,
+      "Polar ang to (deg)": 120.0,
+      "Yield": 2168.140034911751
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 120.0,
+      "Polar ang to (deg)": 125.0,
+      "Yield": 2020.0260535548746
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 125.0,
+      "Polar ang to (deg)": 130.0,
+      "Yield": 1987.3811351429135
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 130.0,
+      "Polar ang to (deg)": 135.0,
+      "Yield": 1811.7400637987232
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 135.0,
+      "Polar ang to (deg)": 140.0,
+      "Yield": 1826.0694750864243
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 140.0,
+      "Polar ang to (deg)": 145.0,
+      "Yield": 1987.3824233437822
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 145.0,
+      "Polar ang to (deg)": 150.0,
+      "Yield": 1956.489577658551
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 150.0,
+      "Polar ang to (deg)": 155.0,
+      "Yield": 1931.3487475461093
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 155.0,
+      "Polar ang to (deg)": 160.0,
+      "Yield": 2107.733481881501
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 160.0,
+      "Polar ang to (deg)": 165.0,
+      "Yield": 1851.6841255176023
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 165.0,
+      "Polar ang to (deg)": 170.0,
+      "Yield": 1425.9272538112875
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 170.0,
+      "Polar ang to (deg)": 175.0,
+      "Yield": 1045.7374212730092
+    },
+    {
+      "Opt phase (mach unit)": 0.4,
+      "Polar ang fr (deg)": 175.0,
+      "Polar ang to (deg)": 180.0,
+      "Yield": 323.7672503092428
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 0.0,
+      "Polar ang to (deg)": 5.0,
+      "Yield": 164.51514171275113
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 5.0,
+      "Polar ang to (deg)": 10.0,
+      "Yield": 482.39109303342553
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 10.0,
+      "Polar ang to (deg)": 15.0,
+      "Yield": 619.4103630331631
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 15.0,
+      "Polar ang to (deg)": 20.0,
+      "Yield": 821.7826812495332
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 20.0,
+      "Polar ang to (deg)": 25.0,
+      "Yield": 1016.5473956210765
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 25.0,
+      "Polar ang to (deg)": 30.0,
+      "Yield": 993.7591050841667
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 30.0,
+      "Polar ang to (deg)": 35.0,
+      "Yield": 1193.3114102340414
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 35.0,
+      "Polar ang to (deg)": 40.0,
+      "Yield": 1262.3316711250613
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 40.0,
+      "Polar ang to (deg)": 45.0,
+      "Yield": 1296.7753057408488
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 45.0,
+      "Polar ang to (deg)": 50.0,
+      "Yield": 1618.0791965019664
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 50.0,
+      "Polar ang to (deg)": 55.0,
+      "Yield": 1643.4496469613275
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 55.0,
+      "Polar ang to (deg)": 60.0,
+      "Yield": 1857.4437438335742
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 60.0,
+      "Polar ang to (deg)": 65.0,
+      "Yield": 2133.4833254688274
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 65.0,
+      "Polar ang to (deg)": 70.0,
+      "Yield": 2413.8732510007426
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 70.0,
+      "Polar ang to (deg)": 75.0,
+      "Yield": 2635.628393368902
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 75.0,
+      "Polar ang to (deg)": 80.0,
+      "Yield": 3032.121896421898
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 80.0,
+      "Polar ang to (deg)": 85.0,
+      "Yield": 2953.413537110806
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 85.0,
+      "Polar ang to (deg)": 90.0,
+      "Yield": 2919.5490226559086
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 90.0,
+      "Polar ang to (deg)": 95.0,
+      "Yield": 2504.3619451908453
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 95.0,
+      "Polar ang to (deg)": 100.0,
+      "Yield": 2459.615853929206
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 100.0,
+      "Polar ang to (deg)": 105.0,
+      "Yield": 2515.1268183724974
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 105.0,
+      "Polar ang to (deg)": 110.0,
+      "Yield": 2497.7479727017744
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 110.0,
+      "Polar ang to (deg)": 115.0,
+      "Yield": 2577.807008744377
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 115.0,
+      "Polar ang to (deg)": 120.0,
+      "Yield": 2139.7938790257494
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 120.0,
+      "Polar ang to (deg)": 125.0,
+      "Yield": 2170.6958190518653
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 125.0,
+      "Polar ang to (deg)": 130.0,
+      "Yield": 2025.2465662888537
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 130.0,
+      "Polar ang to (deg)": 135.0,
+      "Yield": 1934.7513104429268
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 135.0,
+      "Polar ang to (deg)": 140.0,
+      "Yield": 2238.2633265976137
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 140.0,
+      "Polar ang to (deg)": 145.0,
+      "Yield": 2044.5958808807227
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 145.0,
+      "Polar ang to (deg)": 150.0,
+      "Yield": 2088.282532052363
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 150.0,
+      "Polar ang to (deg)": 155.0,
+      "Yield": 2185.9700921551703
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 155.0,
+      "Polar ang to (deg)": 160.0,
+      "Yield": 1950.2941065181924
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 160.0,
+      "Polar ang to (deg)": 165.0,
+      "Yield": 1901.9854245610745
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 165.0,
+      "Polar ang to (deg)": 170.0,
+      "Yield": 1448.9768170886975
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 170.0,
+      "Polar ang to (deg)": 175.0,
+      "Yield": 1013.3862863155578
+    },
+    {
+      "Opt phase (mach unit)": 0.55,
+      "Polar ang fr (deg)": 175.0,
+      "Polar ang to (deg)": 180.0,
+      "Yield": 326.6800501809639
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 0.0,
+      "Polar ang to (deg)": 5.0,
+      "Yield": 168.21609652316673
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 5.0,
+      "Polar ang to (deg)": 10.0,
+      "Yield": 532.862521465164
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 10.0,
+      "Polar ang to (deg)": 15.0,
+      "Yield": 828.5459216265939
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 15.0,
+      "Polar ang to (deg)": 20.0,
+      "Yield": 1027.9564251671723
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 20.0,
+      "Polar ang to (deg)": 25.0,
+      "Yield": 971.2812654029221
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 25.0,
+      "Polar ang to (deg)": 30.0,
+      "Yield": 1383.0619432759872
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 30.0,
+      "Polar ang to (deg)": 35.0,
+      "Yield": 1289.8491928541384
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 35.0,
+      "Polar ang to (deg)": 40.0,
+      "Yield": 1146.6659358204724
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 40.0,
+      "Polar ang to (deg)": 45.0,
+      "Yield": 1261.6664961324386
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 45.0,
+      "Polar ang to (deg)": 50.0,
+      "Yield": 1412.1796531185191
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 50.0,
+      "Polar ang to (deg)": 55.0,
+      "Yield": 1274.3976110143262
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 55.0,
+      "Polar ang to (deg)": 60.0,
+      "Yield": 1694.90468157512
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 60.0,
+      "Polar ang to (deg)": 65.0,
+      "Yield": 1711.518908788782
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 65.0,
+      "Polar ang to (deg)": 70.0,
+      "Yield": 2434.642532480554
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 70.0,
+      "Polar ang to (deg)": 75.0,
+      "Yield": 2622.157407526668
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 75.0,
+      "Polar ang to (deg)": 80.0,
+      "Yield": 2566.794881336629
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 80.0,
+      "Polar ang to (deg)": 85.0,
+      "Yield": 2538.1634534043246
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 85.0,
+      "Polar ang to (deg)": 90.0,
+      "Yield": 2669.675418308246
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 90.0,
+      "Polar ang to (deg)": 95.0,
+      "Yield": 2550.3534015431105
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 95.0,
+      "Polar ang to (deg)": 100.0,
+      "Yield": 2463.603592731944
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 100.0,
+      "Polar ang to (deg)": 105.0,
+      "Yield": 2582.450296455202
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 105.0,
+      "Polar ang to (deg)": 110.0,
+      "Yield": 2537.40691431878
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 110.0,
+      "Polar ang to (deg)": 115.0,
+      "Yield": 2370.293407590322
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 115.0,
+      "Polar ang to (deg)": 120.0,
+      "Yield": 2345.9774885945135
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 120.0,
+      "Polar ang to (deg)": 125.0,
+      "Yield": 2015.3445308199962
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 125.0,
+      "Polar ang to (deg)": 130.0,
+      "Yield": 2071.463946910835
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 130.0,
+      "Polar ang to (deg)": 135.0,
+      "Yield": 1722.6342717717537
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 135.0,
+      "Polar ang to (deg)": 140.0,
+      "Yield": 1986.4499331555362
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 140.0,
+      "Polar ang to (deg)": 145.0,
+      "Yield": 1862.0816808840527
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 145.0,
+      "Polar ang to (deg)": 150.0,
+      "Yield": 1792.3538146484414
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 150.0,
+      "Polar ang to (deg)": 155.0,
+      "Yield": 1841.0492501756062
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 155.0,
+      "Polar ang to (deg)": 160.0,
+      "Yield": 1623.0808787070016
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 160.0,
+      "Polar ang to (deg)": 165.0,
+      "Yield": 1612.7045935221408
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 165.0,
+      "Polar ang to (deg)": 170.0,
+      "Yield": 1323.5152271635761
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 170.0,
+      "Polar ang to (deg)": 175.0,
+      "Yield": 766.2603833231959
+    },
+    {
+      "Opt phase (mach unit)": 0.7,
+      "Polar ang fr (deg)": 175.0,
+      "Polar ang to (deg)": 180.0,
+      "Yield": 232.93297047406773
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 0.0,
+      "Polar ang to (deg)": 5.0,
+      "Yield": 284.2472680010278
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 5.0,
+      "Polar ang to (deg)": 10.0,
+      "Yield": 651.872392660167
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 10.0,
+      "Polar ang to (deg)": 15.0,
+      "Yield": 1170.7422718297244
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 15.0,
+      "Polar ang to (deg)": 20.0,
+      "Yield": 1403.2795524982705
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 20.0,
+      "Polar ang to (deg)": 25.0,
+      "Yield": 1620.1039684897228
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 25.0,
+      "Polar ang to (deg)": 30.0,
+      "Yield": 1754.8149828838407
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 30.0,
+      "Polar ang to (deg)": 35.0,
+      "Yield": 1746.4339841630454
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 35.0,
+      "Polar ang to (deg)": 40.0,
+      "Yield": 1738.09935497505
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 40.0,
+      "Polar ang to (deg)": 45.0,
+      "Yield": 1586.715621598899
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 45.0,
+      "Polar ang to (deg)": 50.0,
+      "Yield": 1498.7250724979995
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 50.0,
+      "Polar ang to (deg)": 55.0,
+      "Yield": 1744.2834421527605
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 55.0,
+      "Polar ang to (deg)": 60.0,
+      "Yield": 1666.4055370793649
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 60.0,
+      "Polar ang to (deg)": 65.0,
+      "Yield": 1890.8779098394891
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 65.0,
+      "Polar ang to (deg)": 70.0,
+      "Yield": 1980.0326478537304
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 70.0,
+      "Polar ang to (deg)": 75.0,
+      "Yield": 2115.3279183002865
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 75.0,
+      "Polar ang to (deg)": 80.0,
+      "Yield": 2334.3962508740397
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 80.0,
+      "Polar ang to (deg)": 85.0,
+      "Yield": 2446.7406525290057
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 85.0,
+      "Polar ang to (deg)": 90.0,
+      "Yield": 2306.1374639293053
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 90.0,
+      "Polar ang to (deg)": 95.0,
+      "Yield": 2453.1177198688106
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 95.0,
+      "Polar ang to (deg)": 100.0,
+      "Yield": 2280.700907430919
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 100.0,
+      "Polar ang to (deg)": 105.0,
+      "Yield": 2725.621024016382
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 105.0,
+      "Polar ang to (deg)": 110.0,
+      "Yield": 2607.877840021446
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 110.0,
+      "Polar ang to (deg)": 115.0,
+      "Yield": 2546.862625648491
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 115.0,
+      "Polar ang to (deg)": 120.0,
+      "Yield": 2352.5672383460305
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 120.0,
+      "Polar ang to (deg)": 125.0,
+      "Yield": 2025.6089523890316
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 125.0,
+      "Polar ang to (deg)": 130.0,
+      "Yield": 1920.603165248661
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 130.0,
+      "Polar ang to (deg)": 135.0,
+      "Yield": 1767.506081757557
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 135.0,
+      "Polar ang to (deg)": 140.0,
+      "Yield": 1586.3907903648665
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 140.0,
+      "Polar ang to (deg)": 145.0,
+      "Yield": 1584.1329898736071
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 145.0,
+      "Polar ang to (deg)": 150.0,
+      "Yield": 1432.0043422536323
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 150.0,
+      "Polar ang to (deg)": 155.0,
+      "Yield": 1188.1622952749922
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 155.0,
+      "Polar ang to (deg)": 160.0,
+      "Yield": 1234.9654174114353
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 160.0,
+      "Polar ang to (deg)": 165.0,
+      "Yield": 1128.7873892163007
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 165.0,
+      "Polar ang to (deg)": 170.0,
+      "Yield": 804.5056100960594
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 170.0,
+      "Polar ang to (deg)": 175.0,
+      "Yield": 554.4676324204655
+    },
+    {
+      "Opt phase (mach unit)": 0.85,
+      "Polar ang fr (deg)": 175.0,
+      "Polar ang to (deg)": 180.0,
+      "Yield": 172.99875391841198
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 0.0,
+      "Polar ang to (deg)": 5.0,
+      "Yield": 294.1806781950575
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 5.0,
+      "Polar ang to (deg)": 10.0,
+      "Yield": 855.3121014863043
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 10.0,
+      "Polar ang to (deg)": 15.0,
+      "Yield": 1352.5841137941
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 15.0,
+      "Polar ang to (deg)": 20.0,
+      "Yield": 1699.5793698606137
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 20.0,
+      "Polar ang to (deg)": 25.0,
+      "Yield": 1882.8904180216532
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 25.0,
+      "Polar ang to (deg)": 30.0,
+      "Yield": 2095.092651534689
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 30.0,
+      "Polar ang to (deg)": 35.0,
+      "Yield": 2055.363475276541
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 35.0,
+      "Polar ang to (deg)": 40.0,
+      "Yield": 2083.64959863883
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 40.0,
+      "Polar ang to (deg)": 45.0,
+      "Yield": 1997.543203317714
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 45.0,
+      "Polar ang to (deg)": 50.0,
+      "Yield": 2003.0500568320704
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 50.0,
+      "Polar ang to (deg)": 55.0,
+      "Yield": 1696.226390655959
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 55.0,
+      "Polar ang to (deg)": 60.0,
+      "Yield": 1956.3623018611029
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 60.0,
+      "Polar ang to (deg)": 65.0,
+      "Yield": 2051.781000546436
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 65.0,
+      "Polar ang to (deg)": 70.0,
+      "Yield": 2089.4373624626282
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 70.0,
+      "Polar ang to (deg)": 75.0,
+      "Yield": 2602.134904964644
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 75.0,
+      "Polar ang to (deg)": 80.0,
+      "Yield": 2330.834853785279
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 80.0,
+      "Polar ang to (deg)": 85.0,
+      "Yield": 2377.5922776208104
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 85.0,
+      "Polar ang to (deg)": 90.0,
+      "Yield": 2512.4772691778303
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 90.0,
+      "Polar ang to (deg)": 95.0,
+      "Yield": 2449.6850944112575
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 95.0,
+      "Polar ang to (deg)": 100.0,
+      "Yield": 2540.8145398938045
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 100.0,
+      "Polar ang to (deg)": 105.0,
+      "Yield": 2686.843103643215
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 105.0,
+      "Polar ang to (deg)": 110.0,
+      "Yield": 2712.57128242248
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 110.0,
+      "Polar ang to (deg)": 115.0,
+      "Yield": 2667.1959891302376
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 115.0,
+      "Polar ang to (deg)": 120.0,
+      "Yield": 2307.718620565625
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 120.0,
+      "Polar ang to (deg)": 125.0,
+      "Yield": 2089.6251041808273
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 125.0,
+      "Polar ang to (deg)": 130.0,
+      "Yield": 1918.0224897834873
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 130.0,
+      "Polar ang to (deg)": 135.0,
+      "Yield": 1688.225875610951
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 135.0,
+      "Polar ang to (deg)": 140.0,
+      "Yield": 1504.2127477238146
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 140.0,
+      "Polar ang to (deg)": 145.0,
+      "Yield": 1373.3826658410508
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 145.0,
+      "Polar ang to (deg)": 150.0,
+      "Yield": 1352.959658945046
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 150.0,
+      "Polar ang to (deg)": 155.0,
+      "Yield": 1036.929406705457
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 155.0,
+      "Polar ang to (deg)": 160.0,
+      "Yield": 1011.4017887128897
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 160.0,
+      "Polar ang to (deg)": 165.0,
+      "Yield": 939.9486034648282
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 165.0,
+      "Polar ang to (deg)": 170.0,
+      "Yield": 781.819607999058
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 170.0,
+      "Polar ang to (deg)": 175.0,
+      "Yield": 394.84626578296195
+    },
+    {
+      "Opt phase (mach unit)": 1.0,
+      "Polar ang fr (deg)": 175.0,
+      "Polar ang to (deg)": 180.0,
+      "Yield": 172.48488794580058
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 0.0,
+      "Polar ang to (deg)": 5.0,
+      "Yield": 285.5821152529557
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 5.0,
+      "Polar ang to (deg)": 10.0,
+      "Yield": 789.7962586883232
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 10.0,
+      "Polar ang to (deg)": 15.0,
+      "Yield": 1225.3330747198304
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 15.0,
+      "Polar ang to (deg)": 20.0,
+      "Yield": 1691.987589595223
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 20.0,
+      "Polar ang to (deg)": 25.0,
+      "Yield": 1973.7308637789604
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 25.0,
+      "Polar ang to (deg)": 30.0,
+      "Yield": 1987.632143544855
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 30.0,
+      "Polar ang to (deg)": 35.0,
+      "Yield": 2238.710339275798
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 35.0,
+      "Polar ang to (deg)": 40.0,
+      "Yield": 2376.9956984737255
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 40.0,
+      "Polar ang to (deg)": 45.0,
+      "Yield": 2157.008532808874
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 45.0,
+      "Polar ang to (deg)": 50.0,
+      "Yield": 2164.2919939377243
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 50.0,
+      "Polar ang to (deg)": 55.0,
+      "Yield": 2274.39022660029
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 55.0,
+      "Polar ang to (deg)": 60.0,
+      "Yield": 2119.7839993793027
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 60.0,
+      "Polar ang to (deg)": 65.0,
+      "Yield": 2516.503640254084
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 65.0,
+      "Polar ang to (deg)": 70.0,
+      "Yield": 2767.876364736381
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 70.0,
+      "Polar ang to (deg)": 75.0,
+      "Yield": 2881.3530561409298
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 75.0,
+      "Polar ang to (deg)": 80.0,
+      "Yield": 2849.194362424394
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 80.0,
+      "Polar ang to (deg)": 85.0,
+      "Yield": 2741.45211835349
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 85.0,
+      "Polar ang to (deg)": 90.0,
+      "Yield": 2512.8221913231573
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 90.0,
+      "Polar ang to (deg)": 95.0,
+      "Yield": 2317.4458650572055
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 95.0,
+      "Polar ang to (deg)": 100.0,
+      "Yield": 2369.9052327246673
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 100.0,
+      "Polar ang to (deg)": 105.0,
+      "Yield": 2595.5694552205928
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 105.0,
+      "Polar ang to (deg)": 110.0,
+      "Yield": 2728.625949986995
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 110.0,
+      "Polar ang to (deg)": 115.0,
+      "Yield": 2560.882864650086
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 115.0,
+      "Polar ang to (deg)": 120.0,
+      "Yield": 2228.247817389081
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 120.0,
+      "Polar ang to (deg)": 125.0,
+      "Yield": 1956.602478495834
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 125.0,
+      "Polar ang to (deg)": 130.0,
+      "Yield": 1754.912339817837
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 130.0,
+      "Polar ang to (deg)": 135.0,
+      "Yield": 1850.7542559283943
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 135.0,
+      "Polar ang to (deg)": 140.0,
+      "Yield": 1535.2156756788766
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 140.0,
+      "Polar ang to (deg)": 145.0,
+      "Yield": 1432.610246603345
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 145.0,
+      "Polar ang to (deg)": 150.0,
+      "Yield": 1489.1705864922264
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 150.0,
+      "Polar ang to (deg)": 155.0,
+      "Yield": 1343.6353571417856
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 155.0,
+      "Polar ang to (deg)": 160.0,
+      "Yield": 1554.441358050476
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 160.0,
+      "Polar ang to (deg)": 165.0,
+      "Yield": 1166.476967989116
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 165.0,
+      "Polar ang to (deg)": 170.0,
+      "Yield": 979.8387379189819
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 170.0,
+      "Polar ang to (deg)": 175.0,
+      "Yield": 532.1905833260245
+    },
+    {
+      "Opt phase (mach unit)": 1.15,
+      "Polar ang fr (deg)": 175.0,
+      "Polar ang to (deg)": 180.0,
+      "Yield": 147.76839083721106
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 0.0,
+      "Polar ang to (deg)": 5.0,
+      "Yield": 198.78293987988118
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 5.0,
+      "Polar ang to (deg)": 10.0,
+      "Yield": 643.4698177432508
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 10.0,
+      "Polar ang to (deg)": 15.0,
+      "Yield": 846.8540149844562
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 15.0,
+      "Polar ang to (deg)": 20.0,
+      "Yield": 1161.9835030116085
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 20.0,
+      "Polar ang to (deg)": 25.0,
+      "Yield": 1557.5161495526086
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 25.0,
+      "Polar ang to (deg)": 30.0,
+      "Yield": 1377.156849659088
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 30.0,
+      "Polar ang to (deg)": 35.0,
+      "Yield": 1805.2442018887805
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 35.0,
+      "Polar ang to (deg)": 40.0,
+      "Yield": 1795.7703416997574
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 40.0,
+      "Polar ang to (deg)": 45.0,
+      "Yield": 1922.6761769452908
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 45.0,
+      "Polar ang to (deg)": 50.0,
+      "Yield": 2007.170256867975
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 50.0,
+      "Polar ang to (deg)": 55.0,
+      "Yield": 2174.2131078529837
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 55.0,
+      "Polar ang to (deg)": 60.0,
+      "Yield": 2547.0902669026746
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 60.0,
+      "Polar ang to (deg)": 65.0,
+      "Yield": 2504.6958547400945
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 65.0,
+      "Polar ang to (deg)": 70.0,
+      "Yield": 2784.790581867446
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 70.0,
+      "Polar ang to (deg)": 75.0,
+      "Yield": 2867.1478963583722
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 75.0,
+      "Polar ang to (deg)": 80.0,
+      "Yield": 2927.168395934587
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 80.0,
+      "Polar ang to (deg)": 85.0,
+      "Yield": 2918.024919776815
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 85.0,
+      "Polar ang to (deg)": 90.0,
+      "Yield": 2601.6837884407514
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 90.0,
+      "Polar ang to (deg)": 95.0,
+      "Yield": 2452.2294310376415
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 95.0,
+      "Polar ang to (deg)": 100.0,
+      "Yield": 2464.695258846033
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 100.0,
+      "Polar ang to (deg)": 105.0,
+      "Yield": 2500.608119518581
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 105.0,
+      "Polar ang to (deg)": 110.0,
+      "Yield": 2247.9770245581776
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 110.0,
+      "Polar ang to (deg)": 115.0,
+      "Yield": 2197.144576394142
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 115.0,
+      "Polar ang to (deg)": 120.0,
+      "Yield": 2031.155821338238
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 120.0,
+      "Polar ang to (deg)": 125.0,
+      "Yield": 2141.486784350158
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 125.0,
+      "Polar ang to (deg)": 130.0,
+      "Yield": 1748.6779437643315
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 130.0,
+      "Polar ang to (deg)": 135.0,
+      "Yield": 1719.7910384826541
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 135.0,
+      "Polar ang to (deg)": 140.0,
+      "Yield": 1823.813257592957
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 140.0,
+      "Polar ang to (deg)": 145.0,
+      "Yield": 2004.225149767468
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 145.0,
+      "Polar ang to (deg)": 150.0,
+      "Yield": 1868.8132948760303
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 150.0,
+      "Polar ang to (deg)": 155.0,
+      "Yield": 1914.3683800766278
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 155.0,
+      "Polar ang to (deg)": 160.0,
+      "Yield": 1865.4298121789923
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 160.0,
+      "Polar ang to (deg)": 165.0,
+      "Yield": 1476.5981031572423
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 165.0,
+      "Polar ang to (deg)": 170.0,
+      "Yield": 1388.5789588544367
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 170.0,
+      "Polar ang to (deg)": 175.0,
+      "Yield": 691.965634666381
+    },
+    {
+      "Opt phase (mach unit)": 1.3,
+      "Polar ang fr (deg)": 175.0,
+      "Polar ang to (deg)": 180.0,
+      "Yield": 299.25760006611006
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 0.0,
+      "Polar ang to (deg)": 5.0,
+      "Yield": 116.65885397363512
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 5.0,
+      "Polar ang to (deg)": 10.0,
+      "Yield": 471.94812541301815
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 10.0,
+      "Polar ang to (deg)": 15.0,
+      "Yield": 713.0578619136747
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 15.0,
+      "Polar ang to (deg)": 20.0,
+      "Yield": 951.4071717309445
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 20.0,
+      "Polar ang to (deg)": 25.0,
+      "Yield": 1046.713709121767
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 25.0,
+      "Polar ang to (deg)": 30.0,
+      "Yield": 1351.4146688107767
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 30.0,
+      "Polar ang to (deg)": 35.0,
+      "Yield": 1512.1631665654006
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 35.0,
+      "Polar ang to (deg)": 40.0,
+      "Yield": 1446.7693187092202
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 40.0,
+      "Polar ang to (deg)": 45.0,
+      "Yield": 1774.014731861492
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 45.0,
+      "Polar ang to (deg)": 50.0,
+      "Yield": 1792.2264178374505
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 50.0,
+      "Polar ang to (deg)": 55.0,
+      "Yield": 2151.6761845190267
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 55.0,
+      "Polar ang to (deg)": 60.0,
+      "Yield": 2341.421127852284
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 60.0,
+      "Polar ang to (deg)": 65.0,
+      "Yield": 2413.502015164565
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 65.0,
+      "Polar ang to (deg)": 70.0,
+      "Yield": 2902.9669072844517
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 70.0,
+      "Polar ang to (deg)": 75.0,
+      "Yield": 3000.0926336249267
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 75.0,
+      "Polar ang to (deg)": 80.0,
+      "Yield": 2858.2131340919104
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 80.0,
+      "Polar ang to (deg)": 85.0,
+      "Yield": 2725.057256921995
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 85.0,
+      "Polar ang to (deg)": 90.0,
+      "Yield": 2817.3208646421726
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 90.0,
+      "Polar ang to (deg)": 95.0,
+      "Yield": 2691.8002421216847
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 95.0,
+      "Polar ang to (deg)": 100.0,
+      "Yield": 2603.8218260042813
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 100.0,
+      "Polar ang to (deg)": 105.0,
+      "Yield": 2351.1448864511567
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 105.0,
+      "Polar ang to (deg)": 110.0,
+      "Yield": 2356.645385888917
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 110.0,
+      "Polar ang to (deg)": 115.0,
+      "Yield": 2350.8601186619303
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 115.0,
+      "Polar ang to (deg)": 120.0,
+      "Yield": 1911.0756946687547
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 120.0,
+      "Polar ang to (deg)": 125.0,
+      "Yield": 2050.5374645253573
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 125.0,
+      "Polar ang to (deg)": 130.0,
+      "Yield": 2070.4355968196755
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 130.0,
+      "Polar ang to (deg)": 135.0,
+      "Yield": 1847.5254644419547
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 135.0,
+      "Polar ang to (deg)": 140.0,
+      "Yield": 2037.6600932093909
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 140.0,
+      "Polar ang to (deg)": 145.0,
+      "Yield": 2073.0315946790333
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 145.0,
+      "Polar ang to (deg)": 150.0,
+      "Yield": 2228.8166990250297
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 150.0,
+      "Polar ang to (deg)": 155.0,
+      "Yield": 2314.4950291962737
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 155.0,
+      "Polar ang to (deg)": 160.0,
+      "Yield": 2200.220993329078
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 160.0,
+      "Polar ang to (deg)": 165.0,
+      "Yield": 1818.296682543248
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 165.0,
+      "Polar ang to (deg)": 170.0,
+      "Yield": 1629.3842807641788
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 170.0,
+      "Polar ang to (deg)": 175.0,
+      "Yield": 915.9231766234473
+    },
+    {
+      "Opt phase (mach unit)": 1.45,
+      "Polar ang fr (deg)": 175.0,
+      "Polar ang to (deg)": 180.0,
+      "Yield": 294.51554354730126
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 0.0,
+      "Polar ang to (deg)": 5.0,
+      "Yield": 174.93426209967225
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 5.0,
+      "Polar ang to (deg)": 10.0,
+      "Yield": 413.05457343472324
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 10.0,
+      "Polar ang to (deg)": 15.0,
+      "Yield": 652.0024756200669
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 15.0,
+      "Polar ang to (deg)": 20.0,
+      "Yield": 858.3599167541818
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 20.0,
+      "Polar ang to (deg)": 25.0,
+      "Yield": 1154.0211950452679
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 25.0,
+      "Polar ang to (deg)": 30.0,
+      "Yield": 1175.2377669258765
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 30.0,
+      "Polar ang to (deg)": 35.0,
+      "Yield": 1232.354453891729
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 35.0,
+      "Polar ang to (deg)": 40.0,
+      "Yield": 1393.4501642393307
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 40.0,
+      "Polar ang to (deg)": 45.0,
+      "Yield": 1513.1355231292691
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 45.0,
+      "Polar ang to (deg)": 50.0,
+      "Yield": 1504.1395392849554
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 50.0,
+      "Polar ang to (deg)": 55.0,
+      "Yield": 1675.4479719418366
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 55.0,
+      "Polar ang to (deg)": 60.0,
+      "Yield": 2229.605471521707
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 60.0,
+      "Polar ang to (deg)": 65.0,
+      "Yield": 2096.684326085568
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 65.0,
+      "Polar ang to (deg)": 70.0,
+      "Yield": 2307.435122294221
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 70.0,
+      "Polar ang to (deg)": 75.0,
+      "Yield": 2747.4492204011176
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 75.0,
+      "Polar ang to (deg)": 80.0,
+      "Yield": 2577.267508749839
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 80.0,
+      "Polar ang to (deg)": 85.0,
+      "Yield": 2572.9645637206145
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 85.0,
+      "Polar ang to (deg)": 90.0,
+      "Yield": 2591.4696141526383
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 90.0,
+      "Polar ang to (deg)": 95.0,
+      "Yield": 2548.596642995104
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 95.0,
+      "Polar ang to (deg)": 100.0,
+      "Yield": 2245.7911124794814
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 100.0,
+      "Polar ang to (deg)": 105.0,
+      "Yield": 2549.7850009860595
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 105.0,
+      "Polar ang to (deg)": 110.0,
+      "Yield": 2513.580647888214
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 110.0,
+      "Polar ang to (deg)": 115.0,
+      "Yield": 2429.8297658000247
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 115.0,
+      "Polar ang to (deg)": 120.0,
+      "Yield": 2219.6182399706026
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 120.0,
+      "Polar ang to (deg)": 125.0,
+      "Yield": 1803.5428758146393
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 125.0,
+      "Polar ang to (deg)": 130.0,
+      "Yield": 1984.8679337401497
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 130.0,
+      "Polar ang to (deg)": 135.0,
+      "Yield": 2031.563672944728
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 135.0,
+      "Polar ang to (deg)": 140.0,
+      "Yield": 1954.8036236118014
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 140.0,
+      "Polar ang to (deg)": 145.0,
+      "Yield": 2207.8445179729256
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 145.0,
+      "Polar ang to (deg)": 150.0,
+      "Yield": 2243.109568355765
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 150.0,
+      "Polar ang to (deg)": 155.0,
+      "Yield": 2002.0752282134424
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 155.0,
+      "Polar ang to (deg)": 160.0,
+      "Yield": 1832.3903696456982
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 160.0,
+      "Polar ang to (deg)": 165.0,
+      "Yield": 1819.654398301036
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 165.0,
+      "Polar ang to (deg)": 170.0,
+      "Yield": 1413.8606368606127
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 170.0,
+      "Polar ang to (deg)": 175.0,
+      "Yield": 879.391701299158
+    },
+    {
+      "Opt phase (mach unit)": 1.6,
+      "Polar ang fr (deg)": 175.0,
+      "Polar ang to (deg)": 180.0,
+      "Yield": 331.9834262424112
+    }
+  ],
+  "Dataset": "good1",
+  "Grouped by": {
+    "Polar ang fr (deg)": [
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 8.694210289111016,
+              "Value": 84.96714901415629,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.1079480867446583,
+              "Value": 0.060531732959794304,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 6.395382565410397,
+              "Value": 224.9075455200876,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 0
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 21.298987511189136,
+              "Value": 223.79505305497742,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.10714601248802356,
+              "Value": 0.4406937276650389,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 16.230123935625326,
+              "Value": 657.2911158629545,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 5
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 27.338646134644332,
+              "Value": 386.60845343938826,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.07641605938286379,
+              "Value": 0.17124353335059617,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 20.369325663012965,
+              "Value": 1008.1119907390721,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 10
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 31.592413977957712,
+              "Value": 459.2161507772044,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.07684545647692125,
+              "Value": 0.3696982962634925,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 23.968611437543995,
+              "Value": 1303.1558935201244,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 15
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 41.09664137559194,
+              "Value": 520.8129494389203,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.08919624814161149,
+              "Value": 0.48971571219013565,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 31.387137931986246,
+              "Value": 1500.0340488311194,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 20
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 67.51209131325038,
+              "Value": 521.6341834720365,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.14459641861560396,
+              "Value": 0.37133045107162843,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 51.22612624695384,
+              "Value": 1653.9025781419193,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 25
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 40.23090515487136,
+              "Value": 545.7661152777612,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.08373128060770238,
+              "Value": 0.6130792861427876,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 30.809935508742672,
+              "Value": 1733.0930084566276,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 30
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 49.626987405030356,
+              "Value": 547.8464807824153,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.10288792220706483,
+              "Value": 0.6512265919148668,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 38.004100593729234,
+              "Value": 1748.5666028577873,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 35
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 62.67550556551234,
+              "Value": 489.01517492585816,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.13870521389111778,
+              "Value": 1.0782792495765792,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 46.73374010305069,
+              "Value": 1803.966747535508,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 40
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 42.43713729666051,
+              "Value": 380.02565126149017,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.11794200785495958,
+              "Value": 1.1911049432571126,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 31.23530649834864,
+              "Value": 1811.6856818926883,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 45
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 64.40158769341448,
+              "Value": 425.96289041290987,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.14533338346781668,
+              "Value": 1.5720985713315345,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 45.2058034380455,
+              "Value": 1864.8616314661415,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 50
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 70.7793012643367,
+              "Value": 391.84625981455235,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.1624800714973243,
+              "Value": 1.905358938297395,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 48.17601071314041,
+              "Value": 2072.451594499495,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 55
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 55.581382603874566,
+              "Value": 429.2896844201273,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.11849322072801328,
+              "Value": 1.7994327164453292,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 38.1281617854791,
+              "Value": 2206.7480661525424,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 60
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 89.9238327024075,
+              "Value": 464.0514939665411,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.17069522141003027,
+              "Value": 2.150790658651948,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 60.64258056632778,
+              "Value": 2482.116089378976,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 65
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 80.80624936067704,
+              "Value": 369.4602097785867,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.1955446881842838,
+              "Value": 1.9513383275027927,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 54.85198805854187,
+              "Value": 2733.3590344077597,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 70
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 68.55134367842892,
+              "Value": 363.59168409457874,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.1663345584544263,
+              "Value": 2.29076224303709,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 46.26091920309782,
+              "Value": 2699.683770060075,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 75
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 69.63733110354889,
+              "Value": 301.90491188973357,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.20353615271027126,
+              "Value": 2.105003274241332,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 46.99615910486247,
+              "Value": 2701.8287698411777,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 80
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 87.03030341270212,
+              "Value": 191.09441676711512,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.40267244148387205,
+              "Value": 2.3293387578947318,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 58.7874649839264,
+              "Value": 2661.2651460356087,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 85
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 86.8335527161735,
+              "Value": 97.61441308573063,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.787790060449544,
+              "Value": 2.0462241460795543,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 58.69654283762777,
+              "Value": 2565.0092211991473,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 90
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 82.56616599042371,
+              "Value": 181.73793099946897,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.43939393539536353,
+              "Value": 1.5469612107957005,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 58.12709956156707,
+              "Value": 2503.961056737603,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 95
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 66.68992673200657,
+              "Value": 137.95796691347718,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.5317207413182268,
+              "Value": 0.2661546679513531,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 50.16868210262968,
+              "Value": 2654.1619168730667,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 100
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 65.01035369822678,
+              "Value": 196.457343744563,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.3209528335001444,
+              "Value": -0.27877536831056027,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 45.83056923818269,
+              "Value": 2576.264942200756,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 105
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 67.74957995893976,
+              "Value": 191.26273250796774,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.3414961312839057,
+              "Value": -0.30339704765249564,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 47.62275489937799,
+              "Value": 2495.247043767623,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 110
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 45.44401524671981,
+              "Value": 189.48956151316398,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.21565811484657343,
+              "Value": -0.6508629839803524,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 30.92745935618113,
+              "Value": 2233.9045956889604,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 115
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 47.839270752165355,
+              "Value": 53.676292330925044,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.8725099768148055,
+              "Value": 1.4992026359666317,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 33.873867480263186,
+              "Value": 2036.9521158497548,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 120
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 49.89516531248369,
+              "Value": 132.4310806231174,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.400355384771613,
+              "Value": 4.305970269425874,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 36.84264125560232,
+              "Value": 1933.0063571465844,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 125
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 37.79086996319923,
+              "Value": 95.2642565908093,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.44268425500388686,
+              "Value": 3.5038570355440974,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 28.65608245597257,
+              "Value": 1794.4483589345627,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 130
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 42.357392756024886,
+              "Value": 338.7223943700486,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.1381726164744788,
+              "Value": 3.435379886487773,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 31.9434664765271,
+              "Value": 1750.1200006850202,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 135
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 38.5924718248245,
+              "Value": 383.561294998034,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.10729604774390887,
+              "Value": 3.2499689014072004,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 28.550697691561606,
+              "Value": 1752.1909428387348,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 140
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 40.902008345911334,
+              "Value": 419.31248366713993,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.10189010327849189,
+              "Value": 3.1598358993304014,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 29.93099477483466,
+              "Value": 1737.1969423604544,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 145
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 44.29341580999735,
+              "Value": 566.8871001391227,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.07886206793263836,
+              "Value": 3.0210948565571947,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 31.847030585863287,
+              "Value": 1640.568486595597,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 150
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 45.2079398281198,
+              "Value": 529.6186102091913,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.08312831577740518,
+              "Value": 2.879307040707694,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 31.933573121763246,
+              "Value": 1572.8219075748461,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 155
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 18.673363507272562,
+              "Value": 482.21354821195746,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.04093914321052711,
+              "Value": 3.2113508964728332,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 13.7512968987563,
+              "Value": 1415.4330907612145,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 160
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 30.505755719576566,
+              "Value": 390.6590675825022,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.07784857179088339,
+              "Value": 2.972402903968307,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 21.798370662668596,
+              "Value": 1161.2763668045588,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 165
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 28.286661401056097,
+              "Value": 280.16201835666635,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.10553252558159404,
+              "Value": 3.16262683300409,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 20.706608500526723,
+              "Value": 695.9761659669298,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 170
+      },
+      {
+        "Model result": {
+          "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
+          "Params": [
+            {
+              "Max": Infinity,
+              "Min": 0,
+              "Name": "amp",
+              "Std err": 11.971458699083419,
+              "Value": 93.64100285280979,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "freq",
+              "Std err": 0,
+              "Value": 6.283185307179586,
+              "Vary": false
+            },
+            {
+              "Max": 6.283185307179586,
+              "Min": -6.283185307179586,
+              "Name": "shift",
+              "Std err": 0.12916102913095381,
+              "Value": 3.024965947633742,
+              "Vary": true
+            },
+            {
+              "Max": Infinity,
+              "Min": -Infinity,
+              "Name": "offset",
+              "Std err": 8.61175022432456,
+              "Value": 236.9777706622574,
+              "Vary": true
+            }
+          ]
+        },
+        "Value": 175
+      }
+    ]
+  }
+}
