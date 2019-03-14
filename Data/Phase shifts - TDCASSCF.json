@@ -1,0 +1,4346 @@
+[
+  {
+    "Phase shift (rad)": 1.0768731393597957,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 0,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.0769886185457525,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 1,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.0773355791344104,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 2,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.0779155957013469,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 3,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.078731310949931,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 4,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.0797864636814758,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 5,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.0810859286889363,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 6,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.0826357693392055,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 7,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.084443303840053,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 8,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.0865171865090328,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 9,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.0888675056495325,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 10,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.0915059000309926,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 11,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.0944456964041702,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 12,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.0977020709758456,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 13,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.101292238395681,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 14,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.105235672534679,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 15,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.1095543641647332,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 16,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.1142731217735307,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 17,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.1194199229379098,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 18,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.125026325310861,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 19,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.1311279480911205,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 20,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.137765037223546,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 21,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.1449831303135065,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 22,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.1528338407920504,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 23,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.1613757849914883,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 24,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.1706756810156236,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 25,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.1808096545133235,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 26,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.1918647940254354,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 27,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.2039410076092754,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 28,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.2171532430079273,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 29,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.2316341456392657,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 30,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.247537241772788,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 31,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.2650407470336855,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 32,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.2843521105717466,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 33,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.3057134077095238,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 34,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.3294076795700143,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 35,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.3557662706800189,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 36,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.3851771059109126,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 37,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.4180936280512713,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 38,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.455043706845614,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 39,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.4966371065463395,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 40,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.543568886040135,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 41,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.5966141928535773,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 42,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.6566071476934985,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 43,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.7243930807740444,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 44,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.8007403947922143,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 45,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.8861988374075,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 46,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.9809007424025165,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 47,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 2.0843278231284206,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 48,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 2.1951089944345625,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 49,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 2.310955022994042,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 50,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 2.4288296060974552,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 51,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 2.545368223807106,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 52,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 2.6574197220022047,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 53,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 2.762507166686733,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 54,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 2.859056788790868,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 55,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 2.9463776124199796,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 56,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.024479327074074,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 57,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.0938385967372035,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 58,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.155189548334752,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 59,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.2093692379593968,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 60,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.2572187610861256,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 61,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.2995278870381224,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 62,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.337009148405084,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 63,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.3702898862522854,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 64,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.399914234380537,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 65,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.42634997337405,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 66,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.449997277125176,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 67,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.471197722590629,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 68,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.4902427478673097,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 69,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.5073812106511237,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 70,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.522825953225672,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 71,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.536759409518762,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 72,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.5493383488004113,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 73,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.560697871973275,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 74,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.570954778988604,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 75,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.5802104209422048,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 76,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.588553144579155,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 77,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.596060435662789,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 78,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.602800876904812,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 79,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.6088360660925076,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 80,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.614222712583036,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 81,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.6190152961164586,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 82,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.623270062089299,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 83,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.627052112264476,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 84,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.6304501126882283,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 85,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.6336121059651276,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 86,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.6368516461407765,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 87,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.6410687336085754,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 88,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 3.6506547950324837,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 89,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.487251226415257,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 90,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.756002009119116,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 91,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.764539388035032,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 92,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.766361832565395,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 93,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.766141436154054,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 94,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.764790417644448,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 95,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.762599235719761,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 96,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.759678685521953,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 97,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.756069502160603,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 98,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.751778458206537,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 99,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.746792418987035,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 100,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.741084325873254,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 101,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.734615737982483,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 102,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.727337693340177,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 103,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.71919062396654,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 104,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.710103644942062,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 105,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.699993351390286,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 106,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.688762164156689,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 107,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.676296212189316,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 108,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.662462705322086,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 109,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.647106725982494,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 110,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.630047348999071,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 111,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.6110729857276604,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 112,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.589935846736957,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 113,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.566345435727788,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 114,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.53996104514002,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 115,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.510383352299821,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 116,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.477145468909657,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 117,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.439704263345045,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 118,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.397433588828742,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 119,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.349622396442162,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 120,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.295482797159222,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 121,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.234176071215099,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 122,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.164868082244323,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 123,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 6.086828082156539,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 124,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 5.999582908675832,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 125,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 5.903125784478279,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 126,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 5.798148908952427,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 127,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 5.686224376386196,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 128,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 5.569823870317608,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 129,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 5.452090287615755,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 130,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 5.336378826270948,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 131,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 5.225717876485312,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 132,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 5.122391910063044,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 133,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 5.027770732235506,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 134,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.942374025872635,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 135,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.8660723225280424,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 136,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.7983191786880255,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 137,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.738349294131819,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 138,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.685319949088418,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 139,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.638399076872533,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 140,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.596813076953232,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 141,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.559868021150679,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 142,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.526954953829618,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 143,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.497546573590299,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 144,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.471189830909706,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 145,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.447497068604241,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 146,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.426137120699266,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 147,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.406827061957406,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 148,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.389324889178511,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 149,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.373423195018109,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 150,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.358943784862264,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 151,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.345733139370445,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 152,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.333658610681619,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 153,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.322605242556701,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 154,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.312473114683987,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 155,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.303175124119896,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 156,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.294635129765835,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 157,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.286786397767667,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 158,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.279570296247769,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 159,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.272935196761228,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 160,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.266835547421886,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 161,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.261231088863669,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 162,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.256086189376489,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 163,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.251369279734998,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 164,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.247052371717579,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 165,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.243110647102913,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 166,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.23952210625133,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 167,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.236267267265562,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 168,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.233328908253842,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 169,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.230691846521017,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 170,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.228342749536591,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 171,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.22626997341896,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 172,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.224463425388693,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 173,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.222914447253862,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 174,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.221615717505864,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 175,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.220561170028812,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 176,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.219745927806414,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 177,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.219166250326026,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 178,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.21881949367264,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 179,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 4.218704082544637,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 180,
+    "Target dataset": "good1"
+  },
+  {
+    "Phase shift (rad)": 1.0350649724817629,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 0,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.0354511240443367,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 1,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.0366103739320103,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 2,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.0385451040322513,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 3,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.041259271608637,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 4,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.044758389845362,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 5,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.049049499341768,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 6,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.0541411292725913,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 7,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.0600432465383012,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 8,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.0667671908273597,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 9,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.074325593101558,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 10,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.0827322745904748,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 11,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.0920021229599781,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 12,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.102150941915844,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 13,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.1131952701322145,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 14,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.1251521650803369,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 15,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.138038947127142,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 16,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.1518728992106224,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 17,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.166670917535777,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 18,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.1824491091586768,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 19,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.1992223331025285,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 20,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.2170036828690662,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 21,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.235803909969376,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 22,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.255630790475335,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 23,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.2764884396489133,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 24,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.2983765834720842,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 25,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.3212898003357774,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 26,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.3452167511360642,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 27,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.3701394213594398,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 28,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.3960324040577028,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 29,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.422862257454467,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 30,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.4505869747288047,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 31,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.4791556055425943,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 32,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.5085080685439172,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 33,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.5385751906926295,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 34,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.569279002482638,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 35,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.6005333078463382,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 36,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.6322445340915488,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 37,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.664312851406475,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 38,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.6966335345526016,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 39,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.729098522878365,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 40,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.761598120512673,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 41,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.794022768072704,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 42,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.8262648117591134,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 43,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.858220195912896,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 44,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.8897900110167605,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 45,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.9208818399552179,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 46,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.9514108598701068,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 47,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.9813006735134184,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 48,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.010483860893105,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 49,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.0389022576774583,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 50,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.0665069800494837,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 51,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.093258225725794,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 52,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.1191248873715605,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 53,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.1440840177670335,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 54,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.1681201862510484,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 55,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.191224763719669,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 56,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.2133951696389698,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 57,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.2346341095557793,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 58,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.2549488262969053,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 59,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.2743503827116367,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 60,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.2928529888559464,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 61,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.3104733821108177,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 62,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.3272302650259373,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 63,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.3431438026365985,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 64,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.358235178677578,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 65,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.3725262083611103,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 66,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.3860390041753146,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 67,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.3987956903626504,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 68,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.4108181612745465,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 69,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.4221278785856093,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 70,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.4327457022958363,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 71,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.442691750466601,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 72,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.4519852826796598,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 73,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.4606446021335664,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 74,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.468686971021654,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 75,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.4761285331420844,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 76,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.4829842362736407,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 77,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.489267744047904,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 78,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.4949913216867134,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 79,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.5001656694453747,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 80,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.504799656237452,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 81,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.508899860210393,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 82,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.5124697182490046,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 83,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.5155078241318254,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 84,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.5180041806119,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 85,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.5199308242176777,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 86,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.521213700294817,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 87,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.5216202337852742,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 88,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 2.519973723417566,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 89,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.372903886736073,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 90,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.671038873517812,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 91,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.667943336852064,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 92,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.665953519465264,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 93,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.663877038602376,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 94,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.661472644871205,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 95,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.658656446963342,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 96,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.655388713467602,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 97,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.651645590854994,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 98,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.647409676328058,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 99,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.642666244790414,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 100,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.637401532073595,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 101,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.631601876123312,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 102,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.625253256030085,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 103,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.618341032470447,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 104,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.610849798711852,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 105,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.602763297671171,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 106,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.594064382453952,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 107,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.58473500894587,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 108,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.574756255047337,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 109,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.564108364621326,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 110,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.55277081638344,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 111,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.540722419392187,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 112,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.527941437801978,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 113,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.5144057482970865,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 114,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.500093034154283,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 115,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.484981020258479,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 116,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.46904775355266,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 117,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.452271933347305,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 118,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.434633295551857,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 119,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.416113054169976,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 120,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.396694402229734,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 121,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.376363072614904,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 122,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.355107956939593,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 123,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.332921777604303,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 124,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.309801804461143,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 125,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.28575060313263,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 126,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.2607767970562325,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 127,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.234895820027003,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 128,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.208130630664549,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 129,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.180512355335194,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 130,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.152080822179274,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 131,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.122884946697937,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 132,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.092982929524583,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 133,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.062442230151275,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 134,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 5.031339286917918,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 135,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.999758963618138,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 136,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.967793716325181,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 137,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.935542489725034,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 138,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.903109369158264,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 139,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.870602031113014,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 140,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.838130049475893,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 141,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.805803125604536,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 142,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.773729316202825,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 143,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.742013333145774,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 144,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.710754983893169,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 145,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.680047810594688,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 146,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.649977971675311,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 147,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.6206233931989384,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 148,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.592053200381782,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 149,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.56432742381784,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 150,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.537496961547282,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 151,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.511603767836945,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 152,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.486681232774,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 153,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.462754713424253,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 154,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.439842176957882,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 155,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.41795491822111,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 156,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.397098318013882,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 157,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.377272613193435,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 158,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.3584736550499965,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 159,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.340693637729219,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 160,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.323921783468965,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 161,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.30814497585197,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 162,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.293348336034846,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 163,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.279515739971792,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 164,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.266630277022564,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 165,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.254674652090742,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 166,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.243631534657723,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 167,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.233483858852415,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 168,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.224215079113247,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 169,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.215809386140025,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 170,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.208251887768611,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 171,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.201528759190673,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 172,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.195627366628827,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 173,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.190536368207805,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 174,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.1862457953531536,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 175,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.182747117631033,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 176,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.180033293517294,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 177,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.178098809173573,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 178,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.176939706903674,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 179,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 4.176553604573543,
+    "Photon energy (eV)": 14.3,
+    "Polar ang (deg)": 180,
+    "Target dataset": "good2"
+  },
+  {
+    "Phase shift (rad)": 1.1195175393070098,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 0,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.1196735549523886,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 1,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.1201419738570797,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 2,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.1209239133374522,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 3,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.1220212402999925,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 4,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.1234365783121492,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 5,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.1251733175046228,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 6,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.1272356273052955,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 7,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.1296284720066518,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 8,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.132357629155515,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 9,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.135429710748597,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 10,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.138852187205483,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 11,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.142633414066319,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 12,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.1467826613383973,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 13,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.1513101453841088,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 14,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.1562270631835476,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 15,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.1615456287706047,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 16,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.167279111540294,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 17,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.173441876057252,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 18,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.180049422864072,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 19,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.1871184296581694,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 20,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.1946667920285075,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 21,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.2027136627347543,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 22,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.2112794882659044,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 23,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.220386041106468,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 24,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.230056445785987,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 25,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.24031519635973,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 26,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.2511881624834773,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 27,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.262702580665466,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 28,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.274887026627118,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 29,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.2877713639770407,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 30,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.301386663573056,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 31,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.3157650870790976,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 32,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.3309397272863581,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 33,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.3469443968425843,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 34,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.363813356137121,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 35,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.381580970356966,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 36,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.4002812851882274,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 37,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.4199475105672308,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 38,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.440611402317657,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 39,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.4623025328236636,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 40,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.4850474442414505,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 41,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.5088686814874483,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 42,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.53378370761801,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 43,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.5598037114579286,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 44,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.5869323265638435,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 45,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.6151642917464182,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 46,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.644484096048739,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 47,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.674864664559129,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 48,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.7062661545476123,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 49,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.7386349425236638,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 50,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.7719028899360136,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 51,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.805986976215161,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 52,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.8407893807050613,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 53,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.876198078343183,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 54,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.9120879874803673,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 55,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.9483226730675653,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 56,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.9847565674813872,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 57,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.021237628771127,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 58,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.057610317329017,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 59,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.0937187422455903,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 60,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.1294098122299925,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 61,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.1645362254674883,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 62,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.1989591481388864,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 63,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.2325504604643154,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 64,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.2651944873406507,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 65,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.296789173181468,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 66,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.327246701771516,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 67,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.3564935976004016,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 68,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.3844703723151373,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 69,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.4111307973303315,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 70,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.4364408914984725,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 71,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.4603777124445205,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 72,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.4829280336814037,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 73,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.5040869791852725,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 74,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.523856674851638,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 75,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.542244964008235,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 76,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.559264223536788,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 77,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.5749303096056693,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 78,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.5892616593698765,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 79,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.6022785803659083,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 80,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.6140027792123828,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 81,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.6244572313839356,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 82,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.633666614510796,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 83,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.6416588341764573,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 84,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.648469032480282,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 85,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.6541502707458218,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 86,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.658806284454288,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 87,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.662723366313772,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 88,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 2.667295526363958,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 89,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.407083739004202,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 90,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.797837991612189,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 91,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.798831915053885,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 92,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.796788439266466,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 93,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.793082884136467,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 94,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.787982823120503,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 95,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.781569132112825,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 96,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.773867854943946,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 97,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.764883385015539,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 98,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.754609760627009,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 99,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.743035446808776,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 100,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.730145804398038,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 101,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.715924653490296,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 102,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.700355478266681,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 103,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.683422511896284,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 104,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.665111815047091,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 105,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.645412404075623,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 106,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.624317454272573,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 107,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.601825583604292,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 108,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.577942206432219,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 109,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.552680931816262,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 110,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.526064966174797,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 111,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.498128465317318,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 112,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.46891776702415,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 113,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.438492423877928,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 114,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.406925948832795,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 115,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.374306185173689,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 116,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.340735219975828,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 117,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.306328777282811,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 118,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.271215054183276,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 119,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.23553299854327,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 120,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.199430068397438,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 121,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.163059555571172,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 122,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.12657759466909,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 123,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.090140007835256,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 124,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.053899151373445,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 125,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 5.018000930018367,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 126,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.982582128419773,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 127,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.947768179701395,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 128,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.9136714521345315,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 129,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.880390092337828,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 130,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.848007422242512,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 131,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.816591851729777,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 132,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.786197242117483,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 133,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.7568636388539645,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 134,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.7286182844824545,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 135,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.701476823848596,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 136,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.675444620619199,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 137,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.6505181152990325,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 138,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.626686168078249,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 139,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.603931343371295,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 140,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.582231105637563,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 141,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.561558907262679,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 142,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.541885158553919,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 143,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.5231780771885415,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 144,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.505404419856978,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 145,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.4885301025994675,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 146,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.472520718704745,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 147,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.45734196436403,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 148,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.442959982708544,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 149,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.4293416367840965,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 150,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.41645472149013,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 151,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.404268123758309,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 152,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.392751939361764,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 153,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.381877553805436,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 154,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.371617693818054,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 155,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.36194645508319,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 156,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.352839311026411,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 157,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.344273106737489,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 158,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.336226041453777,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 159,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.328677642452918,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 160,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.321608732712505,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 161,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.315001394269329,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 162,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.3088389288478375,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 163,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.303105817031415,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 164,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.297787676993503,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 165,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.292871223597201,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 166,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.288344228500655,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 167,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.2841954817641135,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 168,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.280414755339164,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 169,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.276992768729318,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 170,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.273921157038341,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 171,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.27119244156183,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 172,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.268800003034281,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 173,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.266738057608304,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 174,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.265001635615821,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 175,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.263586563141274,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 176,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.262489446424764,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 177,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.261707659101798,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 178,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.261239332281404,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 179,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 4.26108334746192,
+    "Photon energy (eV)": 19.1,
+    "Polar ang (deg)": 180,
+    "Target dataset": "good3"
+  },
+  {
+    "Phase shift (rad)": 1.0769055549765918,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 0,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.0770210377116936,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 1,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.0773680089363769,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 2,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.07794804320032,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 3,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.078763783162847,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 4,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.0798189675554806,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 5,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.081118471089133,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 6,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.0826683570193358,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 7,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.0844759434234508,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 8,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.0865498844595125,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 9,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.0889002682433357,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 10,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.0915387333277726,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 11,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.0944786062062946,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 12,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.097735062787149,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 13,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.1013253173803346,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 14,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.1052688434565248,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 15,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.109587631330716,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 16,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.114306488960704,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 17,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.119453393310594,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 18,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.1250599013245681,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 19,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.1311616313810706,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 20,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.137798828467644,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 21,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.1450170290839212,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 22,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.1528678453642431,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 23,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.1614098921299512,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 24,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.1707098857118492,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 25,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.1808439496778158,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 26,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.1918991701132837,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 27,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.2039754521846637,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 28,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.2171877402024025,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 29,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.2316686755201465,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 30,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.2475717795722154,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 31,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.2650752622313943,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 32,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.2843865657974147,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 33,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.3057477574385894,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 34,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.3294418686087006,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 35,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.3558002324031921,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 36,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.3852107603315122,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 37,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.4181268797650732,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 38,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.4550764431098768,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 39,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.4966691958972547,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 40,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.543600178227833,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 41,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.5966445213831966,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 42,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.6566363369810535,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 43,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.7244209607401437,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 44,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.8007668261552379,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 45,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.886223750106181,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 46,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 1.9809241858204292,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 47,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 2.084350018826095,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 48,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 2.1951303714588057,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 49,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 2.310976209900682,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 50,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 2.428851363751443,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 51,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 2.5453913311920573,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 52,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 2.6574448559729227,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 53,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 2.762534820521955,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 54,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 2.859087249811852,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 55,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 2.9464109883834624,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 56,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.024515596314121,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 57,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.093877659965832,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 58,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.155231270349267,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 59,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.209413476331669,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 60,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.2572653836113084,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 61,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.2995767811213454,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 62,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.337060225341318,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 63,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.3703430826066274,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 64,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.399969511946688,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 65,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.4264073186238164,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 66,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.4500567007041916,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 67,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.4712592591944436,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 68,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.4903064567190896,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 69,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.5074471767518425,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 70,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.522894289564057,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 71,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.5368302604667576,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 72,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.5494118950214233,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 73,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.560774337309395,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 74,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.571034440041709,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 75,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.5802936204052767,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 76,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.588640309984136,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 77,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.5961521061873434,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 78,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.6028977425470945,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 79,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.6089390265745607,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 80,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.614332969032601,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 81,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.6191344999658703,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 82,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.623400569958388,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 83,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.6271974521775263,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 84,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.6306159134788043,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 85,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.633808178757313,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 86,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.637097496106845,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 87,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.6414126189062586,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 88,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 3.651284871490354,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 89,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.486180510193956,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 90,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.755432381088182,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 91,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.764285936860904,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 92,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.76621205366816,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 93,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.766043506685279,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 94,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.764723829682318,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 95,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.762553808618785,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 96,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.759648639074781,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 97,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.756051249383764,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 98,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.751769629078168,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 99,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.746791374195617,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 100,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.741089892548901,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 101,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.734627056165349,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 102,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.727354121995818,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 103,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.719211681054502,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 104,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.710128967883904,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 105,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.700022670420603,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 106,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.688795284020056,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 107,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.676332999480286,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 108,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.662503079771498,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 109,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.647150654554904,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 110,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.630094842030597,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 111,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.611124094633413,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 112,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.589990662675642,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 113,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.566404088990018,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 114,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.540023704566735,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 115,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.510450224132927,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 116,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.477216793933052,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 117,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.439780310831041,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 118,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.397514644786646,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 119,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.349708742555027,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 120,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.295574675471093,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 121,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.2342736293013195,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 122,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.164971291110663,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 123,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 6.086936627339545,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 124,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 5.999696061201667,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 125,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 5.903242281634565,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 126,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 5.798266900082044,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 127,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 5.686341503973566,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 128,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 5.569937530170614,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 129,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 5.45219803003063,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 130,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 5.336478764347968,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 131,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 5.2258089420838,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 132,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 5.122473878091039,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 133,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 5.027844054367964,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 134,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.942439581846111,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 135,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.866131186189012,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 136,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.798372447346921,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 137,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.73839798716868,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 138,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.685364960690544,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 139,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.638441163562419,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 140,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.59685286416634,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 141,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.559906018390498,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 142,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.526991572335401,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 143,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.4975821434043475,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 144,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.471224616006918,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 145,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.447531279650523,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 146,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.426170925601124,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 147,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.406860594340312,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 148,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.389358255206885,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 149,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.373456478829379,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 150,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.358977052888589,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 151,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.345766443774867,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 152,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.333691992096584,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 153,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.322638732265673,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 154,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.312506736368453,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 155,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.3032088952593845,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 156,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.294669062765282,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 157,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.28682050086835,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 158,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.279604574263013,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 159,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.272969651678318,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 160,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.266870178887517,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 161,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.261265894587368,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 162,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.256121165455999,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 163,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.251404420929017,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 164,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.247087671667476,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 165,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.243146098517382,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 166,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.239557701061855,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 167,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.236302996751993,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 168,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.2333647631530305,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 169,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.230727817115918,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 170,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.228378825730722,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 171,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.226306144802498,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 172,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.224499681289794,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 173,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.222950776787313,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 174,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.221652109611847,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 175,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.220597613507929,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 176,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.219782411349167,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 177,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.219202762542919,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 178,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.218856023115986,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 179,
+    "Target dataset": "good4"
+  },
+  {
+    "Phase shift (rad)": 4.218740617733939,
+    "Photon energy (eV)": 15.9,
+    "Polar ang (deg)": 180,
+    "Target dataset": "good4"
+  }
+]

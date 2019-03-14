@@ -1,0 +1,578 @@
+[
+  {
+    "EWS delay (as)": 7.558801451039248,
+    "EWS delay err (as)": 27.092306089800985,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 0.0,
+    "Polar ang to (deg)": 5.0
+  },
+  {
+    "EWS delay (as)": 10.06339482682064,
+    "EWS delay err (as)": 9.437884760817662,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 0.0,
+    "Polar ang to (deg)": 5.0
+  },
+  {
+    "EWS delay (as)": 21.917916459526666,
+    "EWS delay err (as)": 21.266221608344175,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 5.0,
+    "Polar ang to (deg)": 10.0
+  },
+  {
+    "EWS delay (as)": -1.4605897451492604,
+    "EWS delay err (as)": 10.049317307213165,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 5.0,
+    "Polar ang to (deg)": 10.0
+  },
+  {
+    "EWS delay (as)": -4.6443929942918905,
+    "EWS delay err (as)": 19.65697619410396,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 10.0,
+    "Polar ang to (deg)": 15.0
+  },
+  {
+    "EWS delay (as)": 9.139078098237192,
+    "EWS delay err (as)": 9.282056530095003,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 10.0,
+    "Polar ang to (deg)": 15.0
+  },
+  {
+    "EWS delay (as)": 13.230580080150327,
+    "EWS delay err (as)": 20.140653008231077,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 15.0,
+    "Polar ang to (deg)": 20.0
+  },
+  {
+    "EWS delay (as)": -4.006538132181292,
+    "EWS delay err (as)": 9.09830037202216,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 15.0,
+    "Polar ang to (deg)": 20.0
+  },
+  {
+    "EWS delay (as)": -16.038608340634074,
+    "EWS delay err (as)": 25.070851471325188,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 20.0,
+    "Polar ang to (deg)": 25.0
+  },
+  {
+    "EWS delay (as)": 6.111474813121396,
+    "EWS delay err (as)": 11.211608874049917,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 20.0,
+    "Polar ang to (deg)": 25.0
+  },
+  {
+    "EWS delay (as)": -46.44868164475264,
+    "EWS delay err (as)": 25.989072540906648,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 25.0,
+    "Polar ang to (deg)": 30.0
+  },
+  {
+    "EWS delay (as)": 8.091138894744141,
+    "EWS delay err (as)": 11.475295961223372,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 25.0,
+    "Polar ang to (deg)": 30.0
+  },
+  {
+    "EWS delay (as)": -26.846436009241486,
+    "EWS delay err (as)": 28.103194288137974,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 30.0,
+    "Polar ang to (deg)": 35.0
+  },
+  {
+    "EWS delay (as)": -3.6166782679849856,
+    "EWS delay err (as)": 12.515993409568312,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 30.0,
+    "Polar ang to (deg)": 35.0
+  },
+  {
+    "EWS delay (as)": -47.42208023259648,
+    "EWS delay err (as)": 28.98188600967397,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 35.0,
+    "Polar ang to (deg)": 40.0
+  },
+  {
+    "EWS delay (as)": -1.9262467339131406,
+    "EWS delay err (as)": 14.167615220778442,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 35.0,
+    "Polar ang to (deg)": 40.0
+  },
+  {
+    "EWS delay (as)": -14.778293232703325,
+    "EWS delay err (as)": 35.44670518734103,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 40.0,
+    "Polar ang to (deg)": 45.0
+  },
+  {
+    "EWS delay (as)": -24.79371633930554,
+    "EWS delay err (as)": 16.835911662146476,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 40.0,
+    "Polar ang to (deg)": 45.0
+  },
+  {
+    "EWS delay (as)": 8.577830272445977,
+    "EWS delay err (as)": 41.144201235589755,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 45.0,
+    "Polar ang to (deg)": 50.0
+  },
+  {
+    "EWS delay (as)": -39.978279216751574,
+    "EWS delay err (as)": 21.935661418327257,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 45.0,
+    "Polar ang to (deg)": 50.0
+  },
+  {
+    "EWS delay (as)": 87.69217567655822,
+    "EWS delay err (as)": 42.0644137686386,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 50.0,
+    "Polar ang to (deg)": 55.0
+  },
+  {
+    "EWS delay (as)": -67.64020950899963,
+    "EWS delay err (as)": 22.20047090108335,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 50.0,
+    "Polar ang to (deg)": 55.0
+  },
+  {
+    "EWS delay (as)": 148.6013559355338,
+    "EWS delay err (as)": 53.220218799238026,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 55.0,
+    "Polar ang to (deg)": 60.0
+  },
+  {
+    "EWS delay (as)": -97.27325336228034,
+    "EWS delay err (as)": 27.83786528256656,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 55.0,
+    "Polar ang to (deg)": 60.0
+  },
+  {
+    "EWS delay (as)": 156.73111297109335,
+    "EWS delay err (as)": 37.575492696900255,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 60.0,
+    "Polar ang to (deg)": 65.0
+  },
+  {
+    "EWS delay (as)": -91.24542700708696,
+    "EWS delay err (as)": 21.741420101369282,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 60.0,
+    "Polar ang to (deg)": 65.0
+  },
+  {
+    "EWS delay (as)": 202.8356175529506,
+    "EWS delay err (as)": 45.714014167485864,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 65.0,
+    "Polar ang to (deg)": 70.0
+  },
+  {
+    "EWS delay (as)": -105.7970473338919,
+    "EWS delay err (as)": 24.267414415855136,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 65.0,
+    "Polar ang to (deg)": 70.0
+  },
+  {
+    "EWS delay (as)": 201.94260353779438,
+    "EWS delay err (as)": 52.992340077418746,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 70.0,
+    "Polar ang to (deg)": 75.0
+  },
+  {
+    "EWS delay (as)": -87.19706587386281,
+    "EWS delay err (as)": 28.008032017057715,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 70.0,
+    "Polar ang to (deg)": 75.0
+  },
+  {
+    "EWS delay (as)": 228.3596335049139,
+    "EWS delay err (as)": 64.92234477826248,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 75.0,
+    "Polar ang to (deg)": 80.0
+  },
+  {
+    "EWS delay (as)": -93.5170485933893,
+    "EWS delay err (as)": 32.918192184685616,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 75.0,
+    "Polar ang to (deg)": 80.0
+  },
+  {
+    "EWS delay (as)": 227.26291203875542,
+    "EWS delay err (as)": 134.7400945058907,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 80.0,
+    "Polar ang to (deg)": 85.0
+  },
+  {
+    "EWS delay (as)": -102.28316372913895,
+    "EWS delay err (as)": 55.43241768354488,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 80.0,
+    "Polar ang to (deg)": 85.0
+  },
+  {
+    "EWS delay (as)": 238.23658411292854,
+    "EWS delay err (as)": 275.40936894399647,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 85.0,
+    "Polar ang to (deg)": 90.0
+  },
+  {
+    "EWS delay (as)": -102.25285230264288,
+    "EWS delay err (as)": 155.52602722984707,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 85.0,
+    "Polar ang to (deg)": 90.0
+  },
+  {
+    "EWS delay (as)": 238.23664142764727,
+    "EWS delay err (as)": 275.40934427693304,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 90.0,
+    "Polar ang to (deg)": 95.0
+  },
+  {
+    "EWS delay (as)": -102.25287411196794,
+    "EWS delay err (as)": 155.52599770820711,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 90.0,
+    "Polar ang to (deg)": 95.0
+  },
+  {
+    "EWS delay (as)": 227.2628957977911,
+    "EWS delay err (as)": 134.74009194518746,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 95.0,
+    "Polar ang to (deg)": 100.0
+  },
+  {
+    "EWS delay (as)": -102.28316255940433,
+    "EWS delay err (as)": 55.43241256160514,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 95.0,
+    "Polar ang to (deg)": 100.0
+  },
+  {
+    "EWS delay (as)": 228.35963513055088,
+    "EWS delay err (as)": 64.92234563506605,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 100.0,
+    "Polar ang to (deg)": 105.0
+  },
+  {
+    "EWS delay (as)": -93.51705079484337,
+    "EWS delay err (as)": 32.918193235545644,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 100.0,
+    "Polar ang to (deg)": 105.0
+  },
+  {
+    "EWS delay (as)": 187.75966244043784,
+    "EWS delay err (as)": 58.35707665215361,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 105.0,
+    "Polar ang to (deg)": 110.0
+  },
+  {
+    "EWS delay (as)": -80.1055936301072,
+    "EWS delay err (as)": 30.55797618829823,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 105.0,
+    "Polar ang to (deg)": 110.0
+  },
+  {
+    "EWS delay (as)": 202.8356178761709,
+    "EWS delay err (as)": 45.7140133881497,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 110.0,
+    "Polar ang to (deg)": 115.0
+  },
+  {
+    "EWS delay (as)": -105.79704735878313,
+    "EWS delay err (as)": 24.26741456028439,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 110.0,
+    "Polar ang to (deg)": 115.0
+  },
+  {
+    "EWS delay (as)": 156.7311138608208,
+    "EWS delay err (as)": 37.575492896829005,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 115.0,
+    "Polar ang to (deg)": 120.0
+  },
+  {
+    "EWS delay (as)": -91.24542707240334,
+    "EWS delay err (as)": 21.741420053925847,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 115.0,
+    "Polar ang to (deg)": 120.0
+  },
+  {
+    "EWS delay (as)": 148.60136181842483,
+    "EWS delay err (as)": 53.22021755803801,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 120.0,
+    "Polar ang to (deg)": 125.0
+  },
+  {
+    "EWS delay (as)": -97.27325593077374,
+    "EWS delay err (as)": 27.837864594029245,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 120.0,
+    "Polar ang to (deg)": 125.0
+  },
+  {
+    "EWS delay (as)": 87.6921755178039,
+    "EWS delay err (as)": 42.06441359810687,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 125.0,
+    "Polar ang to (deg)": 130.0
+  },
+  {
+    "EWS delay (as)": -67.64020840816812,
+    "EWS delay err (as)": 22.200470860741834,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 125.0,
+    "Polar ang to (deg)": 130.0
+  },
+  {
+    "EWS delay (as)": 8.577832768845214,
+    "EWS delay err (as)": 41.144201170519246,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 130.0,
+    "Polar ang to (deg)": 135.0
+  },
+  {
+    "EWS delay (as)": -39.978280324889575,
+    "EWS delay err (as)": 21.935661418208344,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 130.0,
+    "Polar ang to (deg)": 135.0
+  },
+  {
+    "EWS delay (as)": -14.778293162137974,
+    "EWS delay err (as)": 35.44670518769949,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 135.0,
+    "Polar ang to (deg)": 140.0
+  },
+  {
+    "EWS delay (as)": -24.79371598038594,
+    "EWS delay err (as)": 16.835911737792546,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 135.0,
+    "Polar ang to (deg)": 140.0
+  },
+  {
+    "EWS delay (as)": -47.42208073272897,
+    "EWS delay err (as)": 28.98188616663759,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 140.0,
+    "Polar ang to (deg)": 145.0
+  },
+  {
+    "EWS delay (as)": -1.9262463833429115,
+    "EWS delay err (as)": 14.167615173910903,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 140.0,
+    "Polar ang to (deg)": 145.0
+  },
+  {
+    "EWS delay (as)": -26.846436797976573,
+    "EWS delay err (as)": 28.103194251922773,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 145.0,
+    "Polar ang to (deg)": 150.0
+  },
+  {
+    "EWS delay (as)": -3.6166778170471745,
+    "EWS delay err (as)": 12.515993329627914,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 145.0,
+    "Polar ang to (deg)": 150.0
+  },
+  {
+    "EWS delay (as)": -46.44868245583139,
+    "EWS delay err (as)": 25.989072404366723,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 150.0,
+    "Polar ang to (deg)": 155.0
+  },
+  {
+    "EWS delay (as)": 8.091138894466908,
+    "EWS delay err (as)": 11.475296004105502,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 150.0,
+    "Polar ang to (deg)": 155.0
+  },
+  {
+    "EWS delay (as)": -16.03860901527558,
+    "EWS delay err (as)": 25.0708515428285,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 155.0,
+    "Polar ang to (deg)": 160.0
+  },
+  {
+    "EWS delay (as)": 6.111475156463836,
+    "EWS delay err (as)": 11.211608967814186,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 155.0,
+    "Polar ang to (deg)": 160.0
+  },
+  {
+    "EWS delay (as)": 13.230580407343213,
+    "EWS delay err (as)": 20.140652993246555,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 160.0,
+    "Polar ang to (deg)": 165.0
+  },
+  {
+    "EWS delay (as)": -4.006538074621938,
+    "EWS delay err (as)": 9.098300337081126,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 160.0,
+    "Polar ang to (deg)": 165.0
+  },
+  {
+    "EWS delay (as)": -4.644393525936186,
+    "EWS delay err (as)": 19.65697618195771,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 165.0,
+    "Polar ang to (deg)": 170.0
+  },
+  {
+    "EWS delay (as)": 9.139078134553165,
+    "EWS delay err (as)": 9.282056511319938,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 165.0,
+    "Polar ang to (deg)": 170.0
+  },
+  {
+    "EWS delay (as)": 21.917916400423916,
+    "EWS delay err (as)": 21.266221761088488,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 170.0,
+    "Polar ang to (deg)": 175.0
+  },
+  {
+    "EWS delay (as)": -1.4605897142025643,
+    "EWS delay err (as)": 10.049317295522874,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 170.0,
+    "Polar ang to (deg)": 175.0
+  },
+  {
+    "EWS delay (as)": 7.558801541343179,
+    "EWS delay err (as)": 27.092306237696015,
+    "Photon energy fr (eV)": 14.3,
+    "Photon energy to (eV)": 15.9,
+    "Polar ang fr (deg)": 175.0,
+    "Polar ang to (deg)": 180.0
+  },
+  {
+    "EWS delay (as)": 10.063394705593122,
+    "EWS delay err (as)": 9.437884774632883,
+    "Photon energy fr (eV)": 15.9,
+    "Photon energy to (eV)": 19.1,
+    "Polar ang fr (deg)": 175.0,
+    "Polar ang to (deg)": 180.0
+  }
+]

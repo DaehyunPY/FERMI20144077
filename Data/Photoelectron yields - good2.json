@@ -2385,1440 +2385,1404 @@
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 4.894397956654039,
-              "Value": 37.36964617184522,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.12473119698323823,
-              "Value": -0.35465246733626365,
+              "Std err": 0.11441102020183426,
+              "Value": -0.20829270446921944,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 3.627039944793819,
+              "Value": 31.293527872795757,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 3.4202561261615023,
-              "Value": 97.87622140986107,
+              "Std err": 3.582930527084239,
+              "Value": 96.47286482576456,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 3.5829305254349983,
+              "Value": 83.19348593723358,
               "Vary": true
             }
           ]
         },
-        "Value": 0
+        "Polar ang fr (deg)": 0,
+        "Polar ang to (deg)": 5
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 4.232827852219024,
-              "Value": 91.36819900754044,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.044336051404513695,
-              "Value": -0.33388473249714856,
+              "Std err": 0.07618467157805668,
+              "Value": -0.1677316252115394,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 6.738393977627555,
+              "Value": 88.2096107539937,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 2.964890807497673,
-              "Value": 236.830286761022,
+              "Std err": 6.690422216884492,
+              "Value": 234.7019454628092,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 6.6904222320145195,
+              "Value": 294.5958627038388,
               "Vary": true
             }
           ]
         },
-        "Value": 5
+        "Polar ang fr (deg)": 5,
+        "Polar ang to (deg)": 10
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 10.727066215912135,
-              "Value": 148.77934952926495,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.07145863072369717,
-              "Value": -0.19237595864927215,
+              "Std err": 0.07299513188224668,
+              "Value": -0.13271227744392203,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 10.131443591331532,
+              "Value": 139.65602961503592,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 7.642854147776671,
-              "Value": 437.03550967006964,
+              "Std err": 10.104140530967758,
+              "Value": 434.79928682426726,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 10.104140504756241,
+              "Value": 469.215050020666,
               "Vary": true
             }
           ]
         },
-        "Value": 10
+        "Polar ang fr (deg)": 10,
+        "Polar ang to (deg)": 15
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 16.0197151037965,
-              "Value": 205.12107713025495,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.07660423186678796,
-              "Value": -0.233577872508123,
+              "Std err": 0.08023374819286791,
+              "Value": -0.06432766257926009,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 14.804691131753174,
+              "Value": 188.88580638360054,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 11.355514568858851,
-              "Value": 587.5966700929706,
+              "Std err": 14.894298089206323,
+              "Value": 581.3368189470359,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 14.894298099132419,
+              "Value": 670.1631747201267,
               "Vary": true
             }
           ]
         },
-        "Value": 15
+        "Polar ang fr (deg)": 15,
+        "Polar ang to (deg)": 20
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 21.358706808117322,
-              "Value": 234.71984697052378,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.09233663027672734,
-              "Value": -0.09929778654653898,
+              "Std err": 0.09149327951750783,
+              "Value": 0.014135828927236598,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 19.149888519990224,
+              "Value": 218.41168228584664,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 15.39857810264958,
-              "Value": 766.7481543524618,
+              "Std err": 19.4578730152057,
+              "Value": 761.3524863028566,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 19.457873000773713,
+              "Value": 780.0412422904831,
               "Vary": true
             }
           ]
         },
-        "Value": 20
+        "Polar ang fr (deg)": 20,
+        "Polar ang to (deg)": 25
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 23.327353871197385,
-              "Value": 271.7832764542184,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.08890436908337522,
-              "Value": -0.01659972996395709,
+              "Std err": 0.09742110727806652,
+              "Value": 0.18513093928768878,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 22.101822448833257,
+              "Value": 245.84397963495636,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 16.995900927060074,
-              "Value": 939.7148298905122,
+              "Std err": 22.911467714841926,
+              "Value": 929.3745845346936,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 22.911467751949793,
+              "Value": 974.019294389532,
               "Vary": true
             }
           ]
         },
-        "Value": 25
+        "Polar ang fr (deg)": 25,
+        "Polar ang to (deg)": 30
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 29.597433127128724,
-              "Value": 274.30201590565645,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.11363156994454628,
-              "Value": 0.05295526202071432,
+              "Std err": 0.10481285745002461,
+              "Value": 0.27224847532074514,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 25.846597523830404,
+              "Value": 271.51591573625365,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 21.751529838344037,
-              "Value": 1048.772161551149,
+              "Std err": 27.026757727751885,
+              "Value": 1039.028709025614,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 27.02675769011754,
+              "Value": 1152.6439768470025,
               "Vary": true
             }
           ]
         },
-        "Value": 30
+        "Polar ang fr (deg)": 30,
+        "Polar ang to (deg)": 35
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 33.32986091734698,
-              "Value": 308.13421376434167,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.11866634272249371,
-              "Value": 0.25100996096904815,
+              "Std err": 0.10125058032558482,
+              "Value": 0.4662529920674863,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 26.867141560389154,
+              "Value": 299.4121751569662,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 25.037105747106846,
-              "Value": 1250.4423644540582,
+              "Std err": 28.477804390887904,
+              "Value": 1238.8075710692208,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 28.477804334875533,
+              "Value": 1340.2459755481682,
               "Vary": true
             }
           ]
         },
-        "Value": 35
+        "Polar ang fr (deg)": 35,
+        "Polar ang to (deg)": 40
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 34.129538535685064,
-              "Value": 291.54994813108624,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.13054348097562418,
-              "Value": 0.3570067760043445,
+              "Std err": 0.11705411040283904,
+              "Value": 0.6079044315221656,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 30.957349173273315,
+              "Value": 300.391351428844,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 25.86985089197614,
-              "Value": 1368.0917838950545,
+              "Std err": 32.935025752323966,
+              "Value": 1355.2452023847613,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 32.93502572139812,
+              "Value": 1473.0606565209919,
               "Vary": true
             }
           ]
         },
-        "Value": 40
+        "Polar ang fr (deg)": 40,
+        "Polar ang to (deg)": 45
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 40.75125582126004,
-              "Value": 314.1034740408134,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.14736872173799745,
-              "Value": 0.6143660141994722,
+              "Std err": 0.09425188019094852,
+              "Value": 0.7893949914407856,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 28.27369145326092,
+              "Value": 338.5112427626501,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 31.208603767432123,
-              "Value": 1565.8391836983228,
+              "Std err": 29.970031941114343,
+              "Value": 1555.3707790345961,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 29.97003197378086,
+              "Value": 1681.4731211949836,
               "Vary": true
             }
           ]
         },
-        "Value": 45
+        "Polar ang fr (deg)": 45,
+        "Polar ang to (deg)": 50
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 38.81665568113744,
-              "Value": 286.9476380438285,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.1536617991767728,
-              "Value": 0.6203716505846018,
+              "Std err": 0.12226524352474857,
+              "Value": 0.8620034956280347,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 35.0213908037076,
+              "Value": 320.91961135342314,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 29.72759387020392,
-              "Value": 1698.1741525985487,
+              "Std err": 36.97421351668687,
+              "Value": 1684.5083691474272,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 36.97421355583484,
+              "Value": 1820.478973431061,
               "Vary": true
             }
           ]
         },
-        "Value": 50
+        "Polar ang fr (deg)": 50,
+        "Polar ang to (deg)": 55
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 41.96039937012191,
-              "Value": 274.59821110157344,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.1729394743952296,
-              "Value": 0.7483795750957336,
+              "Std err": 0.1277697990851203,
+              "Value": 1.042409686419967,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 37.90362982821702,
+              "Value": 323.2779311515352,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 32.06879003952836,
-              "Value": 1809.474111234909,
+              "Std err": 39.4117958578686,
+              "Value": 1792.1345829814527,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 39.41179573451304,
+              "Value": 2031.2166172134669,
               "Vary": true
             }
           ]
         },
-        "Value": 55
+        "Polar ang fr (deg)": 55,
+        "Polar ang to (deg)": 60
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 48.030154997490605,
-              "Value": 281.7414498115942,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.19022826243403598,
-              "Value": 0.8948135696288242,
+              "Std err": 0.11890724760180306,
+              "Value": 1.1182006415759977,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 37.09568279587747,
+              "Value": 334.8468052297075,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 36.41917252002471,
-              "Value": 2034.1727700488616,
+              "Std err": 38.25735086706116,
+              "Value": 2019.3005016942775,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 38.25735097573513,
+              "Value": 2151.411392549295,
               "Vary": true
             }
           ]
         },
-        "Value": 60
+        "Polar ang fr (deg)": 60,
+        "Polar ang to (deg)": 65
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 51.43726718918491,
-              "Value": 228.2790894516372,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.2524897931075852,
-              "Value": 0.8607625334348397,
+              "Std err": 0.160389848378355,
+              "Value": 1.1991910356828828,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 39.783084121778025,
+              "Value": 261.48566985330643,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 39.09337826375065,
-              "Value": 2218.4031447768343,
+              "Std err": 40.63935437979363,
+              "Value": 2202.5751365315477,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 40.63935481274627,
+              "Value": 2182.022866370875,
               "Vary": true
             }
           ]
         },
-        "Value": 65
+        "Polar ang fr (deg)": 65,
+        "Polar ang to (deg)": 70
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 55.65935799530617,
-              "Value": 180.4449358108679,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.34945660852539395,
-              "Value": 0.7301972044962302,
+              "Std err": 0.19522898585179477,
+              "Value": 1.187207726390527,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 39.98520593116608,
+              "Value": 216.51009021803716,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 42.56303702520794,
-              "Value": 2264.983192851684,
+              "Std err": 40.90519550430809,
+              "Value": 2247.774376253976,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 40.90519554272441,
+              "Value": 2218.489246122021,
               "Vary": true
             }
           ]
         },
-        "Value": 70
+        "Polar ang fr (deg)": 70,
+        "Polar ang to (deg)": 75
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 53.640614469413705,
-              "Value": 131.37655015500434,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.46052829465479345,
-              "Value": 0.794967885627881,
+              "Std err": 0.24930082253273103,
+              "Value": 1.2641457882735985,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 37.13426637731076,
+              "Value": 154.62674732562945,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 40.91771260314364,
-              "Value": 2346.752708101101,
+              "Std err": 37.629291292871756,
+              "Value": 2334.2577586372504,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 37.62929112686032,
+              "Value": 2172.0733603160397,
               "Vary": true
             }
           ]
         },
-        "Value": 75
+        "Polar ang fr (deg)": 75,
+        "Polar ang to (deg)": 80
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 60.11926487340476,
-              "Value": 66.24106814596264,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.9703161525539361,
-              "Value": 0.12006601156427266,
+              "Std err": 0.5300015236952339,
+              "Value": 1.3679183191176458,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 38.821599772957555,
+              "Value": 74.1024626430335,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 44.53664914319744,
-              "Value": 2303.8447207737013,
+              "Std err": 38.8229874562367,
+              "Value": 2289.182093605919,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 38.82298775368176,
+              "Value": 2073.7815740245946,
               "Vary": true
             }
           ]
         },
-        "Value": 80
+        "Polar ang fr (deg)": 80,
+        "Polar ang to (deg)": 85
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 53.98940763790656,
-              "Value": 78.29353209469693,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.6385622613896942,
-              "Value": 5.801751613615517,
+              "Std err": 1.0228194804023565,
+              "Value": 7.531253826039167,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 40.19073656240482,
+              "Value": 40.94927151893922,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 37.23797970486288,
-              "Value": 2226.041940018912,
+              "Std err": 40.80873593092591,
+              "Value": 2209.2877730035198,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 40.808735930925906,
+              "Value": 2152.1440364592963,
               "Vary": true
             }
           ]
         },
-        "Value": 85
+        "Polar ang fr (deg)": 85,
+        "Polar ang to (deg)": 90
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 56.88889655842135,
-              "Value": 121.91798180305666,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.41804020494327676,
-              "Value": 5.076519868255687,
+              "Std err": 1.0228195359124752,
+              "Value": 4.38966110726114,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 40.190740207771995,
+              "Value": 40.94926938131776,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 38.65216843067259,
-              "Value": 2168.898199571197,
+              "Std err": 40.80873572799581,
+              "Value": 2152.1440358501277,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 40.80873572799582,
+              "Value": 2209.287773612693,
               "Vary": true
             }
           ]
         },
-        "Value": 90
+        "Polar ang fr (deg)": 90,
+        "Polar ang to (deg)": 95
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 40.32678529710472,
-              "Value": 141.84975820735482,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.25892212146578936,
-              "Value": 4.968274580010485,
+              "Std err": 0.5300015293825244,
+              "Value": 4.509511032305692,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 38.8215969819674,
+              "Value": 74.1024645476326,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 27.602648808046325,
-              "Value": 2088.444188874862,
+              "Std err": 38.82298771316211,
+              "Value": 2073.7815750062646,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 38.82298783699724,
+              "Value": 2289.1820926070004,
               "Vary": true
             }
           ]
         },
-        "Value": 95
+        "Polar ang fr (deg)": 95,
+        "Polar ang to (deg)": 100
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 46.47178435755715,
-              "Value": 201.04938666842511,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.22262292075405168,
-              "Value": 4.705676923948005,
+              "Std err": 0.24930082156660352,
+              "Value": 4.405738442166287,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 37.13426829064582,
+              "Value": 154.62674909569,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 32.65064203651264,
-              "Value": 2184.568313508468,
+              "Std err": 37.629291253498145,
+              "Value": 2172.0733607219354,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 37.629291253498145,
+              "Value": 2334.257758610736,
               "Vary": true
             }
           ]
         },
-        "Value": 100
+        "Polar ang fr (deg)": 100,
+        "Polar ang to (deg)": 105
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 45.18381316419334,
-              "Value": 282.54489746366465,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.15754134294448063,
-              "Value": 4.61448219336817,
+              "Std err": 0.19522898773689276,
+              "Value": 4.3288003620204165,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 39.98520524111698,
+              "Value": 216.5100841017672,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 32.096995482641034,
-              "Value": 2235.6980601751566,
+              "Std err": 40.9051955878217,
+              "Value": 2218.4892449617096,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 40.90519552085592,
+              "Value": 2247.774377531888,
               "Vary": true
             }
           ]
         },
-        "Value": 105
+        "Polar ang fr (deg)": 105,
+        "Polar ang to (deg)": 110
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 52.97560404353376,
-              "Value": 316.83900859397863,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.16605928087700303,
-              "Value": 4.582331829311084,
+              "Std err": 0.16038984043933083,
+              "Value": 4.340783688237637,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 39.78308328346731,
+              "Value": 261.485671443889,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 37.78346183742169,
-              "Value": 2197.850874055021,
+              "Std err": 40.6393545350227,
+              "Value": 2182.022866513826,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 40.63935453885905,
+              "Value": 2202.5751363888353,
               "Vary": true
             }
           ]
         },
-        "Value": 110
+        "Polar ang fr (deg)": 110,
+        "Polar ang to (deg)": 115
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 47.844188086594826,
-              "Value": 399.8540763067171,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.12388706414654371,
-              "Value": 4.416529322086673,
+              "Std err": 0.11890724925121814,
+              "Value": 4.259793291000177,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 37.09568196346261,
+              "Value": 334.8468044783672,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 34.85096324266144,
-              "Value": 2166.2836303177146,
+              "Std err": 38.2573508116821,
+              "Value": 2151.41139243877,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 38.25735092689716,
+              "Value": 2019.3005019769496,
               "Vary": true
             }
           ]
         },
-        "Value": 115
+        "Polar ang fr (deg)": 115,
+        "Polar ang to (deg)": 120
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 51.91551756454229,
-              "Value": 391.9074970739556,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.13808822289750838,
-              "Value": 4.388487077785227,
+              "Std err": 0.12776979644602993,
+              "Value": 4.184002330308281,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 37.903629809968436,
+              "Value": 323.27793110620127,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 37.95012682745633,
-              "Value": 2048.556116895085,
+              "Std err": 39.411795832506286,
+              "Value": 2031.216616697927,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 39.41179591675278,
+              "Value": 1792.134583496992,
               "Vary": true
             }
           ]
         },
-        "Value": 120
+        "Polar ang fr (deg)": 120,
+        "Polar ang to (deg)": 125
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 52.52774693323823,
-              "Value": 369.66066228050886,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.15466109145205828,
-              "Value": 4.190427042270626,
+              "Std err": 0.12226524326591903,
+              "Value": 4.003596141191933,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 35.021391036308586,
+              "Value": 320.91961004943556,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 39.289168216540844,
-              "Value": 1834.1447553269343,
+              "Std err": 36.974213541350345,
+              "Value": 1820.4789729270906,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 36.97421354729471,
+              "Value": 1684.5083695347942,
               "Vary": true
             }
           ]
         },
-        "Value": 125
+        "Polar ang fr (deg)": 125,
+        "Polar ang to (deg)": 130
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 34.25147834049698,
-              "Value": 371.7637884928619,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.1022040952191039,
-              "Value": 4.078651880732181,
+              "Std err": 0.09425187993692284,
+              "Value": 3.930987643027011,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 28.27369155934143,
+              "Value": 338.5112424939817,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 25.88693351959168,
-              "Value": 1691.9415258079266,
+              "Std err": 29.97003187483869,
+              "Value": 1681.4731210678226,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 29.970031908807258,
+              "Value": 1555.3707791037277,
               "Vary": true
             }
           ]
         },
-        "Value": 130
+        "Polar ang fr (deg)": 130,
+        "Polar ang to (deg)": 135
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 45.788757037421036,
-              "Value": 326.48632454524125,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.1576585642925811,
-              "Value": 3.9730613228186957,
+              "Std err": 0.1170541104544071,
+              "Value": 3.7494970830108554,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 30.957349669325325,
+              "Value": 300.39135119101155,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 34.862037718213486,
-              "Value": 1485.9072380898417,
+              "Std err": 32.93502578014489,
+              "Value": 1473.060656168212,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 32.9350257560323,
+              "Value": 1355.2452024980626,
               "Vary": true
             }
           ]
         },
-        "Value": 135
+        "Polar ang fr (deg)": 135,
+        "Polar ang to (deg)": 140
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 36.222710143888065,
-              "Value": 304.98598715830394,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.13480764213697385,
-              "Value": 3.8253460630411737,
+              "Std err": 0.10125058143116095,
+              "Value": 3.6078456472402616,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 26.86714172504613,
+              "Value": 299.4121743057093,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 27.728928737788436,
-              "Value": 1351.8807695535088,
+              "Std err": 28.477804373767423,
+              "Value": 1340.2459756561402,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 28.47780441114255,
+              "Value": 1238.807571000497,
               "Vary": true
             }
           ]
         },
-        "Value": 140
+        "Polar ang fr (deg)": 140,
+        "Polar ang to (deg)": 145
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 37.13701106517839,
-              "Value": 281.6916984192606,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.1489808184162168,
-              "Value": 3.6272912697665287,
+              "Std err": 0.10481285708875751,
+              "Value": 3.413841130595185,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 25.846597115662643,
+              "Value": 271.5159158210445,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 28.35844699266911,
-              "Value": 1162.3874271005998,
+              "Std err": 27.02675766409322,
+              "Value": 1152.6439769343244,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 27.02675766409322,
+              "Value": 1039.0287088394166,
               "Vary": true
             }
           ]
         },
-        "Value": 145
+        "Polar ang fr (deg)": 145,
+        "Polar ang to (deg)": 150
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 30.80532548822541,
-              "Value": 231.90053779664112,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.1492787570013122,
-              "Value": 3.563761434155687,
+              "Std err": 0.0974211061045624,
+              "Value": 3.326723595434434,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 22.101822360028073,
+              "Value": 245.84398059510073,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 23.450143980550404,
-              "Value": 984.3595497297024,
+              "Std err": 22.911467809332947,
+              "Value": 974.0192946959601,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 22.911467755362292,
+              "Value": 929.3745845068383,
               "Vary": true
             }
           ]
         },
-        "Value": 150
+        "Polar ang fr (deg)": 150,
+        "Polar ang to (deg)": 155
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 31.289790210141437,
-              "Value": 205.33802527803903,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.16374325735064663,
-              "Value": 3.285479189957277,
+              "Std err": 0.0914932791063909,
+              "Value": 3.1557284819763494,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 19.149888713744495,
+              "Value": 218.41168229961684,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 23.242699401495713,
-              "Value": 785.436910390091,
+              "Std err": 19.457872999561268,
+              "Value": 780.0412422029808,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 19.45787297856779,
+              "Value": 761.3524864258338,
               "Vary": true
             }
           ]
         },
-        "Value": 155
+        "Polar ang fr (deg)": 155,
+        "Polar ang to (deg)": 160
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 20.35596528968775,
-              "Value": 178.94868894114836,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.1218743012227633,
-              "Value": 3.2715644682449305,
+              "Std err": 0.08023374799331306,
+              "Value": 3.07726498909603,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 14.80469114948924,
+              "Value": 188.8858067451261,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 15.09697541742028,
-              "Value": 676.4230260232536,
+              "Std err": 14.894298114887633,
+              "Value": 670.1631746292843,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 14.894298091566618,
+              "Value": 581.3368190378783,
               "Vary": true
             }
           ]
         },
-        "Value": 160
+        "Polar ang fr (deg)": 160,
+        "Polar ang to (deg)": 165
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 17.564710470880392,
-              "Value": 131.0979524775011,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.13713083701717754,
-              "Value": 3.07660260453631,
+              "Std err": 0.0729951317002792,
+              "Value": 3.008880377396536,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 10.131443358668916,
+              "Value": 139.65602917478296,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 12.718849665475153,
-              "Value": 471.4512730537685,
+              "Std err": 10.104140513610167,
+              "Value": 469.21504995370674,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 10.104140491260091,
+              "Value": 434.7992867475269,
               "Vary": true
             }
           ]
         },
-        "Value": 165
+        "Polar ang fr (deg)": 165,
+        "Polar ang to (deg)": 170
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 11.1412580771918,
-              "Value": 87.62220897826155,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.13241243472974665,
-              "Value": 3.147187906301564,
+              "Std err": 0.07618467258349275,
+              "Value": 2.9738610280058344,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 6.738394000968604,
+              "Value": 88.20961057651488,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 8.140009919001445,
-              "Value": 296.72420490721356,
+              "Std err": 6.69042222332186,
+              "Value": 294.595862722402,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 6.690422219522907,
+              "Value": 234.70194544424803,
               "Vary": true
             }
           ]
         },
-        "Value": 170
+        "Polar ang fr (deg)": 170,
+        "Polar ang to (deg)": 175
       },
       {
         "Model result": {
           "Expr": "[Yield] = amp * cos(freq * [Opt phase (mach unit)] - shift) + offset",
           "Params": [
             {
-              "Max": Infinity,
-              "Min": 0,
-              "Name": "amp",
-              "Std err": 4.582034662137544,
-              "Value": 26.190254585440552,
-              "Vary": true
-            },
-            {
-              "Max": Infinity,
-              "Min": -Infinity,
               "Name": "freq",
               "Std err": 0,
               "Value": 6.283185307179586,
               "Vary": false
             },
             {
-              "Max": 6.283185307179586,
-              "Min": -6.283185307179586,
               "Name": "shift",
-              "Std err": 0.18200436025722536,
-              "Value": 3.142920829658145,
+              "Std err": 0.11441102104988882,
+              "Value": 2.933299949104821,
               "Vary": true
             },
             {
-              "Max": Infinity,
-              "Min": -Infinity,
+              "Name": "amp",
+              "Std err": 3.627039937844593,
+              "Value": 31.29352800679852,
+              "Vary": true
+            },
+            {
               "Name": "offset",
-              "Std err": 3.3459268333150147,
-              "Value": 84.59684248206561,
+              "Std err": 3.5829305206791147,
+              "Value": 83.19348593199257,
+              "Vary": true
+            },
+            {
+              "Name": "ref_offset",
+              "Std err": 3.5829305399994746,
+              "Value": 96.47286485878848,
               "Vary": true
             }
           ]
         },
-        "Value": 175
+        "Polar ang fr (deg)": 175,
+        "Polar ang to (deg)": 180
       }
     ]
   }
