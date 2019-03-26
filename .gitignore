@@ -20,8 +20,8 @@ Icon*
 /.idea
 /.vscode
 /*.xlsx
-/Backups
 /Data/Run_*
 /Draft*
-/MongoDB
+/MongoDB*
 /Reports
+/Works
