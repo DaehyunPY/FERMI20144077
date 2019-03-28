@@ -1,0 +1,15 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python
+  - anaconda
+  - pip:
+    - altair
+    - autopep8
+    - holoviews
+    - importlib_resources
+    - lmfit
+    - pyabel
+    - pymongo
+    - git+https://github.com/DaehyunPY/vmitools.git
