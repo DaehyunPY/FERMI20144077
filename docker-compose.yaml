@@ -3,8 +3,8 @@ services:
   jupyter:
     build: ./Docker
     image: daehyunpy/fermi-20144077
-    restart: unless-stopped
-    command: bash -c "umask 0002 && python -m jupyter lab --allow-root --config=/app/jupyter_config.json"
+    # restart: unless-stopped
+    command: bash -c "umask 0002 && python -m jupyter lab --allow-root"
     ports:
       - 44592:8888
     volumes:
@@ -12,11 +12,11 @@ services:
       - ./Packages:/data/Packages
       - ./Data:/data/Data
       - ./Figures:/data/Figures
-      - ./jupyter_config.json:/app/jupyter_config.json:ro
+      - ./jupyter_config.json:/opt/anaconda/etc/jupyter/jupyter_config.json:ro
       - ./local.pth:/opt/anaconda/lib/python3.6/site-packages/local.pth:ro
   mongodb:
     image: mongo
-    restart: unless-stopped
+    # restart: unless-stopped
     ports:
       - 44517:27017
     volumes:
