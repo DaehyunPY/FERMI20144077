@@ -6,6 +6,7 @@ __pycache__
 *.docx
 *.gsheet
 *.h5
+*.html
 *.indd
 *.npy
 *.pdf
@@ -20,8 +21,12 @@ Icon*
 /.idea
 /.vscode
 /*.xlsx
-/Data/Run_*
+/Backups
 /Draft*
 /MongoDB*
 /Reports
-/Works
+
+/Data/*
+!/Data/*.json
+!/Data/*.xlsx
+!/Data/*.yaml
