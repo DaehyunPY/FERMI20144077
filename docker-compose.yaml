@@ -1,0 +1,28 @@
+version: "3.1"
+services:
+  jupyter:
+    build: ./Docker
+    image: daehyunpy/fermi-20144077:20190927
+    command: bash -c "umask 0002 && python -m jupyter lab --allow-root"
+    # restart: unless-stopped
+    # user: <uid>:<gid>
+    ports:
+      - 8888:8888
+    environment:
+      - PYTHONPATH=/app/Packages
+    volumes:
+      - ./jupyter-config.json:/app/jupyter_notebook_config.json:ro
+      - ./Data:/app/Data
+      - ./Figures:/app/Figures
+      - ./Notebooks:/app/Notebooks
+      - ./Packages:/app/Packages
+      - ./Scripts:/app/Scripts
+  mongodb:
+    image: mongo
+    working_dir: /data
+    # restart: unless-stopped
+    ports:
+      - 27017:27017
+    volumes:
+      - ./MongoDB:/data/db
+      - ./MongoDB Dumps/Current:/data/dump
