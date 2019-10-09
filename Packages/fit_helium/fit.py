@@ -5,7 +5,8 @@ from collections import OrderedDict
 from importlib_resources import path
 from pandas import read_excel
 from scipy.optimize import least_squares, OptimizeResult
-from numpy import sign, array, ndarray, diag
+from scipy.linalg import svd
+from numpy import sign, array, ndarray, diag, finfo
 from numpy.linalg import pinv
 
 from . import res
@@ -118,8 +119,19 @@ def fit(photon: float, beta1m3_amp: float, beta1m3_shift: float, beta2: float,
     )
     xkeys = ["phi0", "r", "h"]
     xopt = OrderedDict(zip(xkeys, ret["x"]))
+    
     xcov = pinv(ret["jac"].T @ ret["jac"])
     xerr = diag(xcov) ** 0.5
+
+    # # Do Moore-Penrose inverse discarding zero singular values.
+    # _, s, vh = svd(ret["jac"], full_matrices=False)
+    # threshold = finfo(float).eps * max(ret["jac"].shape) * s[0]
+    # s = s[s > threshold]
+    # vh = vh[:s.size]
+    # pcov = vh.T / s**2 @ vh
+    # m, n = ret["jac"].shape  # m is num of samples; n is num of parameters.
+    # xcov = pcov * 2 * ret["cost"] / (m - n)  # ret["cost"] is half sum of squares!
+    # xerr = diag(xcov) ** 0.5
     return OrderedDict([
         ("opt", xopt),
         ("cov", xcov),
