@@ -17,14 +17,17 @@ __pycache__
 *.tex
 ~$*
 Icon*
-Pipfile.lock
 
+/.env
 /.idea
 /.vscode
 /*.xlsx
 /Backups
 /Draft*
 /MongoDB*
+/Notebooks *
+/Packages/fermitools
+/Pipfile*
 /Reports
 
 /Data/*
